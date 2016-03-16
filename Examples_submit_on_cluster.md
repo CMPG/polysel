@@ -13,8 +13,8 @@ Change to `for i in {1..3}` if you just want to try out if everything is working
 	  projectname="primates_homininae"
 	  for i in {1..300}
 	  do
-	  qsub -l h_cpu=24:00:00 -l h_vmem=4G -o ./log/shuffle${i}_${projectname}.out \
-	  -e ./log/shuffle${i}_${projectname}.err -q all.q -cwd -N shuffle${i}_${projectname} \
+	  qsub -l h_cpu=5:00:00 -l h_vmem=4G -o ./log/shuffle${i}_${projectname}.out \
+	  -e ./log/shuffle${i}_${projectname}.err -cwd -N shuffle${i}_${projectname} \
 	  ./script/polysel_shufflesets_cluster.sh $i $projectname
 	  done
 
@@ -24,8 +24,8 @@ Change to `for i in {1..3}` if you just want to try out if everything is working
 	  projectname="primates_homininae"
 	  for i in {1..300}
 	  do
-	  qsub -l h_cpu=24:00:00 -l h_vmem=4G -o ./log/shuffle${i}_${projectname}.out \
-	  -e ./log/shuffle${i}_${projectname}.err -q all.q -cwd -N shuffle${i}_${projectname} \
+	  qsub -l h_cpu=5:00:00 -l h_vmem=4G -o ./log/shuffle${i}_${projectname}.out \
+	  -e ./log/shuffle${i}_${projectname}.err -cwd -N shuffle${i}_${projectname} \
 	  ./script/polysel_shufflesets_cluster_scratch.sh $i $projectname
 	  done
 
@@ -33,13 +33,13 @@ Change to `for i in {1..3}` if you just want to try out if everything is working
 **STEP 2: run polysel_cluster.sh script with:**
 
 	  projectname="primates_homininae"
-	  qsub -l h_cpu=24:00:00 -l h_vmem=4G -o ./log/${projectname}.out \
-	  -e ./log/${projectname}.err -q all.q -cwd -N ${projectname} \
+	  qsub -l h_cpu=5:00:00 -l h_vmem=4G -o ./log/${projectname}.out \
+	  -e ./log/${projectname}.err -cwd -N ${projectname} \
 	  ./script/polysel_cluster.sh $projectname
 
 **or: (USING SCRATCH): run polysel_cluster_scratch script with:**
 
 	  projectname="primates_homininae"
-	  qsub -l h_cpu=24:00:00 -l h_vmem=4G -o ./log/${projectname}.out \
-	  -e ./log/${projectname}.err -q all.q -cwd -N ${projectname} \
+	  qsub -l h_cpu=5:00:00 -l h_vmem=4G -o ./log/${projectname}.out \
+	  -e ./log/${projectname}.err -cwd -N ${projectname} \
 	  ./script/polysel_cluster_scratch.sh $projectname
