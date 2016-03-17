@@ -1,0 +1,1 @@
+This directory will be used on the cluster to store output and error log files
