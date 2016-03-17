@@ -19,6 +19,6 @@ In the root folder of this project, you will find examples (such as `example_pri
 
 ###References
 
-  *Daub, J.T. et al. (in preparation). **Detection of pathways affected by positive selection in primate lineages ancestral to humans***  
+  Daub, J.T. et al. (in preparation). **Detection of pathways affected by positive selection in primate lineages ancestral to humans**  
 
-  *Daub, J.T. et al. (2013). **Evidence for Polygenic Adaptation to Pathogens in the Human Genome.** Mol Biol Evol 30, 1544–1558.*
+  Daub, J.T. et al. (2013). **Evidence for Polygenic Adaptation to Pathogens in the Human Genome.** Mol Biol Evol 30, 1544–1558.
