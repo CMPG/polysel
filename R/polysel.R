@@ -219,6 +219,7 @@ PlotStatField<-function(obj.info, fld="objSNPcnt",
 # - emp.fdr.path    : path to files with p-value null distributions
 # - emp.fdr.nruns   : number of runs (randomizations) to calculate emp fdr
 # - emp.fdr.est.m0  : estimate proportion of true nulls to calculate emp fdr?
+# - qvalue.method   : to set parameter pi0.method of function qvalue
 #===========================================================================
 
 EnrichmentAnalysis<-function(set.info, set.obj, obj.stat,
@@ -229,7 +230,8 @@ EnrichmentAnalysis<-function(set.info, set.obj, obj.stat,
                        project.txt="DAGI", do.emp.fdr=FALSE, 
                        emp.fdr.path=".", 
                        emp.fdr.nruns=10, 
-                       emp.fdr.est.m0=TRUE){
+                       emp.fdr.est.m0=TRUE,
+                       qvalue.method="bootstrap"){
   
   set.seed(nrand)
   
@@ -243,7 +245,8 @@ EnrichmentAnalysis<-function(set.info, set.obj, obj.stat,
   if (pack.qvalue.missing) {
     set.scores.prepruning$setQ <- -1
   } else {
-    set.scores.prepruning$setQ <- qvalue(set.scores.prepruning$setP)$qvalues
+    set.scores.prepruning$setQ <- qvalue(set.scores.prepruning$setP, 
+                                         pi0.method=qvalue.method)$qvalues
   }
   
   if (do.pruning) {
