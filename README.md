@@ -14,7 +14,15 @@ We use the following folder structure:
 
 When you are running the pipeline with your own data sets or one of the example sets, we advice to use the same structure, both on your PC and on a computer cluster.
 
-In the root folder of this project, you will find examples (such as [example_primates_homininae.html](https://github.com/CMPG/polysel/blob/master/example_primates_homininae.html "example_primates_homininae.html"); click [here](http://htmlpreview.github.com/?https://github.com/CMPG/polysel/blob/master/example_primates_homininae.html "example_primates_homininae") for a preview) explaining step by step how to run the enrichment pipeline. We strongly encourage you to try one or more of them before running the pipeline with your own data.
+In the root folder of this project, you will find examples explaining step by step how to run the enrichment pipeline. We strongly encourage you to try one or more of them before running the pipeline with your own data.
+
+####Examples
+
+**Primates** project: *Detection of pathways affected by positive selection in primate lineages ancestral to humans*
+
+*	[example_primates_homininae.html](https://github.com/CMPG/polysel/blob/master/example_primates_homininae.html "example_primates_homininae.html"); click [here](http://htmlpreview.github.com/?https://github.com/CMPG/polysel/blob/master/example_primates_homininae.html "example_primates_homininae") for a html preview
+
+*	[example_primates_hominidae.html](https://github.com/CMPG/polysel/blob/master/example_primates_hominidae.html "example_primates_hominidae.html"); click [here](http://htmlpreview.github.com/?https://github.com/CMPG/polysel/blob/master/example_primates_hominidae.html "example_primates_hominidae") for a html preview
 
 
 ####References
