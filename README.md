@@ -1,4 +1,4 @@
-## DETECTION OF POLYGENIC SELECTION IN GENESETS (POLYSEL) ##
+## Detection of polygenic selection in gene sets (polysel) ##
 
 Welcome to the *polysel* GITHUB repository. Here you can find code, examples, scripts and data sets to run a gene set enrichment test to detect pathways with signals of polygenic selection.
 
