@@ -31,8 +31,8 @@ fi
 # Daub et al. (2013)
 # Evidence for Polygenic Adaptation to Pathogens in the Human Genome. 
 # Mol Biol Evol 30, 1544–1558.
-if [ $projectname = "humpop" ]; then
-	projectdir="humpop"
+if [ $projectname = "humanpops" ]; then
+	projectdir="humanpops"
 	nrand=1
 	approxnull="TRUE"
 	seqrndsampling="FALSE"
