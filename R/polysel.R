@@ -867,11 +867,11 @@ CreateSetObjMtx_Null<-function(n_objs, setsize, nrand, bin.ix, bins_ngenes){
 }
 
 #===========================================================================
-# Function: AssignBins()
+# Function: AssignBins(obj.info, fld, nbins, min.bin.size, max.bin.size)
 # Assign bins to objects based on fld 
 #
-# gene.bin    : dataframe with columns: geneID and fld
-# fld         : column of gene.bin which is used to bin the genes 
+# obj.info    : dataframe with columns: geneID and fld
+# fld         : column of obj.info which is used to bin the genes 
 # nbins       : number of bins; if -1, bins will be created with size 
 #               between min.bin.size and max.bin.size, while trying to 
 #               keep genes with the same fld value in the same bin 
@@ -879,17 +879,17 @@ CreateSetObjMtx_Null<-function(n_objs, setsize, nrand, bin.ix, bins_ngenes){
 # max.bin.size: the maximum number of genes in a bin
 #===========================================================================
 
-AssignBins<- function (gene.bin, fld="objSNPcnt", nbins=-1,
+AssignBins<- function (obj.info, fld="SNPcount", nbins=-1,
                         min.bin.size=1000, max.bin.size=1800) 
 {
   # order on fld 
-  gene.bin <- gene.bin[order(gene.bin[[fld]]),]
+  obj.info <- obj.info[order(obj.info[[fld]]),]
   
   if (nbins>0){
     # method 1: assign genes to equal sized bins
-    N<-nrow(gene.bin)
-    gene.bin$objBin <- as.integer((1:N/(N/nbins)))+1 
-    gene.bin$objBin[gene.bin$objBin==nbins+1] <- nbins
+    N<-nrow(obj.info)
+    obj.info$objBin <- as.integer((1:N/(N/nbins)))+1 
+    obj.info$objBin[obj.info$objBin==nbins+1] <- nbins
   } else {
     # method 2: for genes with low value of fld, keep 
     # same together
@@ -897,25 +897,47 @@ AssignBins<- function (gene.bin, fld="objSNPcnt", nbins=-1,
     # is reached
     # note that bins larger than max.bin.size can occurr, when there are
     # more than max.bin.size gene with the same fld value
-    gene.bin$objBin<-0
+    obj.info$objBin<-0
     bin <- 1
     tot.size <- 0
-    t<-table(gene.bin[[fld]])
+    t<-table(obj.info[[fld]])
     for (i in 1:length(t)){
       tot.size <- tot.size+t[i]
       # assign bin to fld
-      gene.bin$objBin[gene.bin[[fld]]==names(t[i])]<-bin
+      obj.info$objBin[obj.info[[fld]]==names(t[i])]<-bin
       # check if bin is full
       if (tot.size >= min.bin.size){
         bin <- bin+1
         tot.size <- 0
       }
     }
-    if (sum(gene.bin$objBin %in% c(bin,bin-1))<max.bin.size) 
-      gene.bin$objBin[gene.bin$objBin==bin] <- bin-1
+    if (sum(obj.info$objBin %in% c(bin,bin-1))<max.bin.size) 
+      obj.info$objBin[obj.info$objBin==bin] <- bin-1
   }
   
-  return(gene.bin)
+  return(obj.info)
+}
+
+#===========================================================================
+# Function: RescaleBins(obj.info, fld)
+# Rescale the values in field fld per bin 
+#
+# obj.info    : dataframe with columns: geneID and fld
+# fld         : column of obj.info which contains values to be scaled 
+#===========================================================================
+
+RescaleBins <- function(obj.info, fld="objStat") 
+{
+
+  obj.info[[paste(fld,".orig",sep="")]]<-obj.info[[fld]]
+  maxbin<-max(obj.info$objBin)
+  for (b in 1:maxbin){
+    ix <- obj.info$objBin==b
+    # compute modified z
+    obj.info[[fld]][ix]<-modz(obj.info[[fld]][ix])
+  }
+  
+  return(obj.info)
 }
 
 #===========================================================================
