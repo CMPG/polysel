@@ -91,7 +91,7 @@ resultspath="./results"
 chmod +x "$codepath/$main_script"
 cat "$codepath/$main_script" | R --vanilla --args $nrand $minsetsize $approxnull $test \
 $seqrndsampling $usebins $dopruning ${projectname} $doempfdr $empfdrnruns $empfdrestm0 \
-${projectdir} ${datapath}/${projectdir} ${codepath} ${resultspath} ${empfdrpath}
+${datapath}/${projectdir} ${codepath} ${resultspath} ${empfdrpath}
 
 
 
