@@ -1,1340 +1,1340 @@
-setID	setName	source	setsize.orig
-82926	Glycolysis / Gluconeogenesis	KEGG	65
-82927	Citrate cycle (TCA cycle)	KEGG	30
-82928	Pentose phosphate pathway	KEGG	28
-82929	Pentose and glucuronate interconversions	KEGG	34
-82930	Fructose and mannose metabolism	KEGG	36
-82931	Galactose metabolism	KEGG	29
-82932	Ascorbate and aldarate metabolism	KEGG	27
-82934	Fatty acid elongation	KEGG	23
-82935	Fatty acid metabolism	KEGG	44
-82937	Steroid biosynthesis	KEGG	18
-82938	Primary bile acid biosynthesis	KEGG	17
-82939	Ubiquinone and other terpenoid-quinone biosynthesis	KEGG	10
-82940	Steroid hormone biosynthesis	KEGG	56
-82942	Oxidative phosphorylation	KEGG	120
-82944	Purine metabolism	KEGG	166
-82946	Pyrimidine metabolism	KEGG	101
-82949	Glycine, serine and threonine metabolism	KEGG	37
-82952	Valine, leucine and isoleucine degradation	KEGG	44
-82956	Lysine degradation	KEGG	49
-82957	Arginine and proline metabolism	KEGG	57
-82958	Histidine metabolism	KEGG	28
-82959	Tyrosine metabolism	KEGG	39
-82960	Phenylalanine metabolism	KEGG	18
-82964	Tryptophan metabolism	KEGG	39
-82966	beta-Alanine metabolism	KEGG	29
-82969	Selenocompound metabolism	KEGG	17
-82973	Glutathione metabolism	KEGG	50
-82974	Starch and sucrose metabolism	KEGG	55
-82975	N-Glycan biosynthesis	KEGG	49
-82976	Other glycan degradation	KEGG	17
-82977	Mucin type O-Glycan biosynthesis	KEGG	31
-82978	Other types of O-glycan biosynthesis	KEGG	30
-82979	Amino sugar and nucleotide sugar metabolism	KEGG	48
-82981	Glycosaminoglycan degradation	KEGG	19
-82982	Glycosaminoglycan biosynthesis - chondroitin sulfate	KEGG	22
-82983	Glycosaminoglycan biosynthesis - keratan sulfate	KEGG	15
-82984	Glycosaminoglycan biosynthesis - heparan sulfate / heparin	KEGG	26
-82986	Glycerolipid metabolism	KEGG	54
-82987	Inositol phosphate metabolism	KEGG	61
-82988	Glycosylphosphatidylinositol(GPI)-anchor biosynthesis	KEGG	25
-82989	Glycerophospholipid metabolism	KEGG	88
-82990	Ether lipid metabolism	KEGG	39
-82991	Arachidonic acid metabolism	KEGG	66
-82992	Linoleic acid metabolism	KEGG	32
-82993	alpha-Linolenic acid metabolism	KEGG	24
-82994	Sphingolipid metabolism	KEGG	46
-82995	Glycosphingolipid biosynthesis - lacto and neolacto series	KEGG	26
-82996	Glycosphingolipid biosynthesis - globo series	KEGG	14
-82997	Glycosphingolipid biosynthesis - ganglio series	KEGG	15
-82998	Pyruvate metabolism	KEGG	41
-83002	Glyoxylate and dicarboxylate metabolism	KEGG	24
-83004	Propanoate metabolism	KEGG	32
-83007	Butanoate metabolism	KEGG	29
-83008	One carbon pool by folate	KEGG	19
-83012	Riboflavin metabolism	KEGG	12
-83014	Nicotinate and nicotinamide metabolism	KEGG	27
-83015	Pantothenate and CoA biosynthesis	KEGG	17
-83018	Folate biosynthesis	KEGG	14
-83020	Retinol metabolism	KEGG	66
-83021	Porphyrin and chlorophyll metabolism	KEGG	43
-83022	Terpenoid backbone biosynthesis	KEGG	21
-83026	Sulfur metabolism	KEGG	14
-83030	Aminoacyl-tRNA biosynthesis	KEGG	41
-83031	Metabolism of xenobiotics by cytochrome P450	KEGG	81
-83032	Drug metabolism - cytochrome P450	KEGG	73
-83033	Drug metabolism - other enzymes	KEGG	51
-83034	Biosynthesis of unsaturated fatty acids	KEGG	21
-83035	ABC transporters	KEGG	44
-83036	Ribosome*	KEGG	88
-83037	RNA polymerase	KEGG	31
-83038	Basal transcription factors	KEGG	44
-83039	DNA replication	KEGG	35
-83040	Proteasome	KEGG	44
-83041	Protein export	KEGG	23
-83042	PPAR signaling pathway	KEGG	71
-83043	Base excision repair	KEGG	33
-83044	Nucleotide excision repair	KEGG	45
-83045	Mismatch repair	KEGG	23
-83046	Homologous recombination	KEGG	28
-83047	Non-homologous end-joining	KEGG	13
-83048	MAPK signaling pathway	KEGG	259
-83049	ErbB signaling pathway	KEGG	88
-83050	Calcium signaling pathway	KEGG	182
-83051	Cytokine-cytokine receptor interaction	KEGG	261
-83052	Phosphatidylinositol signaling system	KEGG	81
-83053	Neuroactive ligand-receptor interaction	KEGG	271
-83054	Cell cycle	KEGG	124
-83055	p53 signaling pathway	KEGG	68
-83056	Ubiquitin mediated proteolysis	KEGG	137
-83057	SNARE interactions in vesicular transport	KEGG	34
-83058	Regulation of autophagy	KEGG	34
-83059	mTOR signaling pathway	KEGG	64
-83060	Apoptosis	KEGG	87
-83061	Wnt signaling pathway	KEGG	150
-83062	Notch signaling pathway	KEGG	47
-83063	Hedgehog signaling pathway	KEGG	51
-83064	TGF-beta signaling pathway	KEGG	83
-83065	Axon guidance	KEGG	129
-83066	VEGF signaling pathway	KEGG	67
-83067	Focal adhesion	KEGG	204
-83068	ECM-receptor interaction	KEGG	86
-83069	Cell adhesion molecules (CAMs)	KEGG	130
-83070	Adherens junction	KEGG	73
-83071	Tight junction	KEGG	132
-83072	Gap junction	KEGG	89
-83073	Complement and coagulation cascades	KEGG	69
-83074	Antigen processing and presentation	KEGG	69
-83075	Renin-angiotensin system	KEGG	17
-83076	Toll-like receptor signaling pathway*	KEGG	106
-83077	Jak-STAT signaling pathway	KEGG	150
-83078	Hematopoietic cell lineage	KEGG	82
-83079	Natural killer cell mediated cytotoxicity	KEGG	133
-83080	T cell receptor signaling pathway	KEGG	108
-83081	B cell receptor signaling pathway	KEGG	76
-83082	Fc epsilon RI signaling pathway	KEGG	70
-83083	Leukocyte transendothelial migration	KEGG	115
-83084	Circadian rhythm	KEGG	30
-83085	Long-term potentiation	KEGG	70
-83086	Long-term depression	KEGG	61
-83087	Olfactory transduction	KEGG	401
-83088	Taste transduction	KEGG	51
-83089	Regulation of actin cytoskeleton	KEGG	212
-83090	Insulin signaling pathway	KEGG	138
-83091	GnRH signaling pathway	KEGG	92
-83092	Melanogenesis	KEGG	101
-83093	Adipocytokine signaling pathway	KEGG	69
-83094	Type II diabetes mellitus	KEGG	48
-83095	Type I diabetes mellitus	KEGG	41
-83096	Maturity onset diabetes of the young	KEGG	25
-83097	Alzheimer's disease	KEGG	163
-83098	Parkinson's disease	KEGG	117
-83099	Amyotrophic lateral sclerosis (ALS)	KEGG	54
-83100	Huntington's disease	KEGG	177
-83101	Vibrio cholerae infection	KEGG	54
-83102	Epithelial cell signaling in Helicobacter pylori infection	KEGG	68
-83103	Pathogenic Escherichia coli infection*	KEGG	55
-83104	Shigellosis	KEGG	61
-83105	Pathways in cancer	KEGG	325
-83106	Colorectal cancer	KEGG	62
-83107	Renal cell carcinoma	KEGG	70
-83108	Pancreatic cancer	KEGG	70
-83109	Endometrial cancer	KEGG	52
-83110	Glioma	KEGG	65
-83111	Prostate cancer	KEGG	89
-83112	Thyroid cancer	KEGG	29
-83113	Basal cell carcinoma	KEGG	55
-83114	Melanoma	KEGG	71
-83115	Bladder cancer	KEGG	42
-83116	Chronic myeloid leukemia	KEGG	73
-83117	Acute myeloid leukemia	KEGG	57
-83118	Small cell lung cancer	KEGG	85
-83119	Non-small cell lung cancer	KEGG	54
-83120	Asthma	KEGG	28
-83121	Autoimmune thyroid disease	KEGG	50
-83122	Systemic lupus erythematosus	KEGG	134
-83123	Allograft rejection	KEGG	35
-83124	Graft-versus-host disease	KEGG	37
-83125	Primary immunodeficiency	KEGG	36
-93344	Cardiac muscle contraction	KEGG	73
-96530	Vascular smooth muscle contraction	KEGG	120
-99051	Chemokine signaling pathway	KEGG	189
-99052	Lysosome	KEGG	121
-101142	Alanine, aspartate and glutamate metabolism	KEGG	32
-101143	Neurotrophin signaling pathway	KEGG	120
-101144	Prion diseases	KEGG	36
-102279	Endocytosis	KEGG	202
-104488	Cysteine and methionine metabolism	KEGG	35
-105648	Apoptosis	REACTOME	148
-105649	Extrinsic Pathway for Apoptosis*	REACTOME	13
-105656	Intrinsic Pathway for Apoptosis	REACTOME	31
-105658	Activation of BH3-only proteins	REACTOME	18
-105677	Apoptotic execution phase	REACTOME	51
-105678	Apoptotic cleavage of cellular proteins	REACTOME	37
-105679	Caspase-mediated cleavage of cytoskeletal proteins	REACTOME	12
-105680	Apoptotic cleavage of cell adhesion proteins	REACTOME	10
-105685	Regulation of Apoptosis	REACTOME	60
-105688	Axon guidance	REACTOME	266
-105689	NCAM signaling for neurite out-growth	REACTOME	70
-105697	NCAM1 interactions	REACTOME	44
-105698	Biological oxidations	REACTOME	140
-105699	Phase 1 - Functionalization of compounds	REACTOME	68
-105700	Cytochrome P450 - arranged by substrate type	REACTOME	50
-105701	Endogenous sterols	REACTOME	15
-105703	Xenobiotics	REACTOME	15
-105715	Ethanol oxidation	REACTOME	10
-105721	Phase II conjugation	REACTOME	73
-105722	Glucuronidation	REACTOME	20
-105724	Cytosolic sulfonation of small molecules	REACTOME	14
-105727	Glutathione conjugation	REACTOME	25
-105734	Botulinum neurotoxicity	REACTOME	18
-105736	Proteolytic cleavage of SNARE complex proteins	REACTOME	16
-105739	Cell Cycle Checkpoints	REACTOME	117
-105740	G1/S DNA Damage Checkpoints	REACTOME	60
-105741	p53-Dependent G1/S DNA damage checkpoint*	REACTOME	57
-105744	Stabilization of p53*	REACTOME	52
-105747	p53-Independent G1/S DNA damage checkpoint*	REACTOME	52
-105750	G2/M Checkpoints	REACTOME	43
-105754	Activation of ATR in response to replication stress	REACTOME	37
-105755	Mitotic Spindle Checkpoint	REACTOME	19
-105763	Inhibition of the proteolytic activity of APC/C required for the onset of anaphase by mitotic spindle checkpoint components*	REACTOME	18
-105765	Cell Cycle, Mitotic	REACTOME	339
-105766	G1 Phase*	REACTOME	37
-105769	G1/S Transition	REACTOME	107
-105771	SCF(Skp2)-mediated degradation of p27/p21	REACTOME	56
-105776	G1/S-Specific Transcription	REACTOME	17
-105777	Activation of the pre-replicative complex	REACTOME	29
-105778	E2F mediated regulation of DNA replication	REACTOME	31
-105780	Inhibition of replication initiation of damaged DNA by RB1/E2F1	REACTOME	10
-105781	E2F-enabled inhibition of pre-replication complex formation	REACTOME	10
-105782	S Phase	REACTOME	111
-105783	Cyclin A:Cdk2-associated events at S phase entry*	REACTOME	66
-105784	Synthesis of DNA	REACTOME	95
-105788	CDK-mediated phosphorylation and removal of Cdc6*	REACTOME	50
-105789	DNA strand elongation	REACTOME	30
-105790	Unwinding of DNA	REACTOME	11
-105791	Leading Strand Synthesis*	REACTOME	13
-105793	Lagging Strand Synthesis	REACTOME	19
-105794	Processive synthesis on the lagging strand	REACTOME	14
-105795	Removal of the Flap Intermediate	REACTOME	13
-105802	Cyclin A/B1 associated events during G2/M transition	REACTOME	15
-105807	Centrosome maturation*	REACTOME	72
-105809	Recruitment of NuMA to mitotic centrosomes	REACTOME	11
-105810	Loss of proteins required for interphase microtubule organizationÂ from the centrosome*	REACTOME	62
-105812	M Phase	REACTOME	110
-105813	Mitotic Prophase*	REACTOME	14
-105815	Mitotic Prometaphase	REACTOME	94
-105820	M/G1 Transition*	REACTOME	81
-105821	Assembly of the pre-replicative complex	REACTOME	67
-105823	CDC6 association with the ORC:origin complex	REACTOME	11
-105824	CDT1 association with the CDC6:ORC:origin complex	REACTOME	58
-105825	APC/C-mediated degradation of cell cycle proteins*	REACTOME	82
-105826	Regulation of APC/C activators between G1/S and early anaphase	REACTOME	77
-105828	SCF-beta-TrCP mediated degradation of Emi1	REACTOME	54
-105829	Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins*	REACTOME	70
-105830	Phosphorylation of the APC/C	REACTOME	17
-105832	APC/C:Cdc20 mediated degradation of Cyclin B	REACTOME	21
-105833	APC/C:Cdc20 mediated degradation of Securin	REACTOME	64
-105834	Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase	REACTOME	17
-105835	APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1	REACTOME	69
-105836	Autodegradation of Cdh1 by Cdh1:APC/C	REACTOME	60
-105837	DNA Repair	REACTOME	110
-105838	Base Excision Repair*	REACTOME	19
-105847	Resolution of AP sites via the single-nucleotide replacement pathway	REACTOME	12
-105850	Resolution of AP sites via the multiple-nucleotide patch replacement pathway*	REACTOME	17
-105861	Double-Strand Break Repair	REACTOME	22
-105862	Homologous Recombination Repair*	REACTOME	16
-105883	Nucleotide Excision Repair	REACTOME	50
-105884	Global Genomic NER (GG-NER)	REACTOME	33
-105886	Formation of incision complex in GG-NER*	REACTOME	20
-105888	Gap-filling DNA repair synthesis and ligation in GG-NER*	REACTOME	16
-105889	Repair synthesis of patch ~27-30 bases long by DNA polymerase*	REACTOME	15
-105890	Transcription-coupled NER (TC-NER)	REACTOME	45
-105891	Formation of transcription-coupled NER (TC-NER) repair complex*	REACTOME	29
-105895	Fanconi Anemia pathway	REACTOME	25
-105896	Regulation of the Fanconi anemia pathway	REACTOME	10
-105897	DNA Replication	REACTOME	213
-105899	Regulation of DNA replication*	REACTOME	75
-105900	Association of licensing factors with the pre-replicative complex	REACTOME	15
-105902	Diabetes pathways	REACTOME	136
-105903	Insulin Synthesis and Processing	REACTOME	23
-105904	Unfolded Protein Response	REACTOME	81
-105905	Activation of Chaperones by ATF6-alpha	REACTOME	12
-105906	Activation of Chaperones by IRE1alpha*	REACTOME	50
-105907	PERK regulated gene expression	REACTOME	28
-105908	Regulation of Insulin-like Growth Factor (IGF) Activity by Insulin-like Growth Factor Binding Proteins (IGFBPs)	REACTOME	17
-105909	Regulation of Insulin Secretion	REACTOME	100
-105911	Glycolysis	REACTOME	27
-105919	Citric acid cycle (TCA cycle)	REACTOME	19
-105921	Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.	REACTOME	82
-105923	Inhibition of Insulin Secretion by Adrenaline/Noradrenaline	REACTOME	31
-105925	Regulation of Insulin Secretion by Glucagon-like Peptide-1	REACTOME	45
-105926	Gap junction trafficking and regulation	REACTOME	30
-105927	Gap junction trafficking	REACTOME	28
-105928	Gap junction assembly	REACTOME	19
-105937	Gene Expression	REACTOME	1051
-105938	Generic Transcription Pathway	REACTOME	425
-105939	Notch-HLH transcription pathway	REACTOME	13
-105941	RNA Polymerase II Transcription Pre-Initiation And Promoter Opening*	REACTOME	39
-105945	mRNA Capping	REACTOME	28
-105948	RNA Polymerase II Transcription Elongation*	REACTOME	42
-105949	Formation of the Early Elongation Complex*	REACTOME	32
-105951	mRNA Splicing*	REACTOME	107
-105953	mRNA Splicing - Minor Pathway	REACTOME	42
-105957	mRNA 3'-end processing	REACTOME	34
-105959	Transport of Mature Transcript to Cytoplasm*	REACTOME	55
-105961	Transport of Mature mRNAs Derived from Intronless Transcripts*	REACTOME	36
-105965	Translation	REACTOME	144
-105966	Eukaryotic Translation Initiation*	REACTOME	112
-105968	Formation of a pool of free 40S subunits	REACTOME	94
-105969	Formation of the ternary complex, and subsequently, the 43S complex	REACTOME	47
-105970	Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S*	REACTOME	55
-105973	GTP hydrolysis and joining of the 60S ribosomal subunit*	REACTOME	105
-105976	Eukaryotic Translation Elongation*	REACTOME	87
-105979	Nuclear Receptor transcription pathway	REACTOME	51
-105980	tRNA Aminoacylation	REACTOME	42
-105981	Cytosolic tRNA aminoacylation	REACTOME	24
-105982	Mitochondrial tRNA aminoacylation	REACTOME	21
-105983	HIV Infection	REACTOME	199
-105984	HIV Life Cycle	REACTOME	117
-105985	Early Phase of HIV Life Cycle	REACTOME	13
-105995	Late Phase of HIV Life Cycle	REACTOME	104
-105996	Transcription of the HIV genome*	REACTOME	60
-106000	RNA Pol II CTD phosphorylation and interaction with CE*	REACTOME	26
-106005	Abortive elongation of HIV-1 transcript in the absence of Tat	REACTOME	23
-106007	Rev-mediated nuclear export of HIV-1 RNA	REACTOME	32
-106008	Assembly of HIV virion	REACTOME	12
-106010	Host Interactions of HIV factors	REACTOME	127
-106011	Interactions of Vpr with host cellular proteins	REACTOME	33
-106013	Vpr-mediated nuclear import of PICs	REACTOME	31
-106014	Interactions of Rev with host cellular proteins	REACTOME	34
-106015	Nuclear import of Rev protein	REACTOME	31
-106017	Vif-mediated degradation of APOBEC3G	REACTOME	54
-106019	The role of Nef in HIV-1 replication and disease pathogenesis	REACTOME	28
-106021	Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters	REACTOME	21
-106026	Vpu mediated degradation of CD4	REACTOME	51
-106028	Hemostasis	REACTOME	481
-106030	Platelet Adhesion to exposed collagen	REACTOME	13
-106034	Platelet activation, signaling and aggregation	REACTOME	209
-106036	GPVI-mediated activation cascade	REACTOME	33
-106041	G alpha (12/13) signalling events	REACTOME	79
-106043	G alpha (q) signalling events	REACTOME	189
-106044	Effects of PIP2 hydrolysis	REACTOME	25
-106048	Response to elevated platelet cytosolic Ca2+	REACTOME	85
-106050	Platelet degranulation	REACTOME	80
-106053	Platelet Aggregation (Plug Formation)	REACTOME	37
-106054	Integrin alphaIIb beta3 signaling	REACTOME	27
-106055	GRB2:SOS provides linkage to MAPK signaling for Intergrins	REACTOME	15
-106056	p130Cas linkage to MAPK signaling for integrins	REACTOME	15
-106057	Formation of Fibrin Clot (Clotting Cascade)	REACTOME	32
-106059	Intrinsic Pathway	REACTOME	17
-106060	Common Pathway	REACTOME	14
-106062	Cell surface interactions at the vascular wall	REACTOME	94
-106063	Tie2 Signaling	REACTOME	18
-106064	PECAM1 interactions	REACTOME	12
-106065	Basigin interactions	REACTOME	25
-106067	Influenza Infection*	REACTOME	140
-106073	Transport of Ribonucleoproteins into the Host Nucleus	REACTOME	29
-106074	Influenza Viral RNA Transcription and Replication	REACTOME	100
-106080	Export of Viral Ribonucleoproteins from Nucleus*	REACTOME	30
-106096	Integration of energy metabolism	REACTOME	127
-106097	Glucagon signaling in metabolic regulation	REACTOME	35
-106099	PKA activation in glucagon signalling	REACTOME	17
-106109	Regulation of pyruvate dehydrogenase (PDH) complex	REACTOME	12
-106110	Integrin cell surface interactions	REACTOME	85
-106111	Lipid digestion, mobilization, and transport	REACTOME	48
-106114	Triglyceride Biosynthesis	REACTOME	38
-106115	Fatty Acyl-CoA Biosynthesis	REACTOME	18
-106122	Mitochondrial Fatty Acid Beta-Oxidation	REACTOME	14
-106136	Peroxisomal lipid metabolism	REACTOME	21
-106142	Cholesterol biosynthesis	REACTOME	22
-106144	Bile acid and bile salt metabolism	REACTOME	28
-106145	Synthesis of bile acids and bile salts	REACTOME	20
-106146	Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol	REACTOME	16
-106147	Synthesis of bile acids and bile salts via 24-hydroxycholesterol	REACTOME	11
-106149	Recycling of bile acids and salts	REACTOME	11
-106150	Metabolism of steroid hormones and vitamins A and D	REACTOME	36
-106156	Lipoprotein metabolism	REACTOME	29
-106157	Chylomicron-mediated lipid transport	REACTOME	17
-106158	HDL-mediated lipid transport	REACTOME	15
-106160	Membrane Trafficking	REACTOME	183
-106165	trans-Golgi Network Vesicle Budding*	REACTOME	61
-106169	Metabolism of amino acids and derivatives	REACTOME	199
-106170	Amino acid transport across the plasma membrane	REACTOME	31
-106173	Amino acid synthesis and interconversion (transamination)	REACTOME	16
-106176	Regulation of ornithine decarboxylase (ODC)	REACTOME	50
-106179	Branched-chain amino acid catabolism	REACTOME	18
-106190	Tryptophan catabolism	REACTOME	11
-106193	Metabolism of polyamines	REACTOME	15
-106196	Metabolism of carbohydrates	REACTOME	241
-106198	Hexose transport	REACTOME	42
-106199	Glucose metabolism	REACTOME	64
-106200	Glucose transport	REACTOME	40
-106203	Regulation of Glucokinase by Glucokinase Regulatory Protein	REACTOME	29
-106204	Gluconeogenesis	REACTOME	31
-106205	Pyruvate metabolism	REACTOME	18
-106212	Glycogen breakdown (glycogenolysis)	REACTOME	16
-106222	Metabolism of nitric oxide*	REACTOME	19
-106228	Metabolism of non-coding RNA*	REACTOME	50
-106230	Metabolism of proteins	REACTOME	452
-106231	PTM: gamma carboxylation, hypusine formation and arylsulfatase activation	REACTOME	28
-106232	Gamma-carboxylation, transport, and amino-terminal cleavage of proteins	REACTOME	11
-106236	Post-translational modification: synthesis of GPI-anchored proteins	REACTOME	26
-106238	Synthesis of glycosylphosphatidylinositol (GPI)	REACTOME	17
-106241	Protein folding	REACTOME	55
-106242	Chaperonin-mediated protein folding	REACTOME	50
-106243	Cooperation of Prefoldin and TriC/CCT in actin and tubulin folding*	REACTOME	29
-106245	Formation of tubulin folding intermediates by CCT/TriC	REACTOME	22
-106247	Association of TriC/CCT with target proteins during biosynthesis	REACTOME	29
-106248	Post-chaperonin tubulin folding pathway	REACTOME	19
-106249	Metabolism of vitamins and cofactors*	REACTOME	51
-106254	Vitamin B5 (pantothenate) metabolism	REACTOME	11
-106261	Muscle contraction	REACTOME	51
-106262	Striated Muscle Contraction	REACTOME	31
-106263	Metabolism of nucleotides	REACTOME	73
-106265	Purine metabolism	REACTOME	34
-106266	Purine ribonucleoside monophosphate biosynthesis	REACTOME	11
-106273	Purine salvage	REACTOME	13
-106276	Purine catabolism	REACTOME	11
-106281	Pyrimidine metabolism	REACTOME	24
-106288	Pyrimidine catabolism	REACTOME	12
-106325	Metabolism of porphyrins	REACTOME	22
-106327	Pyruvate metabolism and Citric Acid (TCA) cycle	REACTOME	40
-106328	Regulation of beta-cell development	REACTOME	33
-106332	Regulation of gene expression in beta cells	REACTOME	21
-106334	Regulatory RNA pathways	REACTOME	26
-106335	MicroRNA (miRNA) Biogenesis	REACTOME	23
-106336	Signaling by BMP	REACTOME	23
-106340	SHC1 events in EGFR signaling*	REACTOME	15
-106341	GAB1 signalosome*	REACTOME	102
-106342	EGFR downregulation	REACTOME	27
-106343	Signaling by FGFR	REACTOME	156
-106344	FGFR ligand binding and activation	REACTOME	23
-106345	FGFR1 ligand binding and activation	REACTOME	14
-106347	FGFR1c ligand binding and activation*	REACTOME	11
-106349	FGFR2 ligand binding and activation*	REACTOME	17
-106351	FGFR2c ligand binding and activation	REACTOME	13
-106352	FGFR3 ligand binding and activation*	REACTOME	12
-106355	FGFR4 ligand binding and activation	REACTOME	13
-106356	Signaling by GPCR	REACTOME	964
-106357	Class A/1 (Rhodopsin-like receptors)	REACTOME	305
-106358	Peptide ligand-binding receptors	REACTOME	185
-106359	Chemokine receptors bind chemokines	REACTOME	55
-106363	Amine ligand-binding receptors	REACTOME	41
-106368	Serotonin receptors	REACTOME	12
-106370	Eicosanoid ligand-binding receptors	REACTOME	15
-106373	Nucleotide-like (purinergic) receptors	REACTOME	18
-106374	P2Y receptors	REACTOME	14
-106378	Class B/2 (Secretin family receptors)	REACTOME	89
-106380	Glucagon-type ligand receptors	REACTOME	32
-106381	Class C/3 (Metabotropic glutamate/pheromone receptors)	REACTOME	15
-106383	Olfactory Signaling Pathway	REACTOME	354
-106384	Signaling by PDGF	REACTOME	184
-106385	Downstream signal transduction	REACTOME	155
-106386	Immune System	REACTOME	1035
-106387	Innate Immune System	REACTOME	444
-106388	Toll Receptor Cascades	REACTOME	122
-106390	MyD88:Mal cascade initiated on plasma membrane*	REACTOME	86
-106391	Toll Like Receptor 3 (TLR3) Cascade*	REACTOME	79
-106397	Toll Like Receptor 9 (TLR9) Cascade*	REACTOME	86
-106398	Toll Like Receptor 4 (TLR4) Cascade	REACTOME	104
-106400	Activated TLR4 signalling	REACTOME	97
-106405	Complement cascade	REACTOME	30
-106406	Initial triggering of complement	REACTOME	14
-106413	Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	REACTOME	70
-106414	TCR signaling	REACTOME	58
-106415	Phosphorylation of CD3 and TCR zeta chains	REACTOME	18
-106416	Translocation of ZAP-70 to Immunological synapse	REACTOME	16
-106417	Generation of second messenger molecules	REACTOME	29
-106418	Downstream TCR signaling	REACTOME	41
-106419	Signaling by Insulin receptor	REACTOME	111
-106420	Insulin receptor signalling cascade	REACTOME	88
-106421	SHC-related events	REACTOME	18
-106423	SHC-mediated signalling	REACTOME	15
-106424	IRS-related events*	REACTOME	83
-106427	PI3K Cascade	REACTOME	72
-106428	PKB-mediated events*	REACTOME	28
-106437	SOS-mediated signalling	REACTOME	14
-106438	Insulin receptor recycling	REACTOME	26
-106439	Signalling by NGF	REACTOME	284
-106441	p75 NTR receptor-mediated signalling	REACTOME	86
-106443	Cell death signalling via NRAGE, NRIF and NADE	REACTOME	64
-106444	NRAGE signals death through JNK	REACTOME	47
-106445	NRIF signals cell death from the nucleus	REACTOME	16
-106448	p75NTR signals via NF-kB	REACTOME	16
-106449	p75NTR recruits signalling complexes	REACTOME	13
-106450	NF-kB is activated and signals survival	REACTOME	13
-106459	NGF signalling via TRKA from the plasma membrane	REACTOME	200
-106460	Signalling to ERKs	REACTOME	36
-106461	Signalling to RAS	REACTOME	27
-106462	p38MAPK events	REACTOME	13
-106463	Signalling to p38 via RIT and RIN	REACTOME	15
-106464	Prolonged ERK activation events	REACTOME	19
-106465	Frs2-mediated activation	REACTOME	18
-106466	ARMS-mediated activation	REACTOME	17
-106467	PLC-gamma1 signalling	REACTOME	35
-106468	CaM pathway*	REACTOME	28
-106470	PKA-mediated phosphorylation of CREB	REACTOME	17
-106471	PKA activation	REACTOME	16
-106475	AKT phosphorylates targets in the cytosol	REACTOME	13
-106480	Retrograde neurotrophin signalling	REACTOME	14
-106481	Nuclear Events (kinase and transcription factor activation)	REACTOME	24
-106482	ERK/MAPK targets	REACTOME	21
-106483	ERKs are inactivated	REACTOME	12
-106485	Signaling by NOTCH	REACTOME	109
-106493	Opioid Signalling	REACTOME	85
-106494	G-protein activation	REACTOME	30
-106495	G-protein mediated events*	REACTOME	46
-106497	Ca-dependent events	REACTOME	30
-106499	Adenylate cyclase activating pathway	REACTOME	10
-106500	Adenylate cyclase inhibitory pathway*	REACTOME	13
-106501	DARPP-32 events	REACTOME	27
-106502	Signaling by Rho GTPases*	REACTOME	126
-106504	Signaling by TGF-beta Receptor Complex	REACTOME	66
-106506	Signaling by VEGF*	REACTOME	11
-106510	Signaling by Wnt*	REACTOME	68
-106512	Beta-catenin phosphorylation cascade	REACTOME	17
-106513	Neuronal System	REACTOME	288
-106516	Transmission across Chemical Synapses	REACTOME	195
-106517	Depolarization of the Presynaptic Terminal Triggers the Opening of Calcium Channels	REACTOME	12
-106518	Neurotransmitter Release Cycle	REACTOME	36
-106519	Norepinephrine Neurotransmitter Release Cycle	REACTOME	11
-106520	Serotonin Neurotransmitter Release Cycle*	REACTOME	12
-106522	Glutamate Neurotransmitter Release Cycle	REACTOME	16
-106525	Acetylcholine Neurotransmitter Release Cycle	REACTOME	11
-106534	Neurotransmitter Receptor Binding And Downstream Transmission In The Postsynaptic Cell	REACTOME	141
-106535	Acetylcholine Binding And Downstream Events*	REACTOME	15
-106536	Glutamate Binding, Activation of AMPA Receptors and Synaptic Plasticity*	REACTOME	30
-106538	Trafficking of GluR2-containing AMPA receptors	REACTOME	16
-106540	Telomere Maintenance	REACTOME	76
-106541	Extension of Telomeres	REACTOME	27
-106543	Telomere C-strand (Lagging Strand) Synthesis	REACTOME	21
-106546	Processive synthesis on the C-strand of the telomere	REACTOME	11
-106547	Removal of the Flap Intermediate from the C-strand	REACTOME	10
-106548	Packaging Of Telomere Ends	REACTOME	49
-106550	RNA Polymerase I Transcription*	REACTOME	86
-106552	RNA Polymerase I Promoter Opening	REACTOME	60
-106553	RNA Polymerase I Transcription Initiation	REACTOME	25
-106554	RNA Polymerase I Promoter Escape	REACTOME	20
-106555	RNA Polymerase I Chain Elongation	REACTOME	77
-106556	RNA Polymerase I Transcription Termination	REACTOME	21
-106557	RNA Polymerase II Transcription	REACTOME	101
-106559	RNA Polymerase II Transcription Termination*	REACTOME	43
-106561	RNA Polymerase III Transcription*	REACTOME	40
-106562	RNA Polymerase III Transcription Initiation	REACTOME	35
-106563	RNA Polymerase III Transcription Initiation From Type 1 Promoter*	REACTOME	27
-106565	RNA Polymerase III Transcription Initiation From Type 3 Promoter	REACTOME	28
-106566	RNA Polymerase III Chain Elongation	REACTOME	18
-106567	RNA Polymerase III Transcription Termination	REACTOME	23
-106572	Transmembrane transport of small molecules	REACTOME	435
-106573	ABC-family proteins mediated transport	REACTOME	36
-114227	Dorso-ventral axis formation	KEGG	24
-114228	Fc gamma R-mediated phagocytosis	KEGG	95
-114229	Hypertrophic cardiomyopathy (HCM)	KEGG	83
-117291	RNA degradation	KEGG	71
-117292	RIG-I-like receptor signaling pathway	KEGG	70
-119304	Progesterone-mediated oocyte maturation	KEGG	86
-119519	Semaphorin interactions	REACTOME	66
-119520	Sema4D in semaphorin signaling	REACTOME	29
-119522	Sema4D induced cell migration and growth-cone collapse	REACTOME	24
-119523	SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion	REACTOME	14
-119524	Sema3A PAK dependent Axon repulsion	REACTOME	15
-119525	CRMPs in Sema3A signaling	REACTOME	16
-119526	Other semaphorin interactions	REACTOME	16
-119527	Signaling by Robo receptor	REACTOME	32
-119530	Activation of Rac	REACTOME	14
-119532	Cell-cell junction organization	REACTOME	59
-119533	Adherens junctions interactions	REACTOME	29
-119535	Tight junction interactions	REACTOME	30
-119538	Synthesis, Secretion, and Deacylation of Ghrelin	REACTOME	17
-119539	G-protein beta:gamma signalling	REACTOME	30
-119540	G beta:gamma signalling through PI3Kgamma	REACTOME	27
-119541	G beta:gamma signalling through PLC beta	REACTOME	22
-119543	Sphingolipid metabolism	REACTOME	70
-119544	Regulation of Lipid Metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)*	REACTOME	122
-119546	Golgi Associated Vesicle Biogenesis	REACTOME	54
-119547	Lysosome Vesicle Biogenesis	REACTOME	24
-119548	GPCR downstream signaling	REACTOME	848
-119549	G alpha (s) signalling events	REACTOME	130
-119550	G alpha (i) signalling events	REACTOME	202
-119551	G alpha (z) signalling events	REACTOME	47
-119552	Costimulation by the CD28 family	REACTOME	65
-119553	CD28 co-stimulation	REACTOME	31
-119554	CD28 dependent PI3K/Akt signaling	REACTOME	21
-119555	CD28 dependent Vav1 pathway	REACTOME	11
-119556	CTLA4 inhibitory signaling	REACTOME	22
-119557	PD-1 signaling	REACTOME	21
-119558	SLC-mediated transmembrane transport	REACTOME	252
-119559	Transport of inorganic cations/anions and amino acids/oligopeptides	REACTOME	96
-119571	Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds	REACTOME	96
-119572	Facilitative Na+-independent glucose transporters	REACTOME	12
-121494	Dilated cardiomyopathy	KEGG	90
-122191	NOD-like receptor signaling pathway	KEGG	57
-125136	Spliceosome	KEGG	127
-125137	Cytosolic DNA-sensing pathway	KEGG	62
-125138	Viral myocarditis	KEGG	68
-126909	Oocyte meiosis	KEGG	112
-128760	Intestinal immune network for IgA production	KEGG	45
-130626	Aldosterone-regulated sodium reabsorption	KEGG	39
-131226	Peroxisome	KEGG	79
-137910	CXCR4-mediated signaling events	Pathway Interaction Database	76
-137911	FOXA2 and FOXA3 transcription factor networks	Pathway Interaction Database	44
-137912	Hedgehog signaling events mediated by Gli proteins	Pathway Interaction Database	43
-137913	Alpha-synuclein signaling	Pathway Interaction Database	32
-137914	Presenilin action in Notch and Wnt signaling	Pathway Interaction Database	46
-137915	Signaling events regulated by Ret tyrosine kinase	Pathway Interaction Database	38
-137916	Regulation of retinoblastoma protein	Pathway Interaction Database	55
-137917	Angiopoietin receptor Tie2-mediated signaling	Pathway Interaction Database	48
-137918	Stabilization and expansion of the E-cadherin adherens junction	Pathway Interaction Database	40
-137919	N-cadherin signaling events	Pathway Interaction Database	33
-137920	TRAIL signaling pathway	Pathway Interaction Database	25
-137921	Ras signaling in the CD4+ TCR pathway	Pathway Interaction Database	11
-137922	IL12-mediated signaling events	Pathway Interaction Database	62
-137924	VEGFR1 specific signals	Pathway Interaction Database	29
-137925	Aurora A signaling	Pathway Interaction Database	31
-137926	Visual signal transduction: Cones	Pathway Interaction Database	23
-137927	Arf1 pathway	Pathway Interaction Database	18
-137928	LPA receptor mediated events	Pathway Interaction Database	65
-137929	IL27-mediated signaling events	Pathway Interaction Database	26
-137930	Signaling events mediated by Hepatocyte Growth Factor Receptor (c-Met)	Pathway Interaction Database	72
-137931	Sphingosine 1-phosphate (S1P) pathway	Pathway Interaction Database	21
-137932	IL6-mediated signaling events	Pathway Interaction Database	43
-137933	IL4-mediated signaling events	Pathway Interaction Database	60
-137934	E2F transcription factor network	Pathway Interaction Database	72
-137935	FOXM1 transcription factor network	Pathway Interaction Database	39
-137936	IL12 signaling mediated by STAT4	Pathway Interaction Database	28
-137937	S1P1 pathway	Pathway Interaction Database	20
-137938	IL2 signaling events mediated by PI3K	Pathway Interaction Database	37
-137939	Direct p53 effectors	Pathway Interaction Database	134
-137940	Signaling events mediated by VEGFR1 and VEGFR2	Pathway Interaction Database	63
-137941	Calcium signaling in the CD4+ TCR pathway	Pathway Interaction Database	28
-137943	p38 MAPK signaling pathway	Pathway Interaction Database	29
-137944	IL1-mediated signaling events	Pathway Interaction Database	35
-137945	amb2 Integrin signaling	Pathway Interaction Database	48
-137946	Atypical NF-kappaB pathway	Pathway Interaction Database	14
-137948	BMP receptor signaling	Pathway Interaction Database	36
-137949	LPA4-mediated signaling events	Pathway Interaction Database	15
-137950	Signaling events mediated by the Hedgehog family	Pathway Interaction Database	22
-137952	Syndecan-3-mediated signaling events	Pathway Interaction Database	17
-137953	Role of Calcineurin-dependent NFAT signaling in lymphocytes	Pathway Interaction Database	51
-137954	Arf6 trafficking events	Pathway Interaction Database	44
-137955	ErbB2/ErbB3 signaling events	Pathway Interaction Database	35
-137956	HIF-2-alpha transcription factor network	Pathway Interaction Database	34
-137957	LKB1 signaling events	Pathway Interaction Database	42
-137958	Endothelins	Pathway Interaction Database	53
-137959	BARD1 signaling events	Pathway Interaction Database	29
-137960	Osteopontin-mediated events	Pathway Interaction Database	32
-137961	EPHA2 forward signaling	Pathway Interaction Database	17
-137962	Wnt signaling network	Pathway Interaction Database	28
-137963	Regulation of nuclear SMAD2/3 signaling	Pathway Interaction Database	76
-137964	Regulation of p38-alpha and p38-beta	Pathway Interaction Database	27
-137967	Trk receptor signaling mediated by PI3K and PLC-gamma	Pathway Interaction Database	32
-137968	ALK1 signaling events	Pathway Interaction Database	24
-137969	Signaling events mediated by PRL	Pathway Interaction Database	23
-137970	EGF receptor (ErbB1) signaling pathway	Pathway Interaction Database	25
-137971	Paxillin-independent events mediated by a4b1 and a4b7	Pathway Interaction Database	22
-137972	Signaling events mediated by HDAC Class III	Pathway Interaction Database	39
-137974	Caspase cascade in apoptosis	Pathway Interaction Database	50
-137975	RXR and RAR heterodimerization with other nuclear receptor	Pathway Interaction Database	14
-137976	IL2-mediated signaling events	Pathway Interaction Database	52
-137977	Neurotrophic factor-mediated Trk receptor signaling	Pathway Interaction Database	56
-137978	Circadian rhythm pathway	Pathway Interaction Database	13
-137979	FOXA1 transcription factor network	Pathway Interaction Database	43
-137980	Reelin signaling pathway	Pathway Interaction Database	29
-137981	Insulin-mediated glucose transport	Pathway Interaction Database	29
-137984	Lissencephaly gene (LIS1) in neuronal migration and development	Pathway Interaction Database	31
-137987	Regulation of Telomerase	Pathway Interaction Database	66
-137988	IL2 signaling events mediated by STAT5	Pathway Interaction Database	30
-137989	FGF signaling pathway	Pathway Interaction Database	47
-137990	Regulation of CDC42 activity	Pathway Interaction Database	30
-137991	ErbB4 signaling events	Pathway Interaction Database	32
-137992	IGF1 pathway	Pathway Interaction Database	28
-137993	Calcineurin-regulated NFAT-dependent transcription in lymphocytes	Pathway Interaction Database	49
-137994	CDC42 signaling events	Pathway Interaction Database	70
-137995	HIV-1 Nef: Negative effector of Fas and TNF-alpha	Pathway Interaction Database	35
-137996	VEGFR3 signaling in lymphatic endothelium	Pathway Interaction Database	23
-137997	Signaling events mediated by HDAC Class I	Pathway Interaction Database	67
-137998	TCR signaling in naive CD4+ T cells	Pathway Interaction Database	61
-137999	Integrins in angiogenesis	Pathway Interaction Database	46
-138000	IL23-mediated signaling events	Pathway Interaction Database	37
-138001	mTOR signaling pathway	Pathway Interaction Database	60
-138002	E-cadherin signaling in keratinocytes	Pathway Interaction Database	19
-138005	E-cadherin signaling in the nascent adherens junction	Pathway Interaction Database	33
-138006	ATF-2 transcription factor network	Pathway Interaction Database	55
-138007	PLK1 signaling events	Pathway Interaction Database	44
-138008	a6b1 and a6b4 Integrin signaling	Pathway Interaction Database	31
-138009	Plasma membrane estrogen receptor signaling	Pathway Interaction Database	26
-138010	Glypican 1 network	Pathway Interaction Database	26
-138011	CXCR3-mediated signaling events	Pathway Interaction Database	34
-138012	Signaling mediated by p38-alpha and p38-beta	Pathway Interaction Database	35
-138013	Internalization of ErbB1	Pathway Interaction Database	34
-138014	Glucocorticoid receptor regulatory network	Pathway Interaction Database	82
-138015	Regulation of cytoplasmic and nuclear SMAD2/3 signaling	Pathway Interaction Database	19
-138016	ErbB receptor signaling network	Pathway Interaction Database	14
-138017	Signaling events mediated by PTP1B	Pathway Interaction Database	51
-138018	Downstream signaling in naive CD8+ T cells	Pathway Interaction Database	50
-138019	p75(NTR)-mediated signaling	Pathway Interaction Database	61
-138020	Class I PI3K signaling events mediated by Akt	Pathway Interaction Database	34
-138021	Paxillin-dependent events mediated by a4b1	Pathway Interaction Database	19
-138022	Class I PI3K signaling events	Pathway Interaction Database	41
-138023	Ceramide signaling pathway	Pathway Interaction Database	44
-138024	TGF-beta receptor signaling	Pathway Interaction Database	51
-138026	Insulin Pathway	Pathway Interaction Database	43
-138027	Regulation of Androgen receptor activity	Pathway Interaction Database	49
-138029	Sumoylation by RanBP2 regulates transcriptional repression	Pathway Interaction Database	11
-138030	Canonical NF-kappaB pathway	Pathway Interaction Database	23
-138031	Syndecan-2-mediated signaling events	Pathway Interaction Database	33
-138032	Canonical Wnt signaling pathway	Pathway Interaction Database	30
-138034	Arf6 signaling events	Pathway Interaction Database	34
-138036	FoxO family signaling	Pathway Interaction Database	47
-138038	Arf6 downstream pathway	Pathway Interaction Database	15
-138039	Retinoic acid receptors-mediated signaling	Pathway Interaction Database	25
-138040	IFN-gamma pathway	Pathway Interaction Database	40
-138041	EPHA forward signaling	Pathway Interaction Database	31
-138044	Trk receptor signaling mediated by the MAPK pathway	Pathway Interaction Database	29
-138045	HIF-1-alpha transcription factor network	Pathway Interaction Database	65
-138046	Syndecan-1-mediated signaling events	Pathway Interaction Database	17
-138047	EPHB forward signaling	Pathway Interaction Database	33
-138048	Nongenotropic Androgen signaling	Pathway Interaction Database	18
-138049	PDGFR-alpha signaling pathway	Pathway Interaction Database	22
-138050	Fc-epsilon receptor I signaling in mast cells	Pathway Interaction Database	58
-138051	EPO signaling pathway	Pathway Interaction Database	33
-138052	Ephrin B reverse signaling	Pathway Interaction Database	27
-138053	TNF receptor signaling pathway	Pathway Interaction Database	44
-138054	Nectin adhesion pathway	Pathway Interaction Database	25
-138055	TCR signaling in naive CD8+ T cells	Pathway Interaction Database	49
-138056	Hypoxic and oxygen homeostasis regulation of HIF-1-alpha	Pathway Interaction Database	15
-138057	ErbB1 downstream signaling	Pathway Interaction Database	102
-138058	BCR signaling pathway	Pathway Interaction Database	66
-138059	S1P2 pathway	Pathway Interaction Database	24
-138060	Thromboxane A2 receptor signaling	Pathway Interaction Database	45
-138061	CD40/CD40L signaling	Pathway Interaction Database	30
-138062	Signaling events mediated by HDAC Class II	Pathway Interaction Database	34
-138063	S1P3 pathway	Pathway Interaction Database	28
-138064	Syndecan-4-mediated signaling events	Pathway Interaction Database	31
-138066	JNK signaling in the CD4+ TCR pathway	Pathway Interaction Database	13
-138067	p53 pathway	Pathway Interaction Database	58
-138068	Signaling events mediated by Stem cell factor receptor (c-Kit)	Pathway Interaction Database	52
-138069	S1P4 pathway	Pathway Interaction Database	14
-138070	Regulation of RhoA activity	Pathway Interaction Database	46
-138071	PDGFR-beta signaling pathway	Pathway Interaction Database	54
-138072	Nephrin/Neph1 signaling in the kidney podocyte	Pathway Interaction Database	26
-138073	C-MYB transcription factor network	Pathway Interaction Database	78
-138074	Visual signal transduction: Rods	Pathway Interaction Database	23
-138076	Cellular roles of Anthrax toxin	Pathway Interaction Database	22
-138078	p38 signaling mediated by MAPKAP kinases	Pathway Interaction Database	20
-138080	Aurora B signaling	Pathway Interaction Database	39
-138081	FAS (CD95) signaling pathway	Pathway Interaction Database	35
-138085	Coregulation of Androgen receptor activity	Pathway Interaction Database	57
-142180	gluconeogenesis I	BIOCYC	19
-142207	mevalonate pathway I	BIOCYC	12
-142215	NAD biosynthesis II (from tryptophan)	BIOCYC	10
-142242	triacylglycerol biosynthesis	BIOCYC	25
-142255	CDP-diacylglycerol biosynthesis I	BIOCYC	17
-142264	phosphatidylglycerol biosynthesis II (non-plastidic)	BIOCYC	18
-142266	cholesterol biosynthesis II (via 24,25-dihydrolanosterol)*	BIOCYC	13
-142269	superpathway of cholesterol biosynthesis	BIOCYC	27
-142282	pyrimidine ribonucleotides interconversion	BIOCYC	13
-142283	pyrimidine ribonucleotides de novo biosynthesis	BIOCYC	15
-142284	salvage pathways of pyrimidine ribonucleotides	BIOCYC	14
-142285	pyrimidine deoxyribonucleotides de novo biosynthesis I	BIOCYC	15
-142358	isoleucine degradation I	BIOCYC	14
-142373	superpathway of methionine degradation	BIOCYC	21
-142385	tryptophan degradation III (eukaryotic)	BIOCYC	11
-142387	valine degradation I	BIOCYC	14
-142418	triacylglycerol degradation	BIOCYC	11
-142419	phospholipases	BIOCYC	34
-142421	fatty acid beta-oxidation I	BIOCYC	16
-142435	glutathione-mediated detoxification I	BIOCYC	22
-142437	nicotine degradation IV	BIOCYC	12
-142455	glycolysis I	BIOCYC	19
-142463	TCA cycle II (eukaryotic)	BIOCYC	21
-143700	Vasopressin-regulated water reabsorption	KEGG	45
-144181	Leishmaniasis	KEGG	70
-144182	Proximal tubule bicarbonate reclamation	KEGG	23
-147586	Collecting duct acid secretion	KEGG	27
-147809	Chagas disease (American trypanosomiasis)	KEGG	104
-149806	Phototransduction	KEGG	29
-149807	Bacterial invasion of epithelial cells	KEGG	70
-152665	Malaria	KEGG	49
-153376	Salivary secretion	KEGG	89
-153910	Phagosome	KEGG	148
-154409	Gastric acid secretion	KEGG	75
-160134	TAK1 activates NFkB by phosphorylation and activation of IKKs complex	REACTOME	24
-160135	MAP kinase activation in TLR cascade	REACTOME	49
-160136	JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1	REACTOME	16
-160137	activated TAK1 mediates p38 MAPK activation	REACTOME	17
-160138	MAPK targets/ Nuclear events mediated by MAP kinases	REACTOME	30
-160139	Activation of the AP-1 family of transcription factors	REACTOME	10
-160140	Signaling by Interleukins	REACTOME	111
-160141	Interleukin-1 signaling	REACTOME	42
-160941	Mitotic G1-G1/S phases	REACTOME	133
-160942	Mitotic G2-G2/M phases*	REACTOME	87
-160943	Mitotic M-M/G1 phases	REACTOME	191
-160948	RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription	REACTOME	126
-160950	Processing of Capped Intron-Containing Pre-mRNA	REACTOME	138
-160951	Processing of Capped Intronless Pre-mRNA	REACTOME	23
-160952	SLBP Dependent Processing of Replication-Dependent Histone Pre-mRNAs	REACTOME	11
-160953	SLBP independent Processing of Histone Pre-mRNAs	REACTOME	10
-160954	Processing of Intronless Pre-mRNAs	REACTOME	14
-160957	Downstream signaling of activated FGFR	REACTOME	143
-160958	FRS2-mediated cascade	REACTOME	38
-160959	Phospholipase C-mediated cascade	REACTOME	56
-160960	SHC-mediated cascade	REACTOME	29
-160962	Respiratory electron transport	REACTOME	66
-160966	Cell junction organization	REACTOME	84
-160967	Cell-extracellular matrix interactions	REACTOME	16
-160971	Heme degradation	REACTOME	13
-160972	Energy dependent regulation of mTOR by LKB1-AMPK	REACTOME	17
-160973	Regulation of AMPK activity via LKB1	REACTOME	14
-160975	Signal attenuation	REACTOME	14
-160976	Metabolism of lipids and lipoproteins	REACTOME	529
-160977	Fatty acid, triacylglycerol, and ketone body metabolism	REACTOME	183
-160978	Synthesis of very long-chain fatty acyl-CoAs	REACTOME	14
-160983	Amine-derived hormones	REACTOME	15
-160993	Deadenylation-dependent mRNA decay	REACTOME	49
-160994	Deadenylation of mRNA	REACTOME	23
-160996	mRNA Decay by 5' to 3' Exoribonuclease	REACTOME	15
-160997	Myogenesis*	REACTOME	30
-160999	Netrin-1 signaling	REACTOME	42
-161000	DCC mediated attractive signaling	REACTOME	14
-161001	Netrin mediated repulsion signals	REACTOME	10
-161002	Role of second messengers in netrin-1 signaling	REACTOME	10
-161003	L1CAM interactions	REACTOME	94
-161004	Recycling pathway of L1	REACTOME	28
-161005	Interaction between L1 and Ankyrins	REACTOME	26
-161006	Signal transduction by L1	REACTOME	36
-161012	Post-translational protein modification	REACTOME	193
-161013	Asparagine N-linked glycosylation	REACTOME	85
-161014	Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein	REACTOME	30
-161015	Synthesis of substrates in N-glycan biosythesis	REACTOME	16
-161020	GPCR ligand binding	REACTOME	409
-161025	Smooth Muscle Contraction	REACTOME	24
-161028	Presynaptic nicotinic acetylcholine receptors	REACTOME	12
-161032	Highly calcium permeable postsynaptic nicotinic acetylcholine receptors	REACTOME	12
-161033	Activation of NMDA receptor upon glutamate binding and postsynaptic events	REACTOME	39
-161034	Unblocking of NMDA receptor, glutamate binding and activation	REACTOME	17
-161035	Post NMDA receptor activation events	REACTOME	35
-161036	CREB phosphorylation through the activation of Ras	REACTOME	29
-161037	Ras activation uopn Ca2+ infux through NMDA receptor	REACTOME	19
-161040	CREB phosphorylation through the activation of CaMKII	REACTOME	17
-161043	Activation of Kainate Receptors upon glutamate binding	REACTOME	34
-161044	Ionotropic activity of Kainate Receptors*	REACTOME	12
-161047	Presynaptic function of Kainate receptors	REACTOME	23
-161048	Chromosome Maintenance	REACTOME	122
-161049	Nucleosome assembly*	REACTOME	63
-161051	HIV-1 elongation arrest and recovery*	REACTOME	31
-161057	Synthesis and interconversion of nucleotide di- and triphosphates	REACTOME	19
-161059	Signal amplification	REACTOME	33
-161060	ADP signalling through P2Y purinoceptor 12	REACTOME	23
-161061	ADP signalling through P2Y purinoceptor 1	REACTOME	27
-161062	Thromboxane signalling through TP receptor	REACTOME	25
-161063	Thrombin signalling through proteinase activated receptors (PARs)	REACTOME	34
-161066	Metal ion SLC transporters	REACTOME	25
-161067	Zinc transporters	REACTOME	17
-161070	Na+/Cl- dependent neurotransmitter transporters	REACTOME	18
-161072	Organic cation/anion/zwitterion transport	REACTOME	13
-161075	Transport of vitamins, nucleosides, and related molecules	REACTOME	31
-167324	Amoebiasis	KEGG	108
-167325	Protein processing in endoplasmic reticulum	KEGG	167
-169306	Pancreatic secretion	KEGG	95
-169344	C-MYC pathway	Pathway Interaction Database	22
-169345	Notch signaling pathway	Pathway Interaction Database	58
-169346	Regulation of RAC1 activity	Pathway Interaction Database	39
-169347	Notch-mediated HES/HEY network	Pathway Interaction Database	48
-169348	Signaling events mediated by focal adhesion kinase	Pathway Interaction Database	54
-169349	Validated transcriptional targets of AP1 family members Fra1 and Fra2	Pathway Interaction Database	34
-169350	Signaling events mediated by TCPTP	Pathway Interaction Database	36
-169351	Validated targets of C-MYC transcriptional activation	Pathway Interaction Database	81
-169352	Regulation of Wnt-mediated beta catenin signaling and target gene transcription	Pathway Interaction Database	78
-169353	Validated targets of C-MYC transcriptional repression	Pathway Interaction Database	61
-169354	Noncanonical Wnt signaling pathway	Pathway Interaction Database	30
-169355	RAC1 signaling pathway	Pathway Interaction Database	54
-169356	RhoA signaling pathway	Pathway Interaction Database	41
-169642	Toxoplasmosis	KEGG	116
-170720	Carbohydrate digestion and absorption	KEGG	44
-172846	Staphylococcus aureus infection	KEGG	53
-172847	Protein digestion and absorption	KEGG	87
-173973	Hepatitis C	KEGG	131
-177876	RNA transport	KEGG	156
-187083	IRAK1 recruits IKK complex upon TLR7/8 or 9 stimulation*	REACTOME	12
-187084	IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation*	REACTOME	10
-187085	TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling	REACTOME	13
-187088	Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon	REACTOME	16
-187090	IKK complex recruitment mediated by RIP1	REACTOME	11
-187091	TRAF6 mediated induction of TAK1 complex	REACTOME	16
-187092	Advanced glycosylation endproduct receptor signaling	REACTOME	13
-187094	Interleukin-3, 5 and GM-CSF signaling	REACTOME	44
-187095	Interleukin receptor SHC signaling	REACTOME	27
-187096	Regulation of signaling by CBL	REACTOME	18
-187097	RIG-I/MDA5 mediated induction of IFN-alpha/beta pathways	REACTOME	76
-187098	TRAF3-dependent IRF activation pathway	REACTOME	14
-187099	NF-kB activation through FADD/RIP-1 pathway mediated by caspase-8 and -10	REACTOME	12
-187100	TRAF6 mediated IRF7 activation	REACTOME	30
-187101	TRAF6 mediated NF-kB activation	REACTOME	22
-187102	Negative regulators of RIG-I/MDA5 signaling	REACTOME	33
-187103	Interferon Signaling	REACTOME	166
-187104	Interferon alpha/beta signaling	REACTOME	64
-187105	Regulation of IFNA signaling	REACTOME	25
-187106	Interferon gamma signaling	REACTOME	67
-187107	Regulation of IFNG signaling	REACTOME	14
-187108	Rap1 signalling	REACTOME	16
-187170	Incretin Synthesis, Secretion, and Inactivation	REACTOME	23
-187171	Synthesis, Secretion, and Inactivation of Glucagon-like Peptide-1 (GLP-1)	REACTOME	20
-187172	Synthesis, Secretion, and Inactivation of Glucose-dependent Insulinotropic Polypeptide (GIP)	REACTOME	13
-187173	Circadian Clock	REACTOME	56
-187174	GABA synthesis, release, reuptake and degradation	REACTOME	19
-187178	GABA receptor activation	REACTOME	55
-187179	GABA A receptor activation	REACTOME	12
-187180	GABA B receptor activation*	REACTOME	40
-187183	Inhibition of voltage gated Ca2+ channels via Gbeta/gamma subunits*	REACTOME	27
-187186	Transport of organic anions	REACTOME	11
-187187	Aquaporin-mediated transport	REACTOME	52
-187188	Passive Transport by Aquaporins	REACTOME	11
-187189	Regulation of Water Balance by Renal Aquaporins	REACTOME	45
-187191	Iron uptake and transport	REACTOME	39
-187192	Transferrin endocytosis and recycling	REACTOME	27
-187193	Ion channel transport	REACTOME	61
-187194	Ion transport by P-type ATPases	REACTOME	36
-187195	Ligand-gated ion channel transport	REACTOME	25
-187196	Factors involved in megakaryocyte development and platelet production	REACTOME	135
-187197	Kinesins	REACTOME	26
-187198	Platelet homeostasis	REACTOME	83
-187199	Prostacyclin signalling through prostacyclin receptor	REACTOME	21
-187200	Nitric oxide stimulates guanylate cyclase	REACTOME	27
-187201	cGMP effects	REACTOME	21
-187202	Platelet calcium homeostasis	REACTOME	19
-187204	Platelet sensitization by LDL	REACTOME	17
-187205	GP1b-IX-V activation signalling	REACTOME	10
-187209	Signal regulatory protein (SIRP) family interactions	REACTOME	13
-187211	Regulation of mRNA Stability by Proteins that Bind AU-rich Elements	REACTOME	88
-187212	Destabilization of mRNA by AUF1 (hnRNP D0)	REACTOME	54
-187213	Destabilization of mRNA by Butyrate Response Factor 1 (BRF1)	REACTOME	17
-187214	Destabilization of mRNA by Tristetraprolin (TTP)	REACTOME	17
-187215	Destabilization of mRNA by KSRP	REACTOME	17
-187217	N-glycan trimming in the ER and Calnexin/Calreticulin cycle	REACTOME	13
-187220	Transport to the Golgi and subsequent modification	REACTOME	36
-187223	N-glycan antennae elongation in the medial/trans-Golgi	REACTOME	20
-187226	N-Glycan antennae elongation	REACTOME	15
-187228	Nephrin interactions	REACTOME	23
-187229	DSCAM interactions	REACTOME	11
-193146	Bile secretion	KEGG	71
-193147	Osteoclast differentiation	KEGG	132
-193328	mRNA surveillance pathway	KEGG	89
-194384	African trypanosomiasis	KEGG	34
-194385	Fat digestion and absorption	KEGG	41
-198756	One Carbon Metabolism	WikiPathways	29
-198757	Mitochondrial Gene Expression	WikiPathways	12
-198758	Urea cycle and metabolism of amino groups	WikiPathways	20
-198759	Myometrial Relaxation and Contraction Pathways	WikiPathways	155
-198760	IL-4 signaling Pathway	WikiPathways	63
-198761	Osteopontin Signaling	WikiPathways	11
-198762	TOR signaling	WikiPathways	34
-198763	ACE Inhibitor Pathway	WikiPathways	17
-198765	GPCRs, Other	WikiPathways	87
-198766	Inflammatory Response Pathway	WikiPathways	30
-198769	Osteoclast Signaling	WikiPathways	15
-198770	IL-5 Signaling Pathway	WikiPathways	69
-198771	DNA Replication	WikiPathways	41
-198772	Angiogenesis	WikiPathways	23
-198773	cytochrome P450	WikiPathways	61
-198774	TGF-beta Receptor Signaling Pathway	WikiPathways	152
-198776	Hypothetical Network for Drug Addiction	WikiPathways	32
-198777	Keap1-Nrf2 Pathway	WikiPathways	13
-198778	Fluoropyrimidine Activity	WikiPathways	33
-198779	MAPK signaling pathway	WikiPathways	162
-198780	Senescence and Autophagy	WikiPathways	98
-198781	GPCRs, Class B Secretin-like	WikiPathways	23
-198782	EGFR1 Signaling Pathway	WikiPathways	177
-198783	Alanine and aspartate metabolism	WikiPathways	12
-198784	MicroRNAs in cardiomyocyte hypertrophy	WikiPathways	85
-198785	Vitamin A and carotenoid metabolism	WikiPathways	40
-198786	Proteasome Degradation	WikiPathways	63
-198787	TCA Cycle	WikiPathways	31
-198788	DNA damage response	WikiPathways	67
-198789	Wnt Signaling Pathway	WikiPathways	60
-198790	EBV LMP1 signaling	WikiPathways	22
-198791	Type II diabetes mellitus	WikiPathways	21
-198792	NOD pathway	WikiPathways	39
-198793	Biogenic Amine Synthesis	WikiPathways	14
-198794	Cytokines and Inflammatory Response	WikiPathways	25
-198795	Focal Adhesion	WikiPathways	185
-198797	Apoptosis	WikiPathways	83
-198799	Wnt Signaling Pathway NetPath	WikiPathways	112
-198800	G13 Signaling Pathway	WikiPathways	39
-198801	Ovarian Infertility Genes	WikiPathways	30
-198802	Heart Development	WikiPathways	44
-198803	Translation Factors	WikiPathways	49
-198804	Tamoxifen metabolism	WikiPathways	19
-198805	G1 to S cell cycle control	WikiPathways	67
-198806	Androgen receptor signaling pathway	WikiPathways	86
-198807	Alpha6-Beta4 Integrin Signaling Pathway	WikiPathways	67
-198809	Cholesterol Biosynthesis	WikiPathways	15
-198810	TGF Beta Signaling Pathway	WikiPathways	54
-198811	Cell cycle	WikiPathways	88
-198812	Endochondral Ossification	WikiPathways	66
-198813	Diurnally regulated genes with circadian orthologs	WikiPathways	48
-198814	Glycolysis and Gluconeogenesis	WikiPathways	49
-198816	Integrin-mediated cell adhesion	WikiPathways	100
-198817	Mitochondrial LC-Fatty Acid Beta-Oxidation	WikiPathways	16
-198819	Signal Transduction of S1P Receptor	WikiPathways	24
-198821	Glucuronidation	WikiPathways	26
-198822	Apoptosis Modulation and Signaling	WikiPathways	80
-198823	Complement Activation, Classical Pathway	WikiPathways	17
-198824	Glutathione metabolism	WikiPathways	21
-198825	Selenium Pathway	WikiPathways	84
-198826	Kit Receptor Signaling Pathway	WikiPathways	67
-198827	DNA damage response (only ATM dependent)	WikiPathways	82
-198832	Adipogenesis	WikiPathways	132
-198833	Folate Metabolism	WikiPathways	24
-198834	MAPK Cascade	WikiPathways	29
-198835	Hedgehog Signaling Pathway	WikiPathways	22
-198836	Signaling of Hepatocyte Growth Factor Receptor	WikiPathways	33
-198837	metapathway biotransformation	WikiPathways	174
-198839	GPCRs, Class C Metabotropic glutamate, pheromone	WikiPathways	15
-198840	Blood Clotting Cascade	WikiPathways	24
-198842	Osteoblast Signaling	WikiPathways	14
-198843	mRNA processing	WikiPathways	125
-198844	ErbB signaling pathway	WikiPathways	55
-198845	Insulin Signaling	WikiPathways	160
-198846	Selenium Metabolism and Selenoproteins	WikiPathways	39
-198847	Wnt Signaling Pathway and Pluripotency	WikiPathways	99
-198848	Nuclear Receptors	WikiPathways	38
-198849	G Protein Signaling Pathways	WikiPathways	95
-198850	Tryptophan metabolism	WikiPathways	45
-198851	Monoamine Transport	WikiPathways	34
-198852	Statin Pathway	WikiPathways	29
-198853	Cytoplasmic Ribosomal Proteins	WikiPathways	90
-198856	Glycogen Metabolism	WikiPathways	35
-198857	IL-7 Signaling Pathway	WikiPathways	44
-198858	Nicotine Activity on Dopaminergic Neurons	WikiPathways	21
-198859	Triacylglyceride Synthesis	WikiPathways	24
-198860	Electron Transport Chain	WikiPathways	91
-198861	Monoamine GPCRs	WikiPathways	33
-198862	TCR Signaling Pathway	WikiPathways	91
-198863	Estrogen signaling pathway	WikiPathways	20
-198864	IL-6 Signaling Pathway	WikiPathways	97
-198865	Fatty Acid Beta Oxidation	WikiPathways	34
-198868	AMPK signaling	WikiPathways	68
-198869	Nucleotide GPCRs	WikiPathways	12
-198870	Oxidative phosphorylation	WikiPathways	52
-198871	Id Signaling Pathway	WikiPathways	52
-198872	Serotonin Receptor 4/6/7 and NR3C Signaling	WikiPathways	19
-198873	Fatty Acid Biosynthesis	WikiPathways	22
-198874	Regulation of Actin Cytoskeleton	WikiPathways	145
-198876	Nucleotide Metabolism	WikiPathways	20
-198877	Apoptosis Modulation by HSP70	WikiPathways	19
-198878	Serotonin Receptor 2 and ELK-SRF/GATA4 signaling	WikiPathways	17
-198879	Delta-Notch Signaling Pathway	WikiPathways	85
-198880	Complement and Coagulation Cascades	WikiPathways	50
-198881	IL-3 Signaling Pathway	WikiPathways	100
-198882	EPO Receptor Signaling	WikiPathways	26
-198883	IL-9 Signaling Pathway	WikiPathways	23
-198884	TNF-alpha/NF-kB Signaling Pathway	WikiPathways	187
-198885	IL-2 Signaling Pathway	WikiPathways	76
-198886	GPCRs, Class A Rhodopsin-like	WikiPathways	256
-198887	Nuclear receptors in lipid metabolism and toxicity	WikiPathways	33
-198888	Eicosanoid Synthesis	WikiPathways	20
-198890	Homologous recombination	WikiPathways	12
-198891	Notch Signaling Pathway	WikiPathways	46
-198892	Small Ligand GPCRs	WikiPathways	18
-198893	p38 MAPK Signaling Pathway	WikiPathways	34
-198894	FAS pathway and Stress induction of HSP regulation	WikiPathways	38
-198896	TP53 network	WikiPathways	19
-198897	Peptide GPCRs	WikiPathways	70
-198898	Estrogen metabolism	WikiPathways	17
-198899	Sulfation Biotransformation Reaction	WikiPathways	17
-198900	Matrix Metalloproteinases	WikiPathways	30
-198901	SIDS Susceptibility Pathways	WikiPathways	157
-198903	Striated Muscle Contraction	WikiPathways	38
-198905	Irinotecan Pathway	WikiPathways	13
-198906	Calcium Regulation in the Cardiac Cell	WikiPathways	149
-198907	Energy Metabolism	WikiPathways	48
-198908	IL-1 Signaling Pathway	WikiPathways	12
-198909	B Cell Receptor Signaling Pathway	WikiPathways	157
-198910	BMP signalling and regulation	WikiPathways	12
-198912	Prostaglandin Synthesis and Regulation	WikiPathways	31
-198913	miRNAs involved in DDR	WikiPathways	15
-198915	Fatty Acid Omega Oxidation	WikiPathways	15
-198916	Oxidative Stress	WikiPathways	30
-198917	Eukaryotic Transcription Initiation	WikiPathways	42
-198918	Type II interferon signaling (IFNG)	WikiPathways	50
-199378	Ribosome biogenesis in eukaryotes	KEGG	77
-199556	Vitamin digestion and absorption	KEGG	24
-200309	Rheumatoid arthritis	KEGG	89
-205110	Interleukin-2 signaling	REACTOME	41
-205111	Interleukin-6 signaling	REACTOME	11
-205242	Meiotic Recombination	REACTOME	84
-205243	Transcriptional Regulation of White Adipocyte Differentiation	REACTOME	77
-205244	Endosomal Sorting Complex Required For Transport (ESCRT)	REACTOME	28
-212237	Mineral absorption	KEGG	51
-213306	Measles	KEGG	134
-213307	Endocrine and other factor-regulated calcium reabsorption	KEGG	49
-213780	Tuberculosis	KEGG	177
-213818	Glutamatergic synapse	KEGG	117
-217173	Influenza A	KEGG	170
-217716	Cholinergic synapse	KEGG	112
-218111	Pertussis	KEGG	74
-219801	Integrated Breast Cancer Pathway	WikiPathways	150
-219802	SREBP signalling	WikiPathways	50
-366160	Adaptive Immune System	REACTOME	609
-366161	Class I MHC mediated antigen processing & presentation	REACTOME	256
-366162	Antigen processing: Ubiquitination & Proteasome degradation	REACTOME	215
-366163	Antigen Presentation: Folding, assembly and peptide loading of class I MHC	REACTOME	24
-366164	Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways	REACTOME	50
-366165	NOD1/2 Signaling Pathway	REACTOME	34
-366166	Inflammasomes	REACTOME	18
-366167	The NLRP3 inflammasome	REACTOME	13
-366171	Cytokine Signaling in Immune system	REACTOME	280
-366221	Potassium Channels	REACTOME	101
-366224	Inwardly rectifying K+ channels	REACTOME	33
-366230	Voltage gated Potassium channels	REACTOME	43
-366231	Tandem pore domain potassium channels	REACTOME	12
-366238	Amyloids	REACTOME	82
-366240	Nonsense-Mediated Decay*	REACTOME	106
-366242	Nonsense Mediated Decay Independent of the Exon Junction Complex	REACTOME	89
-373900	Synaptic vesicle cycle	KEGG	64
-373901	HTLV-I infection	KEGG	260
-375172	Salmonella infection	KEGG	85
-377262	Fanconi anemia pathway	KEGG	53
-377263	GABAergic synapse	KEGG	89
-377873	Herpes simplex infection	KEGG	182
-413340	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG	23
-413342	Gluconeogenesis, oxaloacetate => fructose-6P	KEGG	17
-413343	Pentose phosphate pathway (Pentose phosphate cycle)	KEGG	12
-413348	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG	14
-413352	Lysine degradation, lysine => saccharopine => acetoacetyl-CoA	KEGG	11
-413353	Methionine degradation	KEGG	11
-413354	Leucine degradation, leucine => acetoacetate + acetyl-CoA	KEGG	12
-413356	N-glycan biosynthesis, complex type	KEGG	15
-413360	Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP	KEGG	12
-413361	N-glycan precursor biosynthesis	KEGG	14
-413362	O-glycan biosynthesis, mucin type core	KEGG	27
-413365	Glycosaminoglycan biosynthesis, heparan sulfate backbone	KEGG	10
-413381	beta-Oxidation	KEGG	12
-413384	Triacylglycerol biosynthesis	KEGG	17
-413387	C5 isoprenoid biosynthesis, mevalonate pathway	KEGG	10
-413388	Acylglycerol degradation	KEGG	10
-413390	Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol	KEGG	11
-413398	Ascorbate biosynthesis, animals, glucose-1P => ascorbate	KEGG	24
-413400	Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4	KEGG	22
-413407	NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria	KEGG	11
-413408	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex	KEGG	15
-413412	Immunoproteasome	KEGG	17
-413413	V-type ATPase, eukaryotes	KEGG	24
-413416	RNA polymerase III, eukaryotes	KEGG	17
-413420	Proteasome, 20S core particle	KEGG	15
-413428	BRCA1-associated genome surveillance complex (BASC)	KEGG	16
-413432	Bile acid biosynthesis, cholesterol => cholate	KEGG	12
-413434	Cytochrome c oxidase	KEGG	21
-413436	Spliceosome, U2-snRNP	KEGG	20
-413437	Spliceosome, Prp19/CDC5L complex	KEGG	14
-413438	Spliceosome, 35S U5-snRNP	KEGG	36
-413439	Aminoacyl-tRNA biosynthesis, eukaryotes	KEGG	38
-413445	Spliceosome, U4/U6.U5 tri-snRNP	KEGG	30
-413446	Methionine salvage pathway	KEGG	11
-413447	Proteasome, 19S regulatory particle (PA700)	KEGG	18
-413455	ECS complex	KEGG	12
-413468	HRD1/SEL1 ERAD complex	KEGG	12
-413469	COPII complex	KEGG	11
-413481	APC/C complex	KEGG	14
-413482	Fatty acid biosynthesis, elongation, endoplasmic reticulum	KEGG	11
-469199	Dopaminergic synapse	KEGG	129
-469200	Legionellosis	KEGG	54
-470351	Nuclear pore complex	KEGG	39
-470353	Exon junction complex (EJC)	KEGG	18
-477112	ABCA transporters in lipid homeostasis	REACTOME	17
-477115	DAG and IP3 signaling	REACTOME	33
-477118	Negative regulation of FGFR signaling	REACTOME	40
-477119	Spry regulation of FGF signaling	REACTOME	16
-477120	Signaling by SCF-KIT	REACTOME	137
-477121	Regulation of KIT signaling	REACTOME	16
-477122	Antigen processing-Cross presentation	REACTOME	78
-477124	ER-Phagosome pathway	REACTOME	64
-477126	Cross-presentation of soluble exogenous antigens (endosomes)	REACTOME	49
-477128	Growth hormone receptor signaling	REACTOME	24
-477129	Developmental Biology	REACTOME	422
-477130	Signaling by NODAL	REACTOME	19
-477132	Cell-Cell communication	REACTOME	130
-477133	Meiosis	REACTOME	115
-477134	Meiotic Synapsis	REACTOME	75
-477136	Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation	REACTOME	12
-477137	The citric acid (TCA) cycle and respiratory electron transport	REACTOME	118
-477138	BMAL1:CLOCK/NPAS2 Activates Circadian Expression	REACTOME	38
+setID	setName	source	setsize.org
 477139	G0 and Early G1	REACTOME	25
-522535	F-type ATPase, eukaryotes	KEGG	15
-523016	Transcriptional misregulation in cancer	KEGG	178
-524496	Ceramide biosynthesis	KEGG	12
-524497	Sphingosine biosynthesis	KEGG	16
-525336	Serotonergic synapse	KEGG	113
-530733	Cell Cycle	REACTOME	436
-530734	Signaling by ERBB2	REACTOME	157
-530735	SHC1 events in ERBB2 signaling*	REACTOME	25
-530738	PLCG1 events in ERBB2 signaling*	REACTOME	36
-530740	Downregulation of ERBB2:ERBB3 signaling	REACTOME	13
-530741	Signaling by ERBB4	REACTOME	148
-530742	SHC1 events in ERBB4 signaling	REACTOME	21
-530744	Nuclear signaling by ERBB4	REACTOME	40
-530746	SRP-dependent cotranslational protein targeting to membrane	REACTOME	107
-530747	O-linked glycosylation of mucins	REACTOME	60
-530748	Termination of O-glycan biosynthesis	REACTOME	23
-530750	Sphingolipid de novo biosynthesis	REACTOME	32
-530751	Glycosphingolipid metabolism	REACTOME	38
-530753	Sulfur amino acid metabolism	REACTOME	24
-530757	Defensins	REACTOME	49
-530759	Beta defensins	REACTOME	40
-530760	Antiviral mechanism by IFN-stimulated genes*	REACTOME	70
-530763	Prolactin receptor signaling	REACTOME	15
-530764	Disease	REACTOME	845
-530766	Membrane binding and targetting of GAG proteins	REACTOME	11
-530768	Signaling by EGFR in Cancer*	REACTOME	176
-530769	Signaling by constitutively active EGFR	REACTOME	19
-530772	Activation of Genes by ATF4	REACTOME	25
-537443	Retrograde endocannabinoid signaling	KEGG	102
-545274	heparan sulfate biosynthesis (late stages)	BIOCYC	21
-545276	chondroitin sulfate biosynthesis (late stages)	BIOCYC	13
-545278	heparan sulfate biosynthesis	BIOCYC	27
-545279	chondroitin sulfate biosynthesis	BIOCYC	20
-545280	dermatan sulfate biosynthesis	BIOCYC	16
-545284	NAD salvage pathway II	BIOCYC	12
-545288	superpathway of geranylgeranyldiphosphate biosynthesis I (via mevalonate)	BIOCYC	14
-545293	retinol biosynthesis	BIOCYC	17
-545294	the visual cycle I (vertebrates)	BIOCYC	15
-545309	gamma-linolenate biosynthesis II (animals)	BIOCYC	12
-545313	stearate biosynthesis I (animals)	BIOCYC	11
-545314	3-phosphoinositide biosynthesis	BIOCYC	27
-545315	D-myo-inositol-5-phosphate metabolism	BIOCYC	18
-545316	bile acid biosynthesis, neutral pathway	BIOCYC	13
-545325	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	BIOCYC	20
-545326	D-myo-inositol (1,4,5)-trisphosphate biosynthesis	BIOCYC	24
-545327	D-myo-inositol (1,4,5)-trisphosphate degradation	BIOCYC	13
-545328	D-myo-inositol (1,3,4)-trisphosphate biosynthesis	BIOCYC	15
-545332	1D-myo-inositol hexakisphosphate biosynthesis II (mammalian)	BIOCYC	15
-545349	3-phosphoinositide degradation	BIOCYC	21
-545356	melatonin degradation I	BIOCYC	11
-545359	superpathway of melatonin degradation	BIOCYC	13
-545362	purine nucleotides degradation II (aerobic)	BIOCYC	12
-546258	Cocaine addiction	KEGG	50
-547492	superpathway of inositol phosphate compounds	BIOCYC	67
-547607	Amphetamine addiction	KEGG	70
-552665	Morphine addiction	KEGG	92
-576248	Signaling by the B Cell Receptor (BCR)	REACTOME	194
-576249	Antigen Activates B Cell Receptor Leading to Generation of Second Messengers	REACTOME	32
-576250	Downstream Signaling Events Of B Cell Receptor (BCR)	REACTOME	168
-576251	Activation of NF-kappaB in B Cells	REACTOME	66
-576253	Trafficking and processing of endosomal TLR	REACTOME	13
-576254	Regulation of Complement cascade	REACTOME	13
-576255	Cytosolic sensors of pathogen-associated DNA	REACTOME	23
-576256	DAI mediated induction of type I IFNs	REACTOME	21
-576258	RIP-mediated NFkB activation via DAI	REACTOME	19
-576259	Circadian Repression of Expression by REV-ERBA	REACTOME	25
-576260	RORA Activates Circadian Expression	REACTOME	26
-576261	Mitochondrial Protein Import	REACTOME	51
-576262	Extracellular matrix organization	REACTOME	93
-576263	Degradation of the extracellular matrix*	REACTOME	29
-576265	Pre-NOTCH Expression and Processing	REACTOME	47
-576266	Pre-NOTCH Transcription and Translation	REACTOME	29
-576268	Pre-NOTCH Processing in Golgi	REACTOME	20
-576269	Signaling by NOTCH1	REACTOME	73
-576270	Activated NOTCH1 Transmits Signal to the Nucleus	REACTOME	31
-576271	NOTCH1 Intracellular Domain Regulates Transcription	REACTOME	47
-576272	Signaling by NOTCH2	REACTOME	12
-576273	Signaling by NOTCH3	REACTOME	12
-576274	Signaling by NOTCH4	REACTOME	12
-576275	Signaling by Hippo	REACTOME	20
-576276	YAP1- and WWTR1 (TAZ)-stimulated gene expression	REACTOME	26
-583255	Nicotine addiction	KEGG	40
-585562	Epstein-Barr virus infection	KEGG	199
-585563	Alcoholism	KEGG	179
-618580	Adenine ribonucleotide biosynthesis, IMP => ADP,ATP	KEGG	19
-618581	Guanine ribonucleotide biosynthesis IMP => GDP,GTP	KEGG	14
-634527	NF-kappa B signaling pathway	KEGG	91
-645258	Cellular responses to stress*	REACTOME	25
-645262	Oxygen-dependent Proline Hydroxylation of Hypoxia-inducible Factor Alpha	REACTOME	18
-645264	Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	REACTOME	41
-645265	SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	REACTOME	29
-645266	Downregulation of SMAD2/3:SMAD4 transcriptional activity	REACTOME	23
-645267	Latent infection of Homo sapiens with Mycobacterium tuberculosis*	REACTOME	33
-645274	Signaling by FGFR in disease	REACTOME	171
-645275	Signaling by FGFR mutants	REACTOME	45
-645276	Signaling by FGFR1 mutants	REACTOME	30
-645278	Signaling by FGFR1 fusion mutants	REACTOME	19
-645288	Collagen formation*	REACTOME	65
-645290	MHC class II antigen presentation	REACTOME	100
-645291	The activation of arylsulfatases	REACTOME	13
-645292	TGF-beta receptor signaling activates SMADs	REACTOME	28
-645293	Downregulation of TGF-beta receptor signaling	REACTOME	25
-645294	TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)	REACTOME	16
-645295	Gastrin-CREB signalling pathway via PKC and MAPK	REACTOME	210
-645297	Glycosaminoglycan metabolism*	REACTOME	111
-645298	Hyaluronan metabolism	REACTOME	14
-645301	Keratan sulfate/keratin metabolism	REACTOME	31
-645302	Keratan sulfate biosynthesis	REACTOME	27
-645303	Keratan sulfate degradation	REACTOME	11
-645304	Heparan sulfate/heparin (HS-GAG) metabolism	REACTOME	52
-645305	A tetrasaccharide linker sequence is required for GAG synthesis	REACTOME	26
-645306	HS-GAG biosynthesis	REACTOME	30
-645307	HS-GAG degradation	REACTOME	20
-645308	Chondroitin sulfate/dermatan sulfate metabolism	REACTOME	49
-645309	Chondroitin sulfate biosynthesis	REACTOME	21
-645311	CS/DS degradation	REACTOME	13
-645312	Phospholipid metabolism	REACTOME	206
-645313	Glycerophospholipid biosynthesis	REACTOME	87
-645314	Synthesis of PA	REACTOME	29
-645316	Synthesis of PE	REACTOME	12
-645317	Acyl chain remodelling of PE	REACTOME	24
-645319	Synthesis of PC	REACTOME	18
-645321	Acyl chain remodelling of PC	REACTOME	26
-645324	Acyl chain remodelling of PS	REACTOME	18
-645326	Acyl chain remodelling of PI	REACTOME	16
-645328	Acyl chain remodelling of PG	REACTOME	18
-645332	PI Metabolism	REACTOME	50
-645334	Synthesis of PIPs at the Golgi membrane	REACTOME	17
-645336	Synthesis of PIPs at the plasma membrane	REACTOME	33
-645338	Synthesis of PIPs at the early endosome membrane	REACTOME	13
-645341	Synthesis of PIPs at the late endosome membrane	REACTOME	10
-645343	alpha-linolenic (omega3) and linoleic (omega6) acid metabolism*	REACTOME	12
-645349	Abacavir transport and metabolism	REACTOME	10
-645352	Reversible Hydration of Carbon Dioxide	REACTOME	12
-658418	Viral carcinogenesis	KEGG	205
-672445	Integrated Pancreatic Cancer Pathway*	WikiPathways	194
-672446	TSH signaling pathway	WikiPathways	64
-672447	RANKL/RANK Signaling Pathway	WikiPathways	54
-672448	Alzheimers Disease	WikiPathways	79
-672449	miRs in Muscle Cell Differentiation	WikiPathways	30
-672450	Integrated Cancer pathway	WikiPathways	35
-672451	TSLP Signaling Pathway	WikiPathways	37
-672452	TWEAK Signaling Pathway	WikiPathways	43
-672453	Endothelin	WikiPathways	33
-672454	Arrhythmogenic right ventricular cardiomyopathy*	WikiPathways	75
-672455	FSH signaling pathway	WikiPathways	28
-672456	Leptin signaling pathway	WikiPathways	60
-672457	Synaptic Vesicle Pathway	WikiPathways	51
-672458	Signaling Pathways in Glioblastoma	WikiPathways	80
-672460	Neural Crest Differentiation	WikiPathways	102
-672461	iron metabolism in placenta	WikiPathways	12
-672462	Prolactin Signaling Pathway	WikiPathways	75
-672464	SRF and miRs in Smooth Muscle Differentiation and Proliferation	WikiPathways	12
-672815	eicosapentaenoate biosynthesis II (metazoa)	BIOCYC	10
-673221	Chemical carcinogenesis	KEGG	82
-685535	Constitutive PI3K/AKT Signaling in Cancer	REACTOME	86
-685549	DAP12 interactions	REACTOME	170
-685550	DAP12 signaling	REACTOME	156
-685551	Regulation of Cholesterol Biosynthesis by SREBP (SREBF)	REACTOME	54
-685552	Activation of Gene Expression by SREBP (SREBF)	REACTOME	41
-685553	Arachidonic acid metabolism	REACTOME	17
-685554	Translocation of GLUT4 to the Plasma Membrane	REACTOME	53
-685555	Metabolism of Angiotensinogen to Angiotensins	REACTOME	12
-692234	PI3K-Akt signaling pathway	KEGG	336
-694606	Hepatitis B	KEGG	147
-695200	HIF-1 signaling pathway	KEGG	110
-698753	Interleukin-11 Signaling Pathway	WikiPathways	40
-698754	AGE/RAGE pathway	WikiPathways	66
-698755	Drug Induction of Bile Acid Pathway	WikiPathways	17
-698757	Deregulation of Rab and Rab Effector Genes in Bladder Cancer	WikiPathways	16
-698773	Circadian entrainment	KEGG	96
-700638	Parkin-Ubiquitin Proteasomal System pathway	WikiPathways	70
-703093	superpathway of citrulline metabolism	BIOCYC	14
-705377	Parkinsons Disease Pathway	WikiPathways	38
+477138	BMAL1:CLOCK/NPAS2 Activates Circadian Expression	REACTOME	38
+477137	The citric acid (TCA) cycle and respiratory electron transport	REACTOME	118
+477136	Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation	REACTOME	12
+477134	Meiotic Synapsis	REACTOME	75
+477133	Meiosis	REACTOME	115
+477132	Cell-Cell communication	REACTOME	130
+477130	Signaling by NODAL	REACTOME	19
+477129	Developmental Biology	REACTOME	422
+477128	Growth hormone receptor signaling	REACTOME	24
+477126	Cross-presentation of soluble exogenous antigens (endosomes)	REACTOME	49
+477124	ER-Phagosome pathway	REACTOME	64
+477122	Antigen processing-Cross presentation	REACTOME	78
+477121	Regulation of KIT signaling	REACTOME	16
+477120	Signaling by SCF-KIT	REACTOME	137
+477119	Spry regulation of FGF signaling	REACTOME	16
+477118	Negative regulation of FGFR signaling	REACTOME	40
+477115	DAG and IP3 signaling	REACTOME	33
+477112	ABCA transporters in lipid homeostasis	REACTOME	17
+470353	Exon junction complex (EJC)	KEGG	18
+470351	Nuclear pore complex	KEGG	39
+469200	Legionellosis	KEGG	54
+469199	Dopaminergic synapse	KEGG	129
+413482	Fatty acid biosynthesis, elongation, endoplasmic reticulum	KEGG	11
+413481	APC/C complex	KEGG	14
+413469	COPII complex	KEGG	11
+413468	HRD1/SEL1 ERAD complex	KEGG	12
+413455	ECS complex	KEGG	12
+413447	Proteasome, 19S regulatory particle (PA700)	KEGG	18
+413446	Methionine salvage pathway	KEGG	11
+413445	Spliceosome, U4/U6.U5 tri-snRNP	KEGG	30
+413439	Aminoacyl-tRNA biosynthesis, eukaryotes	KEGG	38
+413438	Spliceosome, 35S U5-snRNP	KEGG	36
+413437	Spliceosome, Prp19/CDC5L complex	KEGG	14
+413436	Spliceosome, U2-snRNP	KEGG	20
+413434	Cytochrome c oxidase	KEGG	21
+413432	Bile acid biosynthesis, cholesterol => cholate	KEGG	12
+413428	BRCA1-associated genome surveillance complex (BASC)	KEGG	16
+413420	Proteasome, 20S core particle	KEGG	15
+413416	RNA polymerase III, eukaryotes	KEGG	17
+413413	V-type ATPase, eukaryotes	KEGG	24
+413412	Immunoproteasome	KEGG	17
+413408	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex	KEGG	15
+413407	NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria	KEGG	11
+413400	Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4	KEGG	22
+413398	Ascorbate biosynthesis, animals, glucose-1P => ascorbate	KEGG	24
+413390	Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol	KEGG	11
+413388	Acylglycerol degradation	KEGG	10
+413387	C5 isoprenoid biosynthesis, mevalonate pathway	KEGG	10
+413384	Triacylglycerol biosynthesis	KEGG	17
+413381	beta-Oxidation	KEGG	12
+413365	Glycosaminoglycan biosynthesis, heparan sulfate backbone	KEGG	10
+413362	O-glycan biosynthesis, mucin type core	KEGG	27
+413361	N-glycan precursor biosynthesis	KEGG	14
+413360	Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP	KEGG	12
+413356	N-glycan biosynthesis, complex type	KEGG	15
+413354	Leucine degradation, leucine => acetoacetate + acetyl-CoA	KEGG	12
+413353	Methionine degradation	KEGG	11
+413352	Lysine degradation, lysine => saccharopine => acetoacetyl-CoA	KEGG	11
+413348	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG	14
+413343	Pentose phosphate pathway (Pentose phosphate cycle)	KEGG	12
+413342	Gluconeogenesis, oxaloacetate => fructose-6P	KEGG	17
+413340	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG	23
+377873	Herpes simplex infection	KEGG	182
+377263	GABAergic synapse	KEGG	89
+377262	Fanconi anemia pathway	KEGG	53
+375172	Salmonella infection	KEGG	85
+373901	HTLV-I infection	KEGG	260
+373900	Synaptic vesicle cycle	KEGG	64
+366242	Nonsense Mediated Decay Independent of the Exon Junction Complex	REACTOME	89
+366240	Nonsense-Mediated Decay*	REACTOME	106
+366238	Amyloids	REACTOME	82
+366231	Tandem pore domain potassium channels	REACTOME	12
+366230	Voltage gated Potassium channels	REACTOME	43
+366224	Inwardly rectifying K+ channels	REACTOME	33
+366221	Potassium Channels	REACTOME	101
+366171	Cytokine Signaling in Immune system	REACTOME	280
+366167	The NLRP3 inflammasome	REACTOME	13
+366166	Inflammasomes	REACTOME	18
+366165	NOD1/2 Signaling Pathway	REACTOME	34
+366164	Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways	REACTOME	50
+366163	Antigen Presentation: Folding, assembly and peptide loading of class I MHC	REACTOME	24
+366162	Antigen processing: Ubiquitination & Proteasome degradation	REACTOME	215
+366161	Class I MHC mediated antigen processing & presentation	REACTOME	256
+366160	Adaptive Immune System	REACTOME	609
+219802	SREBP signalling	WikiPathways	50
+219801	Integrated Breast Cancer Pathway	WikiPathways	150
+218111	Pertussis	KEGG	74
+217716	Cholinergic synapse	KEGG	112
+217173	Influenza A	KEGG	170
+213818	Glutamatergic synapse	KEGG	117
+213780	Tuberculosis	KEGG	177
+213307	Endocrine and other factor-regulated calcium reabsorption	KEGG	49
+213306	Measles	KEGG	134
+212237	Mineral absorption	KEGG	51
+205244	Endosomal Sorting Complex Required For Transport (ESCRT)	REACTOME	28
+205243	Transcriptional Regulation of White Adipocyte Differentiation	REACTOME	77
+205242	Meiotic Recombination	REACTOME	84
+205111	Interleukin-6 signaling	REACTOME	11
+205110	Interleukin-2 signaling	REACTOME	41
+200309	Rheumatoid arthritis	KEGG	89
+199556	Vitamin digestion and absorption	KEGG	24
+199378	Ribosome biogenesis in eukaryotes	KEGG	77
+198918	Type II interferon signaling (IFNG)	WikiPathways	50
+198917	Eukaryotic Transcription Initiation	WikiPathways	42
+198916	Oxidative Stress	WikiPathways	30
+198915	Fatty Acid Omega Oxidation	WikiPathways	15
+198913	miRNAs involved in DDR	WikiPathways	15
+198912	Prostaglandin Synthesis and Regulation	WikiPathways	31
+198910	BMP signalling and regulation	WikiPathways	12
+198909	B Cell Receptor Signaling Pathway	WikiPathways	157
+198908	IL-1 Signaling Pathway	WikiPathways	12
+198907	Energy Metabolism	WikiPathways	48
+198906	Calcium Regulation in the Cardiac Cell	WikiPathways	149
+198905	Irinotecan Pathway	WikiPathways	13
+198903	Striated Muscle Contraction	WikiPathways	38
+198901	SIDS Susceptibility Pathways	WikiPathways	157
+198900	Matrix Metalloproteinases	WikiPathways	30
+198899	Sulfation Biotransformation Reaction	WikiPathways	17
+198898	Estrogen metabolism	WikiPathways	17
+198897	Peptide GPCRs	WikiPathways	70
+198896	TP53 network	WikiPathways	19
+198894	FAS pathway and Stress induction of HSP regulation	WikiPathways	38
+198893	p38 MAPK Signaling Pathway	WikiPathways	34
+198892	Small Ligand GPCRs	WikiPathways	18
+198891	Notch Signaling Pathway	WikiPathways	46
+198890	Homologous recombination	WikiPathways	12
+198888	Eicosanoid Synthesis	WikiPathways	20
+198887	Nuclear receptors in lipid metabolism and toxicity	WikiPathways	33
+198886	GPCRs, Class A Rhodopsin-like	WikiPathways	256
+198885	IL-2 Signaling Pathway	WikiPathways	76
+198884	TNF-alpha/NF-kB Signaling Pathway	WikiPathways	187
+198883	IL-9 Signaling Pathway	WikiPathways	23
+198882	EPO Receptor Signaling	WikiPathways	26
+198881	IL-3 Signaling Pathway	WikiPathways	100
+198880	Complement and Coagulation Cascades	WikiPathways	50
+198879	Delta-Notch Signaling Pathway	WikiPathways	85
+198878	Serotonin Receptor 2 and ELK-SRF/GATA4 signaling	WikiPathways	17
+198877	Apoptosis Modulation by HSP70	WikiPathways	19
+198876	Nucleotide Metabolism	WikiPathways	20
+198874	Regulation of Actin Cytoskeleton	WikiPathways	145
+198873	Fatty Acid Biosynthesis	WikiPathways	22
+198872	Serotonin Receptor 4/6/7 and NR3C Signaling	WikiPathways	19
+198871	Id Signaling Pathway	WikiPathways	52
+198870	Oxidative phosphorylation	WikiPathways	52
+198869	Nucleotide GPCRs	WikiPathways	12
+198868	AMPK signaling	WikiPathways	68
+198865	Fatty Acid Beta Oxidation	WikiPathways	34
+198864	IL-6 Signaling Pathway	WikiPathways	97
+198863	Estrogen signaling pathway	WikiPathways	20
+198862	TCR Signaling Pathway	WikiPathways	91
+198861	Monoamine GPCRs	WikiPathways	33
+198860	Electron Transport Chain	WikiPathways	91
+198859	Triacylglyceride Synthesis	WikiPathways	24
+198858	Nicotine Activity on Dopaminergic Neurons	WikiPathways	21
+198857	IL-7 Signaling Pathway	WikiPathways	44
+198856	Glycogen Metabolism	WikiPathways	35
+198853	Cytoplasmic Ribosomal Proteins	WikiPathways	90
+198852	Statin Pathway	WikiPathways	29
+198851	Monoamine Transport	WikiPathways	34
+198850	Tryptophan metabolism	WikiPathways	45
+198849	G Protein Signaling Pathways	WikiPathways	95
+198848	Nuclear Receptors	WikiPathways	38
+198847	Wnt Signaling Pathway and Pluripotency	WikiPathways	99
+198846	Selenium Metabolism and Selenoproteins	WikiPathways	39
+198845	Insulin Signaling	WikiPathways	160
+198844	ErbB signaling pathway	WikiPathways	55
+198843	mRNA processing	WikiPathways	125
+198842	Osteoblast Signaling	WikiPathways	14
+198840	Blood Clotting Cascade	WikiPathways	24
+198839	GPCRs, Class C Metabotropic glutamate, pheromone	WikiPathways	15
+198837	metapathway biotransformation	WikiPathways	174
+198836	Signaling of Hepatocyte Growth Factor Receptor	WikiPathways	33
+198835	Hedgehog Signaling Pathway	WikiPathways	22
+198834	MAPK Cascade	WikiPathways	29
+198833	Folate Metabolism	WikiPathways	24
+198832	Adipogenesis	WikiPathways	132
+198827	DNA damage response (only ATM dependent)	WikiPathways	82
+198826	Kit Receptor Signaling Pathway	WikiPathways	67
+198825	Selenium Pathway	WikiPathways	84
+198824	Glutathione metabolism	WikiPathways	21
+198823	Complement Activation, Classical Pathway	WikiPathways	17
+198822	Apoptosis Modulation and Signaling	WikiPathways	80
+198821	Glucuronidation	WikiPathways	26
+198819	Signal Transduction of S1P Receptor	WikiPathways	24
+198817	Mitochondrial LC-Fatty Acid Beta-Oxidation	WikiPathways	16
+198816	Integrin-mediated cell adhesion	WikiPathways	100
+198814	Glycolysis and Gluconeogenesis	WikiPathways	49
+198813	Diurnally regulated genes with circadian orthologs	WikiPathways	48
+198812	Endochondral Ossification	WikiPathways	66
+198811	Cell cycle	WikiPathways	88
+198810	TGF Beta Signaling Pathway	WikiPathways	54
+198809	Cholesterol Biosynthesis	WikiPathways	15
+198807	Alpha6-Beta4 Integrin Signaling Pathway	WikiPathways	67
+198806	Androgen receptor signaling pathway	WikiPathways	86
+198805	G1 to S cell cycle control	WikiPathways	67
+198804	Tamoxifen metabolism	WikiPathways	19
+198803	Translation Factors	WikiPathways	49
+198802	Heart Development	WikiPathways	44
+198801	Ovarian Infertility Genes	WikiPathways	30
+198800	G13 Signaling Pathway	WikiPathways	39
+198799	Wnt Signaling Pathway NetPath	WikiPathways	112
+198797	Apoptosis	WikiPathways	83
+198795	Focal Adhesion	WikiPathways	185
+198794	Cytokines and Inflammatory Response	WikiPathways	25
+198793	Biogenic Amine Synthesis	WikiPathways	14
+198792	NOD pathway	WikiPathways	39
+198791	Type II diabetes mellitus	WikiPathways	21
+198790	EBV LMP1 signaling	WikiPathways	22
+198789	Wnt Signaling Pathway	WikiPathways	60
+198788	DNA damage response	WikiPathways	67
+198787	TCA Cycle	WikiPathways	31
+198786	Proteasome Degradation	WikiPathways	63
+198785	Vitamin A and carotenoid metabolism	WikiPathways	40
+198784	MicroRNAs in cardiomyocyte hypertrophy	WikiPathways	85
+198783	Alanine and aspartate metabolism	WikiPathways	12
+198782	EGFR1 Signaling Pathway	WikiPathways	177
+198781	GPCRs, Class B Secretin-like	WikiPathways	23
+198780	Senescence and Autophagy	WikiPathways	98
+198779	MAPK signaling pathway	WikiPathways	162
+198778	Fluoropyrimidine Activity	WikiPathways	33
+198777	Keap1-Nrf2 Pathway	WikiPathways	13
+198776	Hypothetical Network for Drug Addiction	WikiPathways	32
+198774	TGF-beta Receptor Signaling Pathway	WikiPathways	152
+198773	cytochrome P450	WikiPathways	61
+198772	Angiogenesis	WikiPathways	23
+198771	DNA Replication	WikiPathways	41
+198770	IL-5 Signaling Pathway	WikiPathways	69
+198769	Osteoclast Signaling	WikiPathways	15
+198766	Inflammatory Response Pathway	WikiPathways	30
+198765	GPCRs, Other	WikiPathways	87
+198763	ACE Inhibitor Pathway	WikiPathways	17
+198762	TOR signaling	WikiPathways	34
+198761	Osteopontin Signaling	WikiPathways	11
+198760	IL-4 signaling Pathway	WikiPathways	63
+198759	Myometrial Relaxation and Contraction Pathways	WikiPathways	155
+198758	Urea cycle and metabolism of amino groups	WikiPathways	20
+198757	Mitochondrial Gene Expression	WikiPathways	12
+198756	One Carbon Metabolism	WikiPathways	29
+194385	Fat digestion and absorption	KEGG	41
+194384	African trypanosomiasis	KEGG	34
+193328	mRNA surveillance pathway	KEGG	89
+193147	Osteoclast differentiation	KEGG	132
+193146	Bile secretion	KEGG	71
+187229	DSCAM interactions	REACTOME	11
+187228	Nephrin interactions	REACTOME	23
+187226	N-Glycan antennae elongation	REACTOME	15
+187223	N-glycan antennae elongation in the medial/trans-Golgi	REACTOME	20
+187220	Transport to the Golgi and subsequent modification	REACTOME	36
+187217	N-glycan trimming in the ER and Calnexin/Calreticulin cycle	REACTOME	13
+187215	Destabilization of mRNA by KSRP	REACTOME	17
+187214	Destabilization of mRNA by Tristetraprolin (TTP)	REACTOME	17
+187213	Destabilization of mRNA by Butyrate Response Factor 1 (BRF1)	REACTOME	17
+187212	Destabilization of mRNA by AUF1 (hnRNP D0)	REACTOME	54
+187211	Regulation of mRNA Stability by Proteins that Bind AU-rich Elements	REACTOME	88
+187209	Signal regulatory protein (SIRP) family interactions	REACTOME	13
+187205	GP1b-IX-V activation signalling	REACTOME	10
+187204	Platelet sensitization by LDL	REACTOME	17
+187202	Platelet calcium homeostasis	REACTOME	19
+187201	cGMP effects	REACTOME	21
+187200	Nitric oxide stimulates guanylate cyclase	REACTOME	27
+187199	Prostacyclin signalling through prostacyclin receptor	REACTOME	21
+187198	Platelet homeostasis	REACTOME	83
+187197	Kinesins	REACTOME	26
+187196	Factors involved in megakaryocyte development and platelet production	REACTOME	135
+187195	Ligand-gated ion channel transport	REACTOME	25
+187194	Ion transport by P-type ATPases	REACTOME	36
+187193	Ion channel transport	REACTOME	61
+187192	Transferrin endocytosis and recycling	REACTOME	27
+187191	Iron uptake and transport	REACTOME	39
+187189	Regulation of Water Balance by Renal Aquaporins	REACTOME	45
+187188	Passive Transport by Aquaporins	REACTOME	11
+187187	Aquaporin-mediated transport	REACTOME	52
+187186	Transport of organic anions	REACTOME	11
+187183	Inhibition of voltage gated Ca2+ channels via Gbeta/gamma subunits*	REACTOME	27
+187180	GABA B receptor activation*	REACTOME	40
+187179	GABA A receptor activation	REACTOME	12
+187178	GABA receptor activation	REACTOME	55
+187174	GABA synthesis, release, reuptake and degradation	REACTOME	19
+187173	Circadian Clock	REACTOME	56
+187172	Synthesis, Secretion, and Inactivation of Glucose-dependent Insulinotropic Polypeptide (GIP)	REACTOME	13
+187171	Synthesis, Secretion, and Inactivation of Glucagon-like Peptide-1 (GLP-1)	REACTOME	20
+187170	Incretin Synthesis, Secretion, and Inactivation	REACTOME	23
+187108	Rap1 signalling	REACTOME	16
+187107	Regulation of IFNG signaling	REACTOME	14
+187106	Interferon gamma signaling	REACTOME	67
+187105	Regulation of IFNA signaling	REACTOME	25
+187104	Interferon alpha/beta signaling	REACTOME	64
+187103	Interferon Signaling	REACTOME	166
+187102	Negative regulators of RIG-I/MDA5 signaling	REACTOME	33
+187101	TRAF6 mediated NF-kB activation	REACTOME	22
+187100	TRAF6 mediated IRF7 activation	REACTOME	30
+187099	NF-kB activation through FADD/RIP-1 pathway mediated by caspase-8 and -10	REACTOME	12
+187098	TRAF3-dependent IRF activation pathway	REACTOME	14
+187097	RIG-I/MDA5 mediated induction of IFN-alpha/beta pathways	REACTOME	76
+187096	Regulation of signaling by CBL	REACTOME	18
+187095	Interleukin receptor SHC signaling	REACTOME	27
+187094	Interleukin-3, 5 and GM-CSF signaling	REACTOME	44
+187092	Advanced glycosylation endproduct receptor signaling	REACTOME	13
+187091	TRAF6 mediated induction of TAK1 complex	REACTOME	16
+187090	IKK complex recruitment mediated by RIP1	REACTOME	11
+187088	Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon	REACTOME	16
+187085	TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling	REACTOME	13
+187084	IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation*	REACTOME	10
+187083	IRAK1 recruits IKK complex upon TLR7/8 or 9 stimulation*	REACTOME	12
+177876	RNA transport	KEGG	156
+173973	Hepatitis C	KEGG	131
+172847	Protein digestion and absorption	KEGG	87
+172846	Staphylococcus aureus infection	KEGG	53
+170720	Carbohydrate digestion and absorption	KEGG	44
+169642	Toxoplasmosis	KEGG	116
+169356	RhoA signaling pathway	Pathway Interaction Database	41
+169355	RAC1 signaling pathway	Pathway Interaction Database	54
+169354	Noncanonical Wnt signaling pathway	Pathway Interaction Database	30
+169353	Validated targets of C-MYC transcriptional repression	Pathway Interaction Database	61
+169352	Regulation of Wnt-mediated beta catenin signaling and target gene transcription	Pathway Interaction Database	78
+169351	Validated targets of C-MYC transcriptional activation	Pathway Interaction Database	81
+169350	Signaling events mediated by TCPTP	Pathway Interaction Database	36
+169349	Validated transcriptional targets of AP1 family members Fra1 and Fra2	Pathway Interaction Database	34
+169348	Signaling events mediated by focal adhesion kinase	Pathway Interaction Database	54
+169347	Notch-mediated HES/HEY network	Pathway Interaction Database	48
+169346	Regulation of RAC1 activity	Pathway Interaction Database	39
+169345	Notch signaling pathway	Pathway Interaction Database	58
+169344	C-MYC pathway	Pathway Interaction Database	22
+169306	Pancreatic secretion	KEGG	95
+167325	Protein processing in endoplasmic reticulum	KEGG	167
+167324	Amoebiasis	KEGG	108
+161075	Transport of vitamins, nucleosides, and related molecules	REACTOME	31
+161072	Organic cation/anion/zwitterion transport	REACTOME	13
+161070	Na+/Cl- dependent neurotransmitter transporters	REACTOME	18
+161067	Zinc transporters	REACTOME	17
+161066	Metal ion SLC transporters	REACTOME	25
+161063	Thrombin signalling through proteinase activated receptors (PARs)	REACTOME	34
+161062	Thromboxane signalling through TP receptor	REACTOME	25
+161061	ADP signalling through P2Y purinoceptor 1	REACTOME	27
+161060	ADP signalling through P2Y purinoceptor 12	REACTOME	23
+161059	Signal amplification	REACTOME	33
+161057	Synthesis and interconversion of nucleotide di- and triphosphates	REACTOME	19
+161051	HIV-1 elongation arrest and recovery*	REACTOME	31
+161049	Nucleosome assembly*	REACTOME	63
+161048	Chromosome Maintenance	REACTOME	122
+161047	Presynaptic function of Kainate receptors	REACTOME	23
+161044	Ionotropic activity of Kainate Receptors*	REACTOME	12
+161043	Activation of Kainate Receptors upon glutamate binding	REACTOME	34
+161040	CREB phosphorylation through the activation of CaMKII	REACTOME	17
+161037	Ras activation uopn Ca2+ infux through NMDA receptor	REACTOME	19
+161036	CREB phosphorylation through the activation of Ras	REACTOME	29
+161035	Post NMDA receptor activation events	REACTOME	35
+161034	Unblocking of NMDA receptor, glutamate binding and activation	REACTOME	17
+161033	Activation of NMDA receptor upon glutamate binding and postsynaptic events	REACTOME	39
+161032	Highly calcium permeable postsynaptic nicotinic acetylcholine receptors	REACTOME	12
+161028	Presynaptic nicotinic acetylcholine receptors	REACTOME	12
+161025	Smooth Muscle Contraction	REACTOME	24
+161020	GPCR ligand binding	REACTOME	409
+161015	Synthesis of substrates in N-glycan biosythesis	REACTOME	16
+161014	Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein	REACTOME	30
+161013	Asparagine N-linked glycosylation	REACTOME	85
+161012	Post-translational protein modification	REACTOME	193
+161006	Signal transduction by L1	REACTOME	36
+161005	Interaction between L1 and Ankyrins	REACTOME	26
+161004	Recycling pathway of L1	REACTOME	28
+161003	L1CAM interactions	REACTOME	94
+161002	Role of second messengers in netrin-1 signaling	REACTOME	10
+161001	Netrin mediated repulsion signals	REACTOME	10
+161000	DCC mediated attractive signaling	REACTOME	14
+160999	Netrin-1 signaling	REACTOME	42
+160997	Myogenesis*	REACTOME	30
+160996	mRNA Decay by 5' to 3' Exoribonuclease	REACTOME	15
+160994	Deadenylation of mRNA	REACTOME	23
+160993	Deadenylation-dependent mRNA decay	REACTOME	49
+160983	Amine-derived hormones	REACTOME	15
+160978	Synthesis of very long-chain fatty acyl-CoAs	REACTOME	14
+160977	Fatty acid, triacylglycerol, and ketone body metabolism	REACTOME	183
+160976	Metabolism of lipids and lipoproteins	REACTOME	529
+160975	Signal attenuation	REACTOME	14
+160973	Regulation of AMPK activity via LKB1	REACTOME	14
+160972	Energy dependent regulation of mTOR by LKB1-AMPK	REACTOME	17
+160971	Heme degradation	REACTOME	13
+160967	Cell-extracellular matrix interactions	REACTOME	16
+160966	Cell junction organization	REACTOME	84
+160962	Respiratory electron transport	REACTOME	66
+160960	SHC-mediated cascade	REACTOME	29
+160959	Phospholipase C-mediated cascade	REACTOME	56
+160958	FRS2-mediated cascade	REACTOME	38
+160957	Downstream signaling of activated FGFR	REACTOME	143
+160954	Processing of Intronless Pre-mRNAs	REACTOME	14
+160953	SLBP independent Processing of Histone Pre-mRNAs	REACTOME	10
+160952	SLBP Dependent Processing of Replication-Dependent Histone Pre-mRNAs	REACTOME	11
+160951	Processing of Capped Intronless Pre-mRNA	REACTOME	23
+160950	Processing of Capped Intron-Containing Pre-mRNA	REACTOME	138
+160948	RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription	REACTOME	126
+160943	Mitotic M-M/G1 phases	REACTOME	191
+160942	Mitotic G2-G2/M phases*	REACTOME	87
+160941	Mitotic G1-G1/S phases	REACTOME	133
+160141	Interleukin-1 signaling	REACTOME	42
+160140	Signaling by Interleukins	REACTOME	111
+160139	Activation of the AP-1 family of transcription factors	REACTOME	10
+160138	MAPK targets/ Nuclear events mediated by MAP kinases	REACTOME	30
+160137	activated TAK1 mediates p38 MAPK activation	REACTOME	17
+160136	JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1	REACTOME	16
+160135	MAP kinase activation in TLR cascade	REACTOME	49
+160134	TAK1 activates NFkB by phosphorylation and activation of IKKs complex	REACTOME	24
+154409	Gastric acid secretion	KEGG	75
+153910	Phagosome	KEGG	148
+153376	Salivary secretion	KEGG	89
+152665	Malaria	KEGG	49
+149807	Bacterial invasion of epithelial cells	KEGG	70
+149806	Phototransduction	KEGG	29
+147809	Chagas disease (American trypanosomiasis)	KEGG	104
+147586	Collecting duct acid secretion	KEGG	27
+144182	Proximal tubule bicarbonate reclamation	KEGG	23
+144181	Leishmaniasis	KEGG	70
+143700	Vasopressin-regulated water reabsorption	KEGG	45
+142463	TCA cycle II (eukaryotic)	BIOCYC	21
+142455	glycolysis I	BIOCYC	19
+142437	nicotine degradation IV	BIOCYC	12
+142435	glutathione-mediated detoxification I	BIOCYC	22
+142421	fatty acid beta-oxidation I	BIOCYC	16
+142419	phospholipases	BIOCYC	34
+142418	triacylglycerol degradation	BIOCYC	11
+142387	valine degradation I	BIOCYC	14
+142385	tryptophan degradation III (eukaryotic)	BIOCYC	11
+142373	superpathway of methionine degradation	BIOCYC	21
+142358	isoleucine degradation I	BIOCYC	14
+142285	pyrimidine deoxyribonucleotides de novo biosynthesis I	BIOCYC	15
+142284	salvage pathways of pyrimidine ribonucleotides	BIOCYC	14
+142283	pyrimidine ribonucleotides de novo biosynthesis	BIOCYC	15
+142282	pyrimidine ribonucleotides interconversion	BIOCYC	13
+142269	superpathway of cholesterol biosynthesis	BIOCYC	27
+142266	cholesterol biosynthesis II (via 24,25-dihydrolanosterol)*	BIOCYC	13
+142264	phosphatidylglycerol biosynthesis II (non-plastidic)	BIOCYC	18
+142255	CDP-diacylglycerol biosynthesis I	BIOCYC	17
+142242	triacylglycerol biosynthesis	BIOCYC	25
+142215	NAD biosynthesis II (from tryptophan)	BIOCYC	10
+142207	mevalonate pathway I	BIOCYC	12
+142180	gluconeogenesis I	BIOCYC	19
+138085	Coregulation of Androgen receptor activity	Pathway Interaction Database	57
+138081	FAS (CD95) signaling pathway	Pathway Interaction Database	35
+138080	Aurora B signaling	Pathway Interaction Database	39
+138078	p38 signaling mediated by MAPKAP kinases	Pathway Interaction Database	20
+138076	Cellular roles of Anthrax toxin	Pathway Interaction Database	22
+138074	Visual signal transduction: Rods	Pathway Interaction Database	23
+138073	C-MYB transcription factor network	Pathway Interaction Database	78
+138072	Nephrin/Neph1 signaling in the kidney podocyte	Pathway Interaction Database	26
+138071	PDGFR-beta signaling pathway	Pathway Interaction Database	54
+138070	Regulation of RhoA activity	Pathway Interaction Database	46
+138069	S1P4 pathway	Pathway Interaction Database	14
+138068	Signaling events mediated by Stem cell factor receptor (c-Kit)	Pathway Interaction Database	52
+138067	p53 pathway	Pathway Interaction Database	58
+138066	JNK signaling in the CD4+ TCR pathway	Pathway Interaction Database	13
+138064	Syndecan-4-mediated signaling events	Pathway Interaction Database	31
+138063	S1P3 pathway	Pathway Interaction Database	28
+138062	Signaling events mediated by HDAC Class II	Pathway Interaction Database	34
+138061	CD40/CD40L signaling	Pathway Interaction Database	30
+138060	Thromboxane A2 receptor signaling	Pathway Interaction Database	45
+138059	S1P2 pathway	Pathway Interaction Database	24
+138058	BCR signaling pathway	Pathway Interaction Database	66
+138057	ErbB1 downstream signaling	Pathway Interaction Database	102
+138056	Hypoxic and oxygen homeostasis regulation of HIF-1-alpha	Pathway Interaction Database	15
+138055	TCR signaling in naive CD8+ T cells	Pathway Interaction Database	49
+138054	Nectin adhesion pathway	Pathway Interaction Database	25
+138053	TNF receptor signaling pathway	Pathway Interaction Database	44
+138052	Ephrin B reverse signaling	Pathway Interaction Database	27
+138051	EPO signaling pathway	Pathway Interaction Database	33
+138050	Fc-epsilon receptor I signaling in mast cells	Pathway Interaction Database	58
+138049	PDGFR-alpha signaling pathway	Pathway Interaction Database	22
+138048	Nongenotropic Androgen signaling	Pathway Interaction Database	18
+138047	EPHB forward signaling	Pathway Interaction Database	33
+138046	Syndecan-1-mediated signaling events	Pathway Interaction Database	17
+138045	HIF-1-alpha transcription factor network	Pathway Interaction Database	65
+138044	Trk receptor signaling mediated by the MAPK pathway	Pathway Interaction Database	29
+138041	EPHA forward signaling	Pathway Interaction Database	31
+138040	IFN-gamma pathway	Pathway Interaction Database	40
+138039	Retinoic acid receptors-mediated signaling	Pathway Interaction Database	25
+138038	Arf6 downstream pathway	Pathway Interaction Database	15
+138036	FoxO family signaling	Pathway Interaction Database	47
+138034	Arf6 signaling events	Pathway Interaction Database	34
+138032	Canonical Wnt signaling pathway	Pathway Interaction Database	30
+138031	Syndecan-2-mediated signaling events	Pathway Interaction Database	33
+138030	Canonical NF-kappaB pathway	Pathway Interaction Database	23
+138029	Sumoylation by RanBP2 regulates transcriptional repression	Pathway Interaction Database	11
+138027	Regulation of Androgen receptor activity	Pathway Interaction Database	49
+138026	Insulin Pathway	Pathway Interaction Database	43
+138024	TGF-beta receptor signaling	Pathway Interaction Database	51
+138023	Ceramide signaling pathway	Pathway Interaction Database	44
+138022	Class I PI3K signaling events	Pathway Interaction Database	41
+138021	Paxillin-dependent events mediated by a4b1	Pathway Interaction Database	19
+138020	Class I PI3K signaling events mediated by Akt	Pathway Interaction Database	34
+138019	p75(NTR)-mediated signaling	Pathway Interaction Database	61
+138018	Downstream signaling in naive CD8+ T cells	Pathway Interaction Database	50
+138017	Signaling events mediated by PTP1B	Pathway Interaction Database	51
+138016	ErbB receptor signaling network	Pathway Interaction Database	14
+138015	Regulation of cytoplasmic and nuclear SMAD2/3 signaling	Pathway Interaction Database	19
+138014	Glucocorticoid receptor regulatory network	Pathway Interaction Database	82
+138013	Internalization of ErbB1	Pathway Interaction Database	34
+138012	Signaling mediated by p38-alpha and p38-beta	Pathway Interaction Database	35
+138011	CXCR3-mediated signaling events	Pathway Interaction Database	34
+138010	Glypican 1 network	Pathway Interaction Database	26
+138009	Plasma membrane estrogen receptor signaling	Pathway Interaction Database	26
+138008	a6b1 and a6b4 Integrin signaling	Pathway Interaction Database	31
+138007	PLK1 signaling events	Pathway Interaction Database	44
+138006	ATF-2 transcription factor network	Pathway Interaction Database	55
+138005	E-cadherin signaling in the nascent adherens junction	Pathway Interaction Database	33
+138002	E-cadherin signaling in keratinocytes	Pathway Interaction Database	19
+138001	mTOR signaling pathway	Pathway Interaction Database	60
+138000	IL23-mediated signaling events	Pathway Interaction Database	37
+137999	Integrins in angiogenesis	Pathway Interaction Database	46
+137998	TCR signaling in naive CD4+ T cells	Pathway Interaction Database	61
+137997	Signaling events mediated by HDAC Class I	Pathway Interaction Database	67
+137996	VEGFR3 signaling in lymphatic endothelium	Pathway Interaction Database	23
+137995	HIV-1 Nef: Negative effector of Fas and TNF-alpha	Pathway Interaction Database	35
+137994	CDC42 signaling events	Pathway Interaction Database	70
+137993	Calcineurin-regulated NFAT-dependent transcription in lymphocytes	Pathway Interaction Database	49
+137992	IGF1 pathway	Pathway Interaction Database	28
+137991	ErbB4 signaling events	Pathway Interaction Database	32
+137990	Regulation of CDC42 activity	Pathway Interaction Database	30
+137989	FGF signaling pathway	Pathway Interaction Database	47
+137988	IL2 signaling events mediated by STAT5	Pathway Interaction Database	30
+137987	Regulation of Telomerase	Pathway Interaction Database	66
+137984	Lissencephaly gene (LIS1) in neuronal migration and development	Pathway Interaction Database	31
+137981	Insulin-mediated glucose transport	Pathway Interaction Database	29
+137980	Reelin signaling pathway	Pathway Interaction Database	29
+137979	FOXA1 transcription factor network	Pathway Interaction Database	43
+137978	Circadian rhythm pathway	Pathway Interaction Database	13
+137977	Neurotrophic factor-mediated Trk receptor signaling	Pathway Interaction Database	56
+137976	IL2-mediated signaling events	Pathway Interaction Database	52
+137975	RXR and RAR heterodimerization with other nuclear receptor	Pathway Interaction Database	14
+137974	Caspase cascade in apoptosis	Pathway Interaction Database	50
+137972	Signaling events mediated by HDAC Class III	Pathway Interaction Database	39
+137971	Paxillin-independent events mediated by a4b1 and a4b7	Pathway Interaction Database	22
+137970	EGF receptor (ErbB1) signaling pathway	Pathway Interaction Database	25
+137969	Signaling events mediated by PRL	Pathway Interaction Database	23
+137968	ALK1 signaling events	Pathway Interaction Database	24
+137967	Trk receptor signaling mediated by PI3K and PLC-gamma	Pathway Interaction Database	32
+137964	Regulation of p38-alpha and p38-beta	Pathway Interaction Database	27
+137963	Regulation of nuclear SMAD2/3 signaling	Pathway Interaction Database	76
+137962	Wnt signaling network	Pathway Interaction Database	28
+137961	EPHA2 forward signaling	Pathway Interaction Database	17
+137960	Osteopontin-mediated events	Pathway Interaction Database	32
+137959	BARD1 signaling events	Pathway Interaction Database	29
+137958	Endothelins	Pathway Interaction Database	53
+137957	LKB1 signaling events	Pathway Interaction Database	42
+137956	HIF-2-alpha transcription factor network	Pathway Interaction Database	34
+137955	ErbB2/ErbB3 signaling events	Pathway Interaction Database	35
+137954	Arf6 trafficking events	Pathway Interaction Database	44
+137953	Role of Calcineurin-dependent NFAT signaling in lymphocytes	Pathway Interaction Database	51
+137952	Syndecan-3-mediated signaling events	Pathway Interaction Database	17
+137950	Signaling events mediated by the Hedgehog family	Pathway Interaction Database	22
+137949	LPA4-mediated signaling events	Pathway Interaction Database	15
+137948	BMP receptor signaling	Pathway Interaction Database	36
+137946	Atypical NF-kappaB pathway	Pathway Interaction Database	14
+137945	amb2 Integrin signaling	Pathway Interaction Database	48
+137944	IL1-mediated signaling events	Pathway Interaction Database	35
+137943	p38 MAPK signaling pathway	Pathway Interaction Database	29
+137941	Calcium signaling in the CD4+ TCR pathway	Pathway Interaction Database	28
+137940	Signaling events mediated by VEGFR1 and VEGFR2	Pathway Interaction Database	63
+137939	Direct p53 effectors	Pathway Interaction Database	134
+137938	IL2 signaling events mediated by PI3K	Pathway Interaction Database	37
+137937	S1P1 pathway	Pathway Interaction Database	20
+137936	IL12 signaling mediated by STAT4	Pathway Interaction Database	28
+137935	FOXM1 transcription factor network	Pathway Interaction Database	39
+137934	E2F transcription factor network	Pathway Interaction Database	72
+137933	IL4-mediated signaling events	Pathway Interaction Database	60
+137932	IL6-mediated signaling events	Pathway Interaction Database	43
+137931	Sphingosine 1-phosphate (S1P) pathway	Pathway Interaction Database	21
+137930	Signaling events mediated by Hepatocyte Growth Factor Receptor (c-Met)	Pathway Interaction Database	72
+137929	IL27-mediated signaling events	Pathway Interaction Database	26
+137928	LPA receptor mediated events	Pathway Interaction Database	65
+137927	Arf1 pathway	Pathway Interaction Database	18
+137926	Visual signal transduction: Cones	Pathway Interaction Database	23
+137925	Aurora A signaling	Pathway Interaction Database	31
+137924	VEGFR1 specific signals	Pathway Interaction Database	29
+137922	IL12-mediated signaling events	Pathway Interaction Database	62
+137921	Ras signaling in the CD4+ TCR pathway	Pathway Interaction Database	11
+137920	TRAIL signaling pathway	Pathway Interaction Database	25
+137919	N-cadherin signaling events	Pathway Interaction Database	33
+137918	Stabilization and expansion of the E-cadherin adherens junction	Pathway Interaction Database	40
+137917	Angiopoietin receptor Tie2-mediated signaling	Pathway Interaction Database	48
+137916	Regulation of retinoblastoma protein	Pathway Interaction Database	55
+137915	Signaling events regulated by Ret tyrosine kinase	Pathway Interaction Database	38
+137914	Presenilin action in Notch and Wnt signaling	Pathway Interaction Database	46
+137913	Alpha-synuclein signaling	Pathway Interaction Database	32
+137912	Hedgehog signaling events mediated by Gli proteins	Pathway Interaction Database	43
+137911	FOXA2 and FOXA3 transcription factor networks	Pathway Interaction Database	44
+137910	CXCR4-mediated signaling events	Pathway Interaction Database	76
+131226	Peroxisome	KEGG	79
+130626	Aldosterone-regulated sodium reabsorption	KEGG	39
+128760	Intestinal immune network for IgA production	KEGG	45
+126909	Oocyte meiosis	KEGG	112
+125138	Viral myocarditis	KEGG	68
+125137	Cytosolic DNA-sensing pathway	KEGG	62
+125136	Spliceosome	KEGG	127
+122191	NOD-like receptor signaling pathway	KEGG	57
+121494	Dilated cardiomyopathy	KEGG	90
+119572	Facilitative Na+-independent glucose transporters	REACTOME	12
+119571	Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds	REACTOME	96
+119559	Transport of inorganic cations/anions and amino acids/oligopeptides	REACTOME	96
+119558	SLC-mediated transmembrane transport	REACTOME	252
+119557	PD-1 signaling	REACTOME	21
+119556	CTLA4 inhibitory signaling	REACTOME	22
+119555	CD28 dependent Vav1 pathway	REACTOME	11
+119554	CD28 dependent PI3K/Akt signaling	REACTOME	21
+119553	CD28 co-stimulation	REACTOME	31
+119552	Costimulation by the CD28 family	REACTOME	65
+119551	G alpha (z) signalling events	REACTOME	47
+119550	G alpha (i) signalling events	REACTOME	202
+119549	G alpha (s) signalling events	REACTOME	130
+119548	GPCR downstream signaling	REACTOME	848
+119547	Lysosome Vesicle Biogenesis	REACTOME	24
+119546	Golgi Associated Vesicle Biogenesis	REACTOME	54
+119544	Regulation of Lipid Metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)*	REACTOME	122
+119543	Sphingolipid metabolism	REACTOME	70
+119541	G beta:gamma signalling through PLC beta	REACTOME	22
+119540	G beta:gamma signalling through PI3Kgamma	REACTOME	27
+119539	G-protein beta:gamma signalling	REACTOME	30
+119538	Synthesis, Secretion, and Deacylation of Ghrelin	REACTOME	17
+119535	Tight junction interactions	REACTOME	30
+119533	Adherens junctions interactions	REACTOME	29
+119532	Cell-cell junction organization	REACTOME	59
+119530	Activation of Rac	REACTOME	14
+119527	Signaling by Robo receptor	REACTOME	32
+119526	Other semaphorin interactions	REACTOME	16
+119525	CRMPs in Sema3A signaling	REACTOME	16
+119524	Sema3A PAK dependent Axon repulsion	REACTOME	15
+119523	SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion	REACTOME	14
+119522	Sema4D induced cell migration and growth-cone collapse	REACTOME	24
+119520	Sema4D in semaphorin signaling	REACTOME	29
+119519	Semaphorin interactions	REACTOME	66
+119304	Progesterone-mediated oocyte maturation	KEGG	86
+117292	RIG-I-like receptor signaling pathway	KEGG	70
+117291	RNA degradation	KEGG	71
+114229	Hypertrophic cardiomyopathy (HCM)	KEGG	83
+114228	Fc gamma R-mediated phagocytosis	KEGG	95
+114227	Dorso-ventral axis formation	KEGG	24
+106573	ABC-family proteins mediated transport	REACTOME	36
+106572	Transmembrane transport of small molecules	REACTOME	435
+106567	RNA Polymerase III Transcription Termination	REACTOME	23
+106566	RNA Polymerase III Chain Elongation	REACTOME	18
+106565	RNA Polymerase III Transcription Initiation From Type 3 Promoter	REACTOME	28
+106563	RNA Polymerase III Transcription Initiation From Type 1 Promoter*	REACTOME	27
+106562	RNA Polymerase III Transcription Initiation	REACTOME	35
+106561	RNA Polymerase III Transcription*	REACTOME	40
+106559	RNA Polymerase II Transcription Termination*	REACTOME	43
+106557	RNA Polymerase II Transcription	REACTOME	101
+106556	RNA Polymerase I Transcription Termination	REACTOME	21
+106555	RNA Polymerase I Chain Elongation	REACTOME	77
+106554	RNA Polymerase I Promoter Escape	REACTOME	20
+106553	RNA Polymerase I Transcription Initiation	REACTOME	25
+106552	RNA Polymerase I Promoter Opening	REACTOME	60
+106550	RNA Polymerase I Transcription*	REACTOME	86
+106548	Packaging Of Telomere Ends	REACTOME	49
+106547	Removal of the Flap Intermediate from the C-strand	REACTOME	10
+106546	Processive synthesis on the C-strand of the telomere	REACTOME	11
+106543	Telomere C-strand (Lagging Strand) Synthesis	REACTOME	21
+106541	Extension of Telomeres	REACTOME	27
+106540	Telomere Maintenance	REACTOME	76
+106538	Trafficking of GluR2-containing AMPA receptors	REACTOME	16
+106536	Glutamate Binding, Activation of AMPA Receptors and Synaptic Plasticity*	REACTOME	30
+106535	Acetylcholine Binding And Downstream Events*	REACTOME	15
+106534	Neurotransmitter Receptor Binding And Downstream Transmission In The Postsynaptic Cell	REACTOME	141
+106525	Acetylcholine Neurotransmitter Release Cycle	REACTOME	11
+106522	Glutamate Neurotransmitter Release Cycle	REACTOME	16
+106520	Serotonin Neurotransmitter Release Cycle*	REACTOME	12
+106519	Norepinephrine Neurotransmitter Release Cycle	REACTOME	11
+106518	Neurotransmitter Release Cycle	REACTOME	36
+106517	Depolarization of the Presynaptic Terminal Triggers the Opening of Calcium Channels	REACTOME	12
+106516	Transmission across Chemical Synapses	REACTOME	195
+106513	Neuronal System	REACTOME	288
+106512	Beta-catenin phosphorylation cascade	REACTOME	17
+106510	Signaling by Wnt*	REACTOME	68
+106506	Signaling by VEGF*	REACTOME	11
+106504	Signaling by TGF-beta Receptor Complex	REACTOME	66
+106502	Signaling by Rho GTPases*	REACTOME	126
+106501	DARPP-32 events	REACTOME	27
+106500	Adenylate cyclase inhibitory pathway*	REACTOME	13
+106499	Adenylate cyclase activating pathway	REACTOME	10
+106497	Ca-dependent events	REACTOME	30
+106495	G-protein mediated events*	REACTOME	46
+106494	G-protein activation	REACTOME	30
+106493	Opioid Signalling	REACTOME	85
+106485	Signaling by NOTCH	REACTOME	109
+106483	ERKs are inactivated	REACTOME	12
+106482	ERK/MAPK targets	REACTOME	21
+106481	Nuclear Events (kinase and transcription factor activation)	REACTOME	24
+106480	Retrograde neurotrophin signalling	REACTOME	14
+106475	AKT phosphorylates targets in the cytosol	REACTOME	13
+106471	PKA activation	REACTOME	16
+106470	PKA-mediated phosphorylation of CREB	REACTOME	17
+106468	CaM pathway*	REACTOME	28
+106467	PLC-gamma1 signalling	REACTOME	35
+106466	ARMS-mediated activation	REACTOME	17
+106465	Frs2-mediated activation	REACTOME	18
+106464	Prolonged ERK activation events	REACTOME	19
+106463	Signalling to p38 via RIT and RIN	REACTOME	15
+106462	p38MAPK events	REACTOME	13
+106461	Signalling to RAS	REACTOME	27
+106460	Signalling to ERKs	REACTOME	36
+106459	NGF signalling via TRKA from the plasma membrane	REACTOME	200
+106450	NF-kB is activated and signals survival	REACTOME	13
+106449	p75NTR recruits signalling complexes	REACTOME	13
+106448	p75NTR signals via NF-kB	REACTOME	16
+106445	NRIF signals cell death from the nucleus	REACTOME	16
+106444	NRAGE signals death through JNK	REACTOME	47
+106443	Cell death signalling via NRAGE, NRIF and NADE	REACTOME	64
+106441	p75 NTR receptor-mediated signalling	REACTOME	86
+106439	Signalling by NGF	REACTOME	284
+106438	Insulin receptor recycling	REACTOME	26
+106437	SOS-mediated signalling	REACTOME	14
+106428	PKB-mediated events*	REACTOME	28
+106427	PI3K Cascade	REACTOME	72
+106424	IRS-related events*	REACTOME	83
+106423	SHC-mediated signalling	REACTOME	15
+106421	SHC-related events	REACTOME	18
+106420	Insulin receptor signalling cascade	REACTOME	88
+106419	Signaling by Insulin receptor	REACTOME	111
+106418	Downstream TCR signaling	REACTOME	41
+106417	Generation of second messenger molecules	REACTOME	29
+106416	Translocation of ZAP-70 to Immunological synapse	REACTOME	16
+106415	Phosphorylation of CD3 and TCR zeta chains	REACTOME	18
+106414	TCR signaling	REACTOME	58
+106413	Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	REACTOME	70
+106406	Initial triggering of complement	REACTOME	14
+106405	Complement cascade	REACTOME	30
+106400	Activated TLR4 signalling	REACTOME	97
+106398	Toll Like Receptor 4 (TLR4) Cascade	REACTOME	104
+106397	Toll Like Receptor 9 (TLR9) Cascade*	REACTOME	86
+106391	Toll Like Receptor 3 (TLR3) Cascade*	REACTOME	79
+106390	MyD88:Mal cascade initiated on plasma membrane*	REACTOME	86
+106388	Toll Receptor Cascades	REACTOME	122
+106387	Innate Immune System	REACTOME	444
+106386	Immune System	REACTOME	1035
+106385	Downstream signal transduction	REACTOME	155
+106384	Signaling by PDGF	REACTOME	184
+106383	Olfactory Signaling Pathway	REACTOME	354
+106381	Class C/3 (Metabotropic glutamate/pheromone receptors)	REACTOME	15
+106380	Glucagon-type ligand receptors	REACTOME	32
+106378	Class B/2 (Secretin family receptors)	REACTOME	89
+106374	P2Y receptors	REACTOME	14
+106373	Nucleotide-like (purinergic) receptors	REACTOME	18
+106370	Eicosanoid ligand-binding receptors	REACTOME	15
+106368	Serotonin receptors	REACTOME	12
+106363	Amine ligand-binding receptors	REACTOME	41
+106359	Chemokine receptors bind chemokines	REACTOME	55
+106358	Peptide ligand-binding receptors	REACTOME	185
+106357	Class A/1 (Rhodopsin-like receptors)	REACTOME	305
+106356	Signaling by GPCR	REACTOME	964
+106355	FGFR4 ligand binding and activation	REACTOME	13
+106352	FGFR3 ligand binding and activation*	REACTOME	12
+106351	FGFR2c ligand binding and activation	REACTOME	13
+106349	FGFR2 ligand binding and activation*	REACTOME	17
+106347	FGFR1c ligand binding and activation*	REACTOME	11
+106345	FGFR1 ligand binding and activation	REACTOME	14
+106344	FGFR ligand binding and activation	REACTOME	23
+106343	Signaling by FGFR	REACTOME	156
+106342	EGFR downregulation	REACTOME	27
+106341	GAB1 signalosome*	REACTOME	102
+106340	SHC1 events in EGFR signaling*	REACTOME	15
+106336	Signaling by BMP	REACTOME	23
+106335	MicroRNA (miRNA) Biogenesis	REACTOME	23
+106334	Regulatory RNA pathways	REACTOME	26
+106332	Regulation of gene expression in beta cells	REACTOME	21
+106328	Regulation of beta-cell development	REACTOME	33
+106327	Pyruvate metabolism and Citric Acid (TCA) cycle	REACTOME	40
+106325	Metabolism of porphyrins	REACTOME	22
+106288	Pyrimidine catabolism	REACTOME	12
+106281	Pyrimidine metabolism	REACTOME	24
+106276	Purine catabolism	REACTOME	11
+106273	Purine salvage	REACTOME	13
+106266	Purine ribonucleoside monophosphate biosynthesis	REACTOME	11
+106265	Purine metabolism	REACTOME	34
+106263	Metabolism of nucleotides	REACTOME	73
+106262	Striated Muscle Contraction	REACTOME	31
+106261	Muscle contraction	REACTOME	51
+106254	Vitamin B5 (pantothenate) metabolism	REACTOME	11
+106249	Metabolism of vitamins and cofactors*	REACTOME	51
+106248	Post-chaperonin tubulin folding pathway	REACTOME	19
+106247	Association of TriC/CCT with target proteins during biosynthesis	REACTOME	29
+106245	Formation of tubulin folding intermediates by CCT/TriC	REACTOME	22
+106243	Cooperation of Prefoldin and TriC/CCT in actin and tubulin folding*	REACTOME	29
+106242	Chaperonin-mediated protein folding	REACTOME	50
+106241	Protein folding	REACTOME	55
+106238	Synthesis of glycosylphosphatidylinositol (GPI)	REACTOME	17
+106236	Post-translational modification: synthesis of GPI-anchored proteins	REACTOME	26
+106232	Gamma-carboxylation, transport, and amino-terminal cleavage of proteins	REACTOME	11
+106231	PTM: gamma carboxylation, hypusine formation and arylsulfatase activation	REACTOME	28
+106230	Metabolism of proteins	REACTOME	452
+106228	Metabolism of non-coding RNA*	REACTOME	50
+106222	Metabolism of nitric oxide*	REACTOME	19
+106212	Glycogen breakdown (glycogenolysis)	REACTOME	16
+106205	Pyruvate metabolism	REACTOME	18
+106204	Gluconeogenesis	REACTOME	31
+106203	Regulation of Glucokinase by Glucokinase Regulatory Protein	REACTOME	29
+106200	Glucose transport	REACTOME	40
+106199	Glucose metabolism	REACTOME	64
+106198	Hexose transport	REACTOME	42
+106196	Metabolism of carbohydrates	REACTOME	241
+106193	Metabolism of polyamines	REACTOME	15
+106190	Tryptophan catabolism	REACTOME	11
+106179	Branched-chain amino acid catabolism	REACTOME	18
+106176	Regulation of ornithine decarboxylase (ODC)	REACTOME	50
+106173	Amino acid synthesis and interconversion (transamination)	REACTOME	16
+106170	Amino acid transport across the plasma membrane	REACTOME	31
+106169	Metabolism of amino acids and derivatives	REACTOME	199
+106165	trans-Golgi Network Vesicle Budding*	REACTOME	61
+106160	Membrane Trafficking	REACTOME	183
+106158	HDL-mediated lipid transport	REACTOME	15
+106157	Chylomicron-mediated lipid transport	REACTOME	17
+106156	Lipoprotein metabolism	REACTOME	29
+106150	Metabolism of steroid hormones and vitamins A and D	REACTOME	36
+106149	Recycling of bile acids and salts	REACTOME	11
+106147	Synthesis of bile acids and bile salts via 24-hydroxycholesterol	REACTOME	11
+106146	Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol	REACTOME	16
+106145	Synthesis of bile acids and bile salts	REACTOME	20
+106144	Bile acid and bile salt metabolism	REACTOME	28
+106142	Cholesterol biosynthesis	REACTOME	22
+106136	Peroxisomal lipid metabolism	REACTOME	21
+106122	Mitochondrial Fatty Acid Beta-Oxidation	REACTOME	14
+106115	Fatty Acyl-CoA Biosynthesis	REACTOME	18
+106114	Triglyceride Biosynthesis	REACTOME	38
+106111	Lipid digestion, mobilization, and transport	REACTOME	48
+106110	Integrin cell surface interactions	REACTOME	85
+106109	Regulation of pyruvate dehydrogenase (PDH) complex	REACTOME	12
+106099	PKA activation in glucagon signalling	REACTOME	17
+106097	Glucagon signaling in metabolic regulation	REACTOME	35
+106096	Integration of energy metabolism	REACTOME	127
+106080	Export of Viral Ribonucleoproteins from Nucleus*	REACTOME	30
+106074	Influenza Viral RNA Transcription and Replication	REACTOME	100
+106073	Transport of Ribonucleoproteins into the Host Nucleus	REACTOME	29
+106067	Influenza Infection*	REACTOME	140
+106065	Basigin interactions	REACTOME	25
+106064	PECAM1 interactions	REACTOME	12
+106063	Tie2 Signaling	REACTOME	18
+106062	Cell surface interactions at the vascular wall	REACTOME	94
+106060	Common Pathway	REACTOME	14
+106059	Intrinsic Pathway	REACTOME	17
+106057	Formation of Fibrin Clot (Clotting Cascade)	REACTOME	32
+106056	p130Cas linkage to MAPK signaling for integrins	REACTOME	15
+106055	GRB2:SOS provides linkage to MAPK signaling for Intergrins	REACTOME	15
+106054	Integrin alphaIIb beta3 signaling	REACTOME	27
+106053	Platelet Aggregation (Plug Formation)	REACTOME	37
+106050	Platelet degranulation	REACTOME	80
+106048	Response to elevated platelet cytosolic Ca2+	REACTOME	85
+106044	Effects of PIP2 hydrolysis	REACTOME	25
+106043	G alpha (q) signalling events	REACTOME	189
+106041	G alpha (12/13) signalling events	REACTOME	79
+106036	GPVI-mediated activation cascade	REACTOME	33
+106034	Platelet activation, signaling and aggregation	REACTOME	209
+106030	Platelet Adhesion to exposed collagen	REACTOME	13
+106028	Hemostasis	REACTOME	481
+106026	Vpu mediated degradation of CD4	REACTOME	51
+106021	Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters	REACTOME	21
+106019	The role of Nef in HIV-1 replication and disease pathogenesis	REACTOME	28
+106017	Vif-mediated degradation of APOBEC3G	REACTOME	54
+106015	Nuclear import of Rev protein	REACTOME	31
+106014	Interactions of Rev with host cellular proteins	REACTOME	34
+106013	Vpr-mediated nuclear import of PICs	REACTOME	31
+106011	Interactions of Vpr with host cellular proteins	REACTOME	33
+106010	Host Interactions of HIV factors	REACTOME	127
+106008	Assembly of HIV virion	REACTOME	12
+106007	Rev-mediated nuclear export of HIV-1 RNA	REACTOME	32
+106005	Abortive elongation of HIV-1 transcript in the absence of Tat	REACTOME	23
+106000	RNA Pol II CTD phosphorylation and interaction with CE*	REACTOME	26
+105996	Transcription of the HIV genome*	REACTOME	60
+105995	Late Phase of HIV Life Cycle	REACTOME	104
+105985	Early Phase of HIV Life Cycle	REACTOME	13
+105984	HIV Life Cycle	REACTOME	117
+105983	HIV Infection	REACTOME	199
+105982	Mitochondrial tRNA aminoacylation	REACTOME	21
+105981	Cytosolic tRNA aminoacylation	REACTOME	24
+105980	tRNA Aminoacylation	REACTOME	42
+105979	Nuclear Receptor transcription pathway	REACTOME	51
+105976	Eukaryotic Translation Elongation*	REACTOME	87
+105973	GTP hydrolysis and joining of the 60S ribosomal subunit*	REACTOME	105
+105970	Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S*	REACTOME	55
+105969	Formation of the ternary complex, and subsequently, the 43S complex	REACTOME	47
+105968	Formation of a pool of free 40S subunits	REACTOME	94
+105966	Eukaryotic Translation Initiation*	REACTOME	112
+105965	Translation	REACTOME	144
+105961	Transport of Mature mRNAs Derived from Intronless Transcripts*	REACTOME	36
+105959	Transport of Mature Transcript to Cytoplasm*	REACTOME	55
+105957	mRNA 3'-end processing	REACTOME	34
+105953	mRNA Splicing - Minor Pathway	REACTOME	42
+105951	mRNA Splicing*	REACTOME	107
+105949	Formation of the Early Elongation Complex*	REACTOME	32
+105948	RNA Polymerase II Transcription Elongation*	REACTOME	42
+105945	mRNA Capping	REACTOME	28
+105941	RNA Polymerase II Transcription Pre-Initiation And Promoter Opening*	REACTOME	39
+105939	Notch-HLH transcription pathway	REACTOME	13
+105938	Generic Transcription Pathway	REACTOME	425
+105937	Gene Expression	REACTOME	1051
+105928	Gap junction assembly	REACTOME	19
+105927	Gap junction trafficking	REACTOME	28
+105926	Gap junction trafficking and regulation	REACTOME	30
+105925	Regulation of Insulin Secretion by Glucagon-like Peptide-1	REACTOME	45
+105923	Inhibition of Insulin Secretion by Adrenaline/Noradrenaline	REACTOME	31
+105921	Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.	REACTOME	82
+105919	Citric acid cycle (TCA cycle)	REACTOME	19
+105911	Glycolysis	REACTOME	27
+105909	Regulation of Insulin Secretion	REACTOME	100
+105908	Regulation of Insulin-like Growth Factor (IGF) Activity by Insulin-like Growth Factor Binding Proteins (IGFBPs)	REACTOME	17
+105907	PERK regulated gene expression	REACTOME	28
+105906	Activation of Chaperones by IRE1alpha*	REACTOME	50
+105905	Activation of Chaperones by ATF6-alpha	REACTOME	12
+105904	Unfolded Protein Response	REACTOME	81
+105903	Insulin Synthesis and Processing	REACTOME	23
+105902	Diabetes pathways	REACTOME	136
+105900	Association of licensing factors with the pre-replicative complex	REACTOME	15
+105899	Regulation of DNA replication*	REACTOME	75
+105897	DNA Replication	REACTOME	213
+105896	Regulation of the Fanconi anemia pathway	REACTOME	10
+105895	Fanconi Anemia pathway	REACTOME	25
+105891	Formation of transcription-coupled NER (TC-NER) repair complex*	REACTOME	29
+105890	Transcription-coupled NER (TC-NER)	REACTOME	45
+105889	Repair synthesis of patch ~27-30 bases long by DNA polymerase*	REACTOME	15
+105888	Gap-filling DNA repair synthesis and ligation in GG-NER*	REACTOME	16
+105886	Formation of incision complex in GG-NER*	REACTOME	20
+105884	Global Genomic NER (GG-NER)	REACTOME	33
+105883	Nucleotide Excision Repair	REACTOME	50
+105862	Homologous Recombination Repair*	REACTOME	16
+105861	Double-Strand Break Repair	REACTOME	22
+105850	Resolution of AP sites via the multiple-nucleotide patch replacement pathway*	REACTOME	17
+105847	Resolution of AP sites via the single-nucleotide replacement pathway	REACTOME	12
+105838	Base Excision Repair*	REACTOME	19
+105837	DNA Repair	REACTOME	110
+105836	Autodegradation of Cdh1 by Cdh1:APC/C	REACTOME	60
+105835	APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1	REACTOME	69
+105834	Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase	REACTOME	17
+105833	APC/C:Cdc20 mediated degradation of Securin	REACTOME	64
+105832	APC/C:Cdc20 mediated degradation of Cyclin B	REACTOME	21
+105830	Phosphorylation of the APC/C	REACTOME	17
+105829	Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins*	REACTOME	70
+105828	SCF-beta-TrCP mediated degradation of Emi1	REACTOME	54
+105826	Regulation of APC/C activators between G1/S and early anaphase	REACTOME	77
+105825	APC/C-mediated degradation of cell cycle proteins*	REACTOME	82
+105824	CDT1 association with the CDC6:ORC:origin complex	REACTOME	58
+105823	CDC6 association with the ORC:origin complex	REACTOME	11
+105821	Assembly of the pre-replicative complex	REACTOME	67
+105820	M/G1 Transition*	REACTOME	81
+105815	Mitotic Prometaphase	REACTOME	94
+105813	Mitotic Prophase*	REACTOME	14
+105812	M Phase	REACTOME	110
+105810	Loss of proteins required for interphase microtubule organizationÂ from the centrosome*	REACTOME	62
+105809	Recruitment of NuMA to mitotic centrosomes	REACTOME	11
+105807	Centrosome maturation*	REACTOME	72
+105802	Cyclin A/B1 associated events during G2/M transition	REACTOME	15
+105795	Removal of the Flap Intermediate	REACTOME	13
+105794	Processive synthesis on the lagging strand	REACTOME	14
+105793	Lagging Strand Synthesis	REACTOME	19
+105791	Leading Strand Synthesis*	REACTOME	13
+105790	Unwinding of DNA	REACTOME	11
+105789	DNA strand elongation	REACTOME	30
+105788	CDK-mediated phosphorylation and removal of Cdc6*	REACTOME	50
+105784	Synthesis of DNA	REACTOME	95
+105783	Cyclin A:Cdk2-associated events at S phase entry*	REACTOME	66
+105782	S Phase	REACTOME	111
+105781	E2F-enabled inhibition of pre-replication complex formation	REACTOME	10
+105780	Inhibition of replication initiation of damaged DNA by RB1/E2F1	REACTOME	10
+105778	E2F mediated regulation of DNA replication	REACTOME	31
+105777	Activation of the pre-replicative complex	REACTOME	29
+105776	G1/S-Specific Transcription	REACTOME	17
+105771	SCF(Skp2)-mediated degradation of p27/p21	REACTOME	56
+105769	G1/S Transition	REACTOME	107
+105766	G1 Phase*	REACTOME	37
+105765	Cell Cycle, Mitotic	REACTOME	339
+105763	Inhibition of the proteolytic activity of APC/C required for the onset of anaphase by mitotic spindle checkpoint components*	REACTOME	18
+105755	Mitotic Spindle Checkpoint	REACTOME	19
+105754	Activation of ATR in response to replication stress	REACTOME	37
+105750	G2/M Checkpoints	REACTOME	43
+105747	p53-Independent G1/S DNA damage checkpoint*	REACTOME	52
+105744	Stabilization of p53*	REACTOME	52
+105741	p53-Dependent G1/S DNA damage checkpoint*	REACTOME	57
+105740	G1/S DNA Damage Checkpoints	REACTOME	60
+105739	Cell Cycle Checkpoints	REACTOME	117
+105736	Proteolytic cleavage of SNARE complex proteins	REACTOME	16
+105734	Botulinum neurotoxicity	REACTOME	18
+105727	Glutathione conjugation	REACTOME	25
+105724	Cytosolic sulfonation of small molecules	REACTOME	14
+105722	Glucuronidation	REACTOME	20
+105721	Phase II conjugation	REACTOME	73
+105715	Ethanol oxidation	REACTOME	10
+105703	Xenobiotics	REACTOME	15
+105701	Endogenous sterols	REACTOME	15
+105700	Cytochrome P450 - arranged by substrate type	REACTOME	50
+105699	Phase 1 - Functionalization of compounds	REACTOME	68
+105698	Biological oxidations	REACTOME	140
+105697	NCAM1 interactions	REACTOME	44
+105689	NCAM signaling for neurite out-growth	REACTOME	70
+105688	Axon guidance	REACTOME	266
+105685	Regulation of Apoptosis	REACTOME	60
+105680	Apoptotic cleavage of cell adhesion proteins	REACTOME	10
+105679	Caspase-mediated cleavage of cytoskeletal proteins	REACTOME	12
+105678	Apoptotic cleavage of cellular proteins	REACTOME	37
+105677	Apoptotic execution phase	REACTOME	51
+105658	Activation of BH3-only proteins	REACTOME	18
+105656	Intrinsic Pathway for Apoptosis	REACTOME	31
+105649	Extrinsic Pathway for Apoptosis*	REACTOME	13
+105648	Apoptosis	REACTOME	148
+104488	Cysteine and methionine metabolism	KEGG	35
+102279	Endocytosis	KEGG	202
+101144	Prion diseases	KEGG	36
+101143	Neurotrophin signaling pathway	KEGG	120
+101142	Alanine, aspartate and glutamate metabolism	KEGG	32
+99052	Lysosome	KEGG	121
+99051	Chemokine signaling pathway	KEGG	189
+96530	Vascular smooth muscle contraction	KEGG	120
+93344	Cardiac muscle contraction	KEGG	73
+83125	Primary immunodeficiency	KEGG	36
+83124	Graft-versus-host disease	KEGG	37
+83123	Allograft rejection	KEGG	35
+83122	Systemic lupus erythematosus	KEGG	134
+83121	Autoimmune thyroid disease	KEGG	50
+83120	Asthma	KEGG	28
+83119	Non-small cell lung cancer	KEGG	54
+83118	Small cell lung cancer	KEGG	85
+83117	Acute myeloid leukemia	KEGG	57
+83116	Chronic myeloid leukemia	KEGG	73
+83115	Bladder cancer	KEGG	42
+83114	Melanoma	KEGG	71
+83113	Basal cell carcinoma	KEGG	55
+83112	Thyroid cancer	KEGG	29
+83111	Prostate cancer	KEGG	89
+83110	Glioma	KEGG	65
+83109	Endometrial cancer	KEGG	52
+83108	Pancreatic cancer	KEGG	70
+83107	Renal cell carcinoma	KEGG	70
+83106	Colorectal cancer	KEGG	62
+83105	Pathways in cancer	KEGG	325
+83104	Shigellosis	KEGG	61
+83103	Pathogenic Escherichia coli infection*	KEGG	55
+83102	Epithelial cell signaling in Helicobacter pylori infection	KEGG	68
+83101	Vibrio cholerae infection	KEGG	54
+83100	Huntington's disease	KEGG	177
+83099	Amyotrophic lateral sclerosis (ALS)	KEGG	54
+83098	Parkinson's disease	KEGG	117
+83097	Alzheimer's disease	KEGG	163
+83096	Maturity onset diabetes of the young	KEGG	25
+83095	Type I diabetes mellitus	KEGG	41
+83094	Type II diabetes mellitus	KEGG	48
+83093	Adipocytokine signaling pathway	KEGG	69
+83092	Melanogenesis	KEGG	101
+83091	GnRH signaling pathway	KEGG	92
+83090	Insulin signaling pathway	KEGG	138
+83089	Regulation of actin cytoskeleton	KEGG	212
+83088	Taste transduction	KEGG	51
+83087	Olfactory transduction	KEGG	401
+83086	Long-term depression	KEGG	61
+83085	Long-term potentiation	KEGG	70
+83084	Circadian rhythm	KEGG	30
+83083	Leukocyte transendothelial migration	KEGG	115
+83082	Fc epsilon RI signaling pathway	KEGG	70
+83081	B cell receptor signaling pathway	KEGG	76
+83080	T cell receptor signaling pathway	KEGG	108
+83079	Natural killer cell mediated cytotoxicity	KEGG	133
+83078	Hematopoietic cell lineage	KEGG	82
+83077	Jak-STAT signaling pathway	KEGG	150
+83076	Toll-like receptor signaling pathway*	KEGG	106
+83075	Renin-angiotensin system	KEGG	17
+83074	Antigen processing and presentation	KEGG	69
+83073	Complement and coagulation cascades	KEGG	69
+83072	Gap junction	KEGG	89
+83071	Tight junction	KEGG	132
+83070	Adherens junction	KEGG	73
+83069	Cell adhesion molecules (CAMs)	KEGG	130
+83068	ECM-receptor interaction	KEGG	86
+83067	Focal adhesion	KEGG	204
+83066	VEGF signaling pathway	KEGG	67
+83065	Axon guidance	KEGG	129
+83064	TGF-beta signaling pathway	KEGG	83
+83063	Hedgehog signaling pathway	KEGG	51
+83062	Notch signaling pathway	KEGG	47
+83061	Wnt signaling pathway	KEGG	150
+83060	Apoptosis	KEGG	87
+83059	mTOR signaling pathway	KEGG	64
+83058	Regulation of autophagy	KEGG	34
+83057	SNARE interactions in vesicular transport	KEGG	34
+83056	Ubiquitin mediated proteolysis	KEGG	137
+83055	p53 signaling pathway	KEGG	68
+83054	Cell cycle	KEGG	124
+83053	Neuroactive ligand-receptor interaction	KEGG	271
+83052	Phosphatidylinositol signaling system	KEGG	81
+83051	Cytokine-cytokine receptor interaction	KEGG	261
+83050	Calcium signaling pathway	KEGG	182
+83049	ErbB signaling pathway	KEGG	88
+83048	MAPK signaling pathway	KEGG	259
+83047	Non-homologous end-joining	KEGG	13
+83046	Homologous recombination	KEGG	28
+83045	Mismatch repair	KEGG	23
+83044	Nucleotide excision repair	KEGG	45
+83043	Base excision repair	KEGG	33
+83042	PPAR signaling pathway	KEGG	71
+83041	Protein export	KEGG	23
+83040	Proteasome	KEGG	44
+83039	DNA replication	KEGG	35
+83038	Basal transcription factors	KEGG	44
+83037	RNA polymerase	KEGG	31
+83036	Ribosome*	KEGG	88
+83035	ABC transporters	KEGG	44
+83034	Biosynthesis of unsaturated fatty acids	KEGG	21
+83033	Drug metabolism - other enzymes	KEGG	51
+83032	Drug metabolism - cytochrome P450	KEGG	73
+83031	Metabolism of xenobiotics by cytochrome P450	KEGG	81
+83030	Aminoacyl-tRNA biosynthesis	KEGG	41
+83026	Sulfur metabolism	KEGG	14
+83022	Terpenoid backbone biosynthesis	KEGG	21
+83021	Porphyrin and chlorophyll metabolism	KEGG	43
+83020	Retinol metabolism	KEGG	66
+83018	Folate biosynthesis	KEGG	14
+83015	Pantothenate and CoA biosynthesis	KEGG	17
+83014	Nicotinate and nicotinamide metabolism	KEGG	27
+83012	Riboflavin metabolism	KEGG	12
+83008	One carbon pool by folate	KEGG	19
+83007	Butanoate metabolism	KEGG	29
+83004	Propanoate metabolism	KEGG	32
+83002	Glyoxylate and dicarboxylate metabolism	KEGG	24
+82998	Pyruvate metabolism	KEGG	41
+82997	Glycosphingolipid biosynthesis - ganglio series	KEGG	15
+82996	Glycosphingolipid biosynthesis - globo series	KEGG	14
+82995	Glycosphingolipid biosynthesis - lacto and neolacto series	KEGG	26
+82994	Sphingolipid metabolism	KEGG	46
+82993	alpha-Linolenic acid metabolism	KEGG	24
+82992	Linoleic acid metabolism	KEGG	32
+82991	Arachidonic acid metabolism	KEGG	66
+82990	Ether lipid metabolism	KEGG	39
+82989	Glycerophospholipid metabolism	KEGG	88
+82988	Glycosylphosphatidylinositol(GPI)-anchor biosynthesis	KEGG	25
+82987	Inositol phosphate metabolism	KEGG	61
+82986	Glycerolipid metabolism	KEGG	54
+82984	Glycosaminoglycan biosynthesis - heparan sulfate / heparin	KEGG	26
+82983	Glycosaminoglycan biosynthesis - keratan sulfate	KEGG	15
+82982	Glycosaminoglycan biosynthesis - chondroitin sulfate	KEGG	22
+82981	Glycosaminoglycan degradation	KEGG	19
+82979	Amino sugar and nucleotide sugar metabolism	KEGG	48
+82978	Other types of O-glycan biosynthesis	KEGG	30
+82977	Mucin type O-Glycan biosynthesis	KEGG	31
+82976	Other glycan degradation	KEGG	17
+82975	N-Glycan biosynthesis	KEGG	49
+82974	Starch and sucrose metabolism	KEGG	55
+82973	Glutathione metabolism	KEGG	50
+82969	Selenocompound metabolism	KEGG	17
+82966	beta-Alanine metabolism	KEGG	29
+82964	Tryptophan metabolism	KEGG	39
+82960	Phenylalanine metabolism	KEGG	18
+82959	Tyrosine metabolism	KEGG	39
+82958	Histidine metabolism	KEGG	28
+82957	Arginine and proline metabolism	KEGG	57
+82956	Lysine degradation	KEGG	49
+82952	Valine, leucine and isoleucine degradation	KEGG	44
+82949	Glycine, serine and threonine metabolism	KEGG	37
+82946	Pyrimidine metabolism	KEGG	101
+82944	Purine metabolism	KEGG	166
+82942	Oxidative phosphorylation	KEGG	120
+82940	Steroid hormone biosynthesis	KEGG	56
+82939	Ubiquinone and other terpenoid-quinone biosynthesis	KEGG	10
+82938	Primary bile acid biosynthesis	KEGG	17
+82937	Steroid biosynthesis	KEGG	18
+82935	Fatty acid metabolism	KEGG	44
+82934	Fatty acid elongation	KEGG	23
+82932	Ascorbate and aldarate metabolism	KEGG	27
+82931	Galactose metabolism	KEGG	29
+82930	Fructose and mannose metabolism	KEGG	36
+82929	Pentose and glucuronate interconversions	KEGG	34
+82928	Pentose phosphate pathway	KEGG	28
+82927	Citrate cycle (TCA cycle)	KEGG	30
+82926	Glycolysis / Gluconeogenesis	KEGG	65
 711361	Oncostatin M Signaling Pathway	WikiPathways	63
+705377	Parkinsons Disease Pathway	WikiPathways	38
+703093	superpathway of citrulline metabolism	BIOCYC	14
+700638	Parkin-Ubiquitin Proteasomal System pathway	WikiPathways	70
+698773	Circadian entrainment	KEGG	96
+698757	Deregulation of Rab and Rab Effector Genes in Bladder Cancer	WikiPathways	16
+698755	Drug Induction of Bile Acid Pathway	WikiPathways	17
+698754	AGE/RAGE pathway	WikiPathways	66
+698753	Interleukin-11 Signaling Pathway	WikiPathways	40
+695200	HIF-1 signaling pathway	KEGG	110
+694606	Hepatitis B	KEGG	147
+692234	PI3K-Akt signaling pathway	KEGG	336
+685555	Metabolism of Angiotensinogen to Angiotensins	REACTOME	12
+685554	Translocation of GLUT4 to the Plasma Membrane	REACTOME	53
+685553	Arachidonic acid metabolism	REACTOME	17
+685552	Activation of Gene Expression by SREBP (SREBF)	REACTOME	41
+685551	Regulation of Cholesterol Biosynthesis by SREBP (SREBF)	REACTOME	54
+685550	DAP12 signaling	REACTOME	156
+685549	DAP12 interactions	REACTOME	170
+685535	Constitutive PI3K/AKT Signaling in Cancer	REACTOME	86
+673221	Chemical carcinogenesis	KEGG	82
+672815	eicosapentaenoate biosynthesis II (metazoa)	BIOCYC	10
+672464	SRF and miRs in Smooth Muscle Differentiation and Proliferation	WikiPathways	12
+672462	Prolactin Signaling Pathway	WikiPathways	75
+672461	iron metabolism in placenta	WikiPathways	12
+672460	Neural Crest Differentiation	WikiPathways	102
+672458	Signaling Pathways in Glioblastoma	WikiPathways	80
+672457	Synaptic Vesicle Pathway	WikiPathways	51
+672456	Leptin signaling pathway	WikiPathways	60
+672455	FSH signaling pathway	WikiPathways	28
+672454	Arrhythmogenic right ventricular cardiomyopathy*	WikiPathways	75
+672453	Endothelin	WikiPathways	33
+672452	TWEAK Signaling Pathway	WikiPathways	43
+672451	TSLP Signaling Pathway	WikiPathways	37
+672450	Integrated Cancer pathway	WikiPathways	35
+672449	miRs in Muscle Cell Differentiation	WikiPathways	30
+672448	Alzheimers Disease	WikiPathways	79
+672447	RANKL/RANK Signaling Pathway	WikiPathways	54
+672446	TSH signaling pathway	WikiPathways	64
+672445	Integrated Pancreatic Cancer Pathway*	WikiPathways	194
+658418	Viral carcinogenesis	KEGG	205
+645352	Reversible Hydration of Carbon Dioxide	REACTOME	12
+645349	Abacavir transport and metabolism	REACTOME	10
+645343	alpha-linolenic (omega3) and linoleic (omega6) acid metabolism*	REACTOME	12
+645341	Synthesis of PIPs at the late endosome membrane	REACTOME	10
+645338	Synthesis of PIPs at the early endosome membrane	REACTOME	13
+645336	Synthesis of PIPs at the plasma membrane	REACTOME	33
+645334	Synthesis of PIPs at the Golgi membrane	REACTOME	17
+645332	PI Metabolism	REACTOME	50
+645328	Acyl chain remodelling of PG	REACTOME	18
+645326	Acyl chain remodelling of PI	REACTOME	16
+645324	Acyl chain remodelling of PS	REACTOME	18
+645321	Acyl chain remodelling of PC	REACTOME	26
+645319	Synthesis of PC	REACTOME	18
+645317	Acyl chain remodelling of PE	REACTOME	24
+645316	Synthesis of PE	REACTOME	12
+645314	Synthesis of PA	REACTOME	29
+645313	Glycerophospholipid biosynthesis	REACTOME	87
+645312	Phospholipid metabolism	REACTOME	206
+645311	CS/DS degradation	REACTOME	13
+645309	Chondroitin sulfate biosynthesis	REACTOME	21
+645308	Chondroitin sulfate/dermatan sulfate metabolism	REACTOME	49
+645307	HS-GAG degradation	REACTOME	20
+645306	HS-GAG biosynthesis	REACTOME	30
+645305	A tetrasaccharide linker sequence is required for GAG synthesis	REACTOME	26
+645304	Heparan sulfate/heparin (HS-GAG) metabolism	REACTOME	52
+645303	Keratan sulfate degradation	REACTOME	11
+645302	Keratan sulfate biosynthesis	REACTOME	27
+645301	Keratan sulfate/keratin metabolism	REACTOME	31
+645298	Hyaluronan metabolism	REACTOME	14
+645297	Glycosaminoglycan metabolism*	REACTOME	111
+645295	Gastrin-CREB signalling pathway via PKC and MAPK	REACTOME	210
+645294	TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)	REACTOME	16
+645293	Downregulation of TGF-beta receptor signaling	REACTOME	25
+645292	TGF-beta receptor signaling activates SMADs	REACTOME	28
+645291	The activation of arylsulfatases	REACTOME	13
+645290	MHC class II antigen presentation	REACTOME	100
+645288	Collagen formation*	REACTOME	65
+645278	Signaling by FGFR1 fusion mutants	REACTOME	19
+645276	Signaling by FGFR1 mutants	REACTOME	30
+645275	Signaling by FGFR mutants	REACTOME	45
+645274	Signaling by FGFR in disease	REACTOME	171
+645267	Latent infection of Homo sapiens with Mycobacterium tuberculosis*	REACTOME	33
+645266	Downregulation of SMAD2/3:SMAD4 transcriptional activity	REACTOME	23
+645265	SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	REACTOME	29
+645264	Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	REACTOME	41
+645262	Oxygen-dependent Proline Hydroxylation of Hypoxia-inducible Factor Alpha	REACTOME	18
+645258	Cellular responses to stress*	REACTOME	25
+634527	NF-kappa B signaling pathway	KEGG	91
+618581	Guanine ribonucleotide biosynthesis IMP => GDP,GTP	KEGG	14
+618580	Adenine ribonucleotide biosynthesis, IMP => ADP,ATP	KEGG	19
+585563	Alcoholism	KEGG	179
+585562	Epstein-Barr virus infection	KEGG	199
+583255	Nicotine addiction	KEGG	40
+576276	YAP1- and WWTR1 (TAZ)-stimulated gene expression	REACTOME	26
+576275	Signaling by Hippo	REACTOME	20
+576274	Signaling by NOTCH4	REACTOME	12
+576273	Signaling by NOTCH3	REACTOME	12
+576272	Signaling by NOTCH2	REACTOME	12
+576271	NOTCH1 Intracellular Domain Regulates Transcription	REACTOME	47
+576270	Activated NOTCH1 Transmits Signal to the Nucleus	REACTOME	31
+576269	Signaling by NOTCH1	REACTOME	73
+576268	Pre-NOTCH Processing in Golgi	REACTOME	20
+576266	Pre-NOTCH Transcription and Translation	REACTOME	29
+576265	Pre-NOTCH Expression and Processing	REACTOME	47
+576263	Degradation of the extracellular matrix*	REACTOME	29
+576262	Extracellular matrix organization	REACTOME	93
+576261	Mitochondrial Protein Import	REACTOME	51
+576260	RORA Activates Circadian Expression	REACTOME	26
+576259	Circadian Repression of Expression by REV-ERBA	REACTOME	25
+576258	RIP-mediated NFkB activation via DAI	REACTOME	19
+576256	DAI mediated induction of type I IFNs	REACTOME	21
+576255	Cytosolic sensors of pathogen-associated DNA	REACTOME	23
+576254	Regulation of Complement cascade	REACTOME	13
+576253	Trafficking and processing of endosomal TLR	REACTOME	13
+576251	Activation of NF-kappaB in B Cells	REACTOME	66
+576250	Downstream Signaling Events Of B Cell Receptor (BCR)	REACTOME	168
+576249	Antigen Activates B Cell Receptor Leading to Generation of Second Messengers	REACTOME	32
+576248	Signaling by the B Cell Receptor (BCR)	REACTOME	194
+552665	Morphine addiction	KEGG	92
+547607	Amphetamine addiction	KEGG	70
+547492	superpathway of inositol phosphate compounds	BIOCYC	67
+546258	Cocaine addiction	KEGG	50
+545362	purine nucleotides degradation II (aerobic)	BIOCYC	12
+545359	superpathway of melatonin degradation	BIOCYC	13
+545356	melatonin degradation I	BIOCYC	11
+545349	3-phosphoinositide degradation	BIOCYC	21
+545332	1D-myo-inositol hexakisphosphate biosynthesis II (mammalian)	BIOCYC	15
+545328	D-myo-inositol (1,3,4)-trisphosphate biosynthesis	BIOCYC	15
+545327	D-myo-inositol (1,4,5)-trisphosphate degradation	BIOCYC	13
+545326	D-myo-inositol (1,4,5)-trisphosphate biosynthesis	BIOCYC	24
+545325	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	BIOCYC	20
+545316	bile acid biosynthesis, neutral pathway	BIOCYC	13
+545315	D-myo-inositol-5-phosphate metabolism	BIOCYC	18
+545314	3-phosphoinositide biosynthesis	BIOCYC	27
+545313	stearate biosynthesis I (animals)	BIOCYC	11
+545309	gamma-linolenate biosynthesis II (animals)	BIOCYC	12
+545294	the visual cycle I (vertebrates)	BIOCYC	15
+545293	retinol biosynthesis	BIOCYC	17
+545288	superpathway of geranylgeranyldiphosphate biosynthesis I (via mevalonate)	BIOCYC	14
+545284	NAD salvage pathway II	BIOCYC	12
+545280	dermatan sulfate biosynthesis	BIOCYC	16
+545279	chondroitin sulfate biosynthesis	BIOCYC	20
+545278	heparan sulfate biosynthesis	BIOCYC	27
+545276	chondroitin sulfate biosynthesis (late stages)	BIOCYC	13
+545274	heparan sulfate biosynthesis (late stages)	BIOCYC	21
+537443	Retrograde endocannabinoid signaling	KEGG	102
+530772	Activation of Genes by ATF4	REACTOME	25
+530769	Signaling by constitutively active EGFR	REACTOME	19
+530768	Signaling by EGFR in Cancer*	REACTOME	176
+530766	Membrane binding and targetting of GAG proteins	REACTOME	11
+530764	Disease	REACTOME	845
+530763	Prolactin receptor signaling	REACTOME	15
+530760	Antiviral mechanism by IFN-stimulated genes*	REACTOME	70
+530759	Beta defensins	REACTOME	40
+530757	Defensins	REACTOME	49
+530753	Sulfur amino acid metabolism	REACTOME	24
+530751	Glycosphingolipid metabolism	REACTOME	38
+530750	Sphingolipid de novo biosynthesis	REACTOME	32
+530748	Termination of O-glycan biosynthesis	REACTOME	23
+530747	O-linked glycosylation of mucins	REACTOME	60
+530746	SRP-dependent cotranslational protein targeting to membrane	REACTOME	107
+530744	Nuclear signaling by ERBB4	REACTOME	40
+530742	SHC1 events in ERBB4 signaling	REACTOME	21
+530741	Signaling by ERBB4	REACTOME	148
+530740	Downregulation of ERBB2:ERBB3 signaling	REACTOME	13
+530738	PLCG1 events in ERBB2 signaling*	REACTOME	36
+530735	SHC1 events in ERBB2 signaling*	REACTOME	25
+530734	Signaling by ERBB2	REACTOME	157
+530733	Cell Cycle	REACTOME	436
+525336	Serotonergic synapse	KEGG	113
+524497	Sphingosine biosynthesis	KEGG	16
+524496	Ceramide biosynthesis	KEGG	12
+523016	Transcriptional misregulation in cancer	KEGG	178
+522535	F-type ATPase, eukaryotes	KEGG	15

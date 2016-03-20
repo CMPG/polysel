@@ -454,7 +454,7 @@ TestGeneSets<-function(set.info, set.obj, obj.stat,
     
   set.scores$setName <- set.info$setName
   set.scores$setID.orig <- set.info$setID.orig
-  set.scores<-set.scores[order(set.scores$setP,decreasing=F),]
+  set.scores<-set.scores[order(set.scores$setP),]
   
   return(set.scores)
   
