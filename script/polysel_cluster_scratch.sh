@@ -24,6 +24,7 @@ if [ ${projectname:0:8} = "primates" ]; then
 	usebins="FALSE"
 	empfdrnruns=300
 	empfdrestm0="FALSE"
+	qvaluemethod="bootstrap"
 fi
 
 # LOCAL ADAPTATION IN HUMAN POPULATIONS PROJECT
@@ -38,6 +39,7 @@ if [ $projectname = "humanpops" ]; then
 	usebins="FALSE"
 	empfdrnruns=200
 	empfdrestm0="TRUE"
+	qvaluemethod="smoother"
 fi
 
 # ADAPTATION TO HIGH ALTITUDE PROJECT
@@ -50,8 +52,9 @@ if [ $projectname = "altitude" ]; then
 	approxnull="FALSE"
 	seqrndsampling="TRUE"
 	usebins="TRUE"
-	empfdrnruns=200
+	empfdrnruns=300
 	empfdrestm0="TRUE"
+	qvaluemethod="smoother"
 fi
 
 # ADAPTATION TO FORESTS PROJECT
@@ -65,8 +68,9 @@ if [ ${projectname:0:6} = "forest" ]; then
 	approxnull="FALSE"
 	seqrndsampling="TRUE"
 	usebins="TRUE"
-	empfdrnruns=200
+	empfdrnruns=300
 	empfdrestm0="TRUE"
+	qvaluemethod="smoother"
 fi
 
 #-------------------------------------------------------------------------------------------
@@ -111,7 +115,7 @@ cd $scratchFolder
 chmod +x $main_script
 cat $main_script | R --vanilla --args $nrand $minsetsize $approxnull $test \
 $seqrndsampling $usebins $dopruning ${projectname} $doempfdr $empfdrnruns $empfdrestm0 \
-. . . .
+$qvaluemethod . . . .
 
 cd $directory
 

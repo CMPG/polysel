@@ -30,11 +30,12 @@ project.txt<-as.character(args[8])
 do.emp.fdr<-as.logical(args[9])
 emp.fdr.nruns<-as.numeric(args[10]) 
 emp.fdr.est.m0<-as.logical(args[11])
+qvalue.method<-as.character(args[12])
 
-data.path=as.character(args[12])
-code.path=as.character(args[13])
-results.path=as.character(args[14])
-emp.fdr.path<-as.character(args[15])
+data.path=as.character(args[13])
+code.path=as.character(args[14])
+results.path=as.character(args[15])
+emp.fdr.path<-as.character(args[16])
 
 # Load all functions needed for the pipeline
 source(file.path(code.path,"polysel.R"))
@@ -50,7 +51,8 @@ r<-EnrichmentAnalysis(set.info, set.obj, obj.stat,
                       project.txt=project.txt, do.emp.fdr=do.emp.fdr, 
                       emp.fdr.path=emp.fdr.path, 
                       emp.fdr.nruns=emp.fdr.nruns, 
-                      emp.fdr.est.m0=emp.fdr.est.m0)
+                      emp.fdr.est.m0=emp.fdr.est.m0,
+											qvalue.method=qvalue.method)
 
 set.scores.prepruning <- r$set.scores.prepruning
 set.scores.postpruning <- r$set.scores.postpruning
