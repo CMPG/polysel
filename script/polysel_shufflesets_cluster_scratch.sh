@@ -91,7 +91,6 @@ cd $scratchFolder
 cd $directory
 cp ${codepath}/*.R $scratchFolder/.
 cp ${datapath}/${projectdir}/*.RData $scratchFolder/.
-cp ${empfdrpath}/${projectname}*shuf*.RData $scratchFolder/.
 
 #-------------------------------------------------------------------------------------------
 # Lauch R
@@ -100,9 +99,8 @@ cp ${empfdrpath}/${projectname}*shuf*.RData $scratchFolder/.
 cd $scratchFolder
 
 chmod +x $main_script
-cat $main_script | R --vanilla --args $nrand $minsetsize $approxnull $test \
-$seqrndsampling $usebins $dopruning ${projectname} $doempfdr $empfdrnruns $empfdrestm0 \
-. . . .
+cat $main_script | R --vanilla --args $runnr $nrand $minsetsize $approxnull $test \
+$seqrndsampling $usebins ${projectname} . . .
 
 cd $directory
 
@@ -110,7 +108,5 @@ cd $directory
 # Copy Results to Master
 #-------------------------------------------------------------------------------------------
 
-cp $scratchFolder/${projectname}_setscores.RData $resultspath
+cp $scratchFolder/${projectname}_shuf*_${nrand}.RData $resultspath
 
-cat $main_script | R --vanilla --args $runnr $nrand $minsetsize $approxnull $test \
-$seqrndsampling $usebins ${projectname} . . .

@@ -104,7 +104,7 @@ cd $scratchFolder
 cd $directory
 cp ${codepath}/*.R $scratchFolder/.
 cp ${datapath}/${projectdir}/*.RData $scratchFolder/.
-cp ${empfdrpath}/${projectname}_shuf*.RData $scratchFolder/.
+cp ${empfdrpath}/${projectname}_shuf*_$nrand.RData $scratchFolder/.
 
 #-------------------------------------------------------------------------------------------
 # Lauch R
