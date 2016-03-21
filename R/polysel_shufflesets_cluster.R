@@ -25,7 +25,7 @@ approx.null<-as.logical(args[4])
 test<-as.character(args[5])
 seq.rnd.sampling<-as.logical(args[6])
 use.bins<-as.logical(args[7])
-project.txt<-as.character(args[8])
+project.name<-as.character(args[8])
 
 data.path=as.character(args[9])
 code.path=as.character(args[10])
@@ -42,5 +42,5 @@ TestShuffledSets(set.info, set.obj, obj.stat,
                  approx.null=approx.null, test=test,
                  seq.rnd.sampling=seq.rnd.sampling,
                  use.bins=use.bins, out.path=emp.fdr.path, 
-                 runnr=runnr, project.txt=project.txt)
+                 runnr=runnr, project.txt=project.name)
 

@@ -26,7 +26,7 @@ test<-as.character(args[4])
 seq.rnd.sampling<-as.logical(args[5])
 use.bins<-as.logical(args[6])
 do.pruning<-as.logical(args[7])
-project.txt<-as.character(args[8])
+project.name<-as.character(args[8])
 do.emp.fdr<-as.logical(args[9])
 emp.fdr.nruns<-as.numeric(args[10]) 
 emp.fdr.est.m0<-as.logical(args[11])
@@ -48,36 +48,39 @@ r<-EnrichmentAnalysis(set.info, set.obj, obj.stat,
                       seq.rnd.sampling=seq.rnd.sampling,
                       use.bins=use.bins, test=test,
                       do.pruning=do.pruning, minsetsize=minsetsize,
-                      project.txt=project.txt, do.emp.fdr=do.emp.fdr, 
+                      project.txt=project.name, do.emp.fdr=do.emp.fdr, 
                       emp.fdr.path=emp.fdr.path, 
                       emp.fdr.nruns=emp.fdr.nruns, 
                       emp.fdr.est.m0=emp.fdr.est.m0,
-											qvalue.method=qvalue.method)
+                      qvalue.method=qvalue.method)
 
 set.scores.prepruning <- r$set.scores.prepruning
 set.scores.postpruning <- r$set.scores.postpruning
 
 save(set.scores.prepruning, 
-		 file = file.path(results.path, 
-		 								 paste(project.txt=project.txt,
-		 								 			"_setscores_prepruning.RData",
-		 								 			sep="")))
+     file = file.path(results.path, 
+                      paste(project.txt=project.name,
+                            "_setscores_prepruning_",
+                            formatC(nrand,format="d"),".RData",
+                            sep="")))
 
 write.table(set.scores.prepruning, quote=FALSE, sep="\t", row.names=FALSE,            
-						file = file.path(results.path,
-														 paste(project.txt=project.txt,
-														 			"_setscores_prepruning.txt",
-														 			sep=""))) 
+            file = file.path(results.path,
+                             paste(project.txt=project.name,
+                                   "_setscores_prepruning_",
+                                   formatC(nrand,format="d"),".txt",
+                                   sep=""))) 
 
 save(set.scores.postpruning, 
-		 file = file.path(results.path, 
-		 								 paste(project.txt=project.txt,
-		 								 			"_setscores_postpruning.RData",
-		 								 			sep="")))
+     file = file.path(results.path, 
+                      paste(project.txt=project.name,
+                            "_setscores_postpruning_",
+                            formatC(nrand,format="d"),".RData",
+                            sep="")))
 
 write.table(set.scores.postpruning, quote=FALSE, sep="\t", row.names=FALSE,            
-						file = file.path(results.path,
-														 paste(project.txt=project.txt,
-														 			"_setscores_postpruning.txt",
-														 			sep="")))  
-
+            file = file.path(results.path,
+                             paste(project.txt=project.name,
+                                   "_setscores_postpruning_",
+                                   formatC(nrand,format="d"),".txt",
+                                   sep="")))

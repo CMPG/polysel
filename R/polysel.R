@@ -270,7 +270,8 @@ EnrichmentAnalysis<-function(set.info, set.obj, obj.stat,
                         in.path=emp.fdr.path, 
                         nruns=emp.fdr.nruns, 
                         est.m0=emp.fdr.est.m0,
-                        project.txt=project.txt)
+                        project.txt=project.txt,
+                        nrand=nrand)
     }
         
     return (list(set.scores.prepruning=set.scores.prepruning, 
@@ -605,7 +606,8 @@ TestShuffledSets<-function(set.info, set.obj, obj.stat,
 
   p.shuffle.postpruning<-set.scores.shuffle.postpruning$setP
   
-  f<-paste(project.txt,"_shuf",runnr,".RData",sep="")
+  f<-paste(project.txt,"_shuf",runnr,"_",formatC(nrand,format="d"),
+           ".RData",sep="")
   save(p.shuffle.postpruning,file=file.path(out.path,f))
   
 }
@@ -622,7 +624,7 @@ TestShuffledSets<-function(set.info, set.obj, obj.stat,
 # - project.txt: name of project
 #===========================================================================
 GetEmpericalFDR<-function(set.scores, in.path, nruns=3, est.m0=T,
-                          project.txt="DAGI") {
+                          project.txt="DAGI", nrand) {
   
   p.shuffle.postpruning.ls<-list()
   
@@ -632,7 +634,8 @@ GetEmpericalFDR<-function(set.scores, in.path, nruns=3, est.m0=T,
   
   # Get p-values from tests with shuffled objStats 
   for (i in seq(nruns)){
-    f<-paste(project.txt,"_shuf",i,".RData",sep="")
+    f<-paste(project.txt,"_shuf",i,"_",formatC(nrand,format="d"),
+             ".RData",sep="")
     load(file=file.path(in.path,f))    
     p.shuffle.postpruning.ls[[i]]<-p.shuffle.postpruning      
   }     
