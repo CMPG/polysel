@@ -55,6 +55,27 @@ r<-EnrichmentAnalysis(set.info, set.obj, obj.stat,
 set.scores.prepruning <- r$set.scores.prepruning
 set.scores.postpruning <- r$set.scores.postpruning
 
-save(set.scores.prepruning, set.scores.postpruning, 
-     file = file.path(results.path,paste(project.txt,"_setscores.RData", sep="")))
+save(set.scores.prepruning, 
+		 file = file.path(results.path, 
+		 								 paste(project.txt=project.txt,
+		 								 			"_setscores_prepruning.RData",
+		 								 			sep="")))
+
+write.table(set.scores.prepruning, quote=FALSE, sep="\t", row.names=FALSE,            
+						file = file.path(results.path,
+														 paste(project.txt=project.txt,
+														 			"_setscores_prepruning.txt",
+														 			sep=""))) 
+
+save(set.scores.postpruning, 
+		 file = file.path(results.path, 
+		 								 paste(project.txt=project.txt,
+		 								 			"_setscores_postpruning.RData",
+		 								 			sep="")))
+
+write.table(set.scores.postpruning, quote=FALSE, sep="\t", row.names=FALSE,            
+						file = file.path(results.path,
+														 paste(project.txt=project.txt,
+														 			"_setscores_postpruning.txt",
+														 			sep="")))  
 
