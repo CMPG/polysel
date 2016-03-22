@@ -2,7 +2,7 @@
 
 #-------------------------------------------------------------------------------------------
 # polysel_cluster_scratch.sh
-# script to run the enrichment pipeline on a cluster 
+# script to run the polysel enrichment pipeline on a cluster 
 #-------------------------------------------------------------------------------------------
 
 main_script="polysel_cluster.R"
