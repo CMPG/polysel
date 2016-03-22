@@ -52,7 +52,7 @@ if [ $projectname = "altitude" ]; then
 	approxnull="FALSE"
 	seqrndsampling="TRUE"
 	usebins="TRUE"
-	empfdrnruns=300
+	empfdrnruns=200
 	empfdrestm0="TRUE"
 	qvaluemethod="smoother"
 fi

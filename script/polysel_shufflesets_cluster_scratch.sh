@@ -1,22 +1,13 @@
 #!/bin/bash
 
 #-------------------------------------------------------------------------------------------
-# polysel_shufflesets_cluster_scratch.sh
-# script to create p-value null distribution by shuffling gene scores and retesting sets
-# using scratch
-#-------------------------------------------------------------------------------------------
-
-main_script="polysel_shufflesets_cluster.R"
-runnr=$1
-projectname=$2
-
-#-------------------------------------------------------------------------------------------
 # project specific parameters
 #-------------------------------------------------------------------------------------------
 
 # POSITIVE SELECTION IN PRIMATES PROJECT
 # Daub et al. (in preparation)
 # Detection of pathways affected by positive selection in primate lineages ancestral to humans
+# Total nr of runs: 300
 if [ ${projectname:0:8} = "primates" ]; then
 	branch=${projectname:9}
 	projectdir="primates/$branch"
@@ -26,11 +17,11 @@ if [ ${projectname:0:8} = "primates" ]; then
 	usebins="FALSE"
 fi
 
-
 # LOCAL ADAPTATION IN HUMAN POPULATIONS PROJECT
 # Daub et al. (2013)
 # Evidence for Polygenic Adaptation to Pathogens in the Human Genome. 
 # Mol Biol Evol 30, 1544–1558.
+# Total nr of runs: 200
 if [ $projectname = "humanpops" ]; then
 	projectdir="humanpops"
 	nrand=1
@@ -43,6 +34,7 @@ fi
 # Foll et al. (2014)
 # Widespread Signals of Convergent Adaptation to High Altitude in Asia and America. 
 # The American Journal of Human Genetics 95, 394–407.
+# Total nr of runs: 200
 if [ $projectname = "altitude" ]; then
 	projectdir="altitude"
 	nrand=500000
@@ -55,6 +47,7 @@ fi
 # Amorim et al. (2015)
 # Detection of Convergent Genome-Wide Signals of Adaptation to Tropical Forests in Humans. 
 # PLoS One 10.
+# Total nr of runs: 300
 if [ ${projectname:0:6} = "forest" ]; then
 	popset=${projectname:7}
 	projectdir="forest/$branch"
