@@ -35,7 +35,7 @@ In the root folder of this project, you will find examples explaining step by st
 
 ####References
 
-Daub, J.T. et al. (in preparation). **Detection of pathways affected by positive selection in primate lineages ancestral to humans**  
+Daub, J.T. et al. (2016). **Detection of pathways affected by positive selection in primate lineages ancestral to humans** bioRxiv doi: http://dx.doi.org/10.1101/044941 
 
 Daub, J.T. et al. (2013). **Evidence for Polygenic Adaptation to Pathogens in the Human Genome** Mol Biol Evol 30, 1544–1558.
 
