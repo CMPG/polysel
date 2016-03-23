@@ -381,6 +381,7 @@ TestGeneSets<-function(set.info, set.obj, obj.stat,
       # Create null distribution without using bins or 
       # sequential random sampling
       # We need one null distribution per setsize
+      obj.stat<-obj.stat[order(obj.stat$objStat, decreasing = T),]
       setsizes.unique<-sort(unique(set.sizes))
       nullmtx<-matrix(0,nrow=length(setsizes.unique),ncol=nrand)
       nullmtx<-replicate(nrand,
@@ -420,7 +421,6 @@ TestGeneSets<-function(set.info, set.obj, obj.stat,
     
     # or infer p-values from approximate null distribution
     # using mean and var objStat
-    
     stat.mean<-mean(obj.stat$objStat)
     stat.var<-var(obj.stat$objStat)  
     stat.sd.corr <- sqrt(stat.var*(N-set.sizes)/(N-1))
@@ -580,6 +580,7 @@ TestShuffledSets<-function(set.info, set.obj, obj.stat,
   obj.stat.shuffle<-obj.stat  
   ix.shuffle<-sample(1:N,N,replace=FALSE)
   obj.stat.shuffle$objStat<-obj.stat$objStat[ix.shuffle]
+  obj.stat.shuffle$objBin<-obj.stat$objBin[ix.shuffle]
   
   # check whether obj.stat only contains objects that are part of a set
   # if so, set keep.obj.stat=TRUE   
