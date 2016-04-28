@@ -289,7 +289,8 @@ for (fld in flds){
 <p>Usually we are looking for gene sets with extremely high SUMSTAT scores, so we compare their scores to the higher tail of the null distribution.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">test &lt;-<span class="st"> &quot;highertail&quot;</span></code></pre></div>
 <p>Use <em>lowertail</em> or <em>twosided</em> if you are searching for low SUMSTAT scores or extreme scores respectively.</p>
-<p>We use the function <code>qvalue</code> from the R package <em>qvalue</em> to calculate the q-value with the p-values of the tests. We set here the parameter <code>pi0.method</code> of this package to its default value. See <code>?qvalue</code> for more information about this function.</p>
+<p>We use the function <code>qvalue</code> from the R package <em>qvalue</em> to calculate the q-value with the p-values of the tests.</p>
+<p>We set here the parameter <code>pi0.method</code> of this package to its default value. See <code>?qvalue</code> for more information about this function.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">qvalue.method=<span class="st">&quot;smoother&quot;</span></code></pre></div>
 </div>
 </div>
@@ -307,7 +308,7 @@ result&lt;-<span class="kw">EnrichmentAnalysis</span>(set.info, set.obj, obj.sta
                     )
 
 set.scores.prepruning &lt;-<span class="st"> </span>result$set.scores.prepruning</code></pre></div>
-<p>The ten highests scoring sets are (taking <code>nrand = 1000</code>):</p>
+<p>The ten highest scoring sets are (taking <code>nrand = 1000</code>):</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">print</span>(set.scores.prepruning[<span class="dv">1</span>:<span class="dv">10</span>,],<span class="dt">row.names=</span>F, <span class="dt">right=</span>F)</code></pre></div>
 <pre><code> setID setSize setScore setP  setQ  setName                                                         setID.orig
   64   165      34.2    0.001 0.055 Herpes simplex infection                                        377873    
@@ -358,7 +359,7 @@ result&lt;-<span class="kw">EnrichmentAnalysis</span>(set.info, set.obj, obj.sta
                     )
 
 set.scores.postpruning &lt;-<span class="st"> </span>result$set.scores.postpruning</code></pre></div>
-<p>After pruning, the ten highests scoring sets are now (taking <code>nrand = 1000</code>):</p>
+<p>After pruning, the ten highest scoring sets are now (taking <code>nrand = 1000</code>):</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">print</span>(set.scores.postpruning[<span class="dv">1</span>:<span class="dv">10</span>,],<span class="dt">row.names=</span>F, <span class="dt">right=</span>F)</code></pre></div>
 <pre><code> setID setSize setScore setP  setQ setName                                  setID.orig
    64  165     34.2     0.001 -1   Herpes simplex infection                 377873    
