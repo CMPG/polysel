@@ -87,6 +87,7 @@ ReadSetObjTables<-function(in.path, set.info.file, set.obj.file,
       "outside [",minsetsize, ", ", maxsetsize,"]\n",
       sep="")
   set.obj<-set.obj[set.obj$setID %in% names(t)[!ix],]
+  set.info<-set.info[set.info$setID %in% names(t)[!ix],]
   
   # Exclude genes that are not part of a set
   if (obj.in.set){
@@ -496,7 +497,7 @@ PruneSets<-function(set.info, set.obj, obj.stat, set.scores,
 
   # start with new dataframe
   set.scores.nw<-data.frame()
-    
+
   while (nrow(set.scores)>1 & nrow(set.obj)>0) {
     # add first row of set.scores to new set.scores
     # and remove it from old set.scores
@@ -721,7 +722,7 @@ CreateNullDist_Binned<-function(stats, bin.ix, maxbin, bindistmtx,
                                 scores, nrand, test="highertail"){
   
   # if no binning create null distribution differently
-  if (length(bin.ix)==2){
+  if (length(bin.ix)==2 & length(dim(bin.dist.mtx))<2){
     nms<-names(bindistmtx)
     dim(bindistmtx)<-c(length(scores),1)
     dimnames(bindistmtx)<-list(nms,"1")      
