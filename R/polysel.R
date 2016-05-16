@@ -38,7 +38,7 @@
 #===========================================================================
 ReadSetObjTables<-function(in.path, set.info.file, set.obj.file,
                            obj.info.file, minsetsize=10, maxsetsize=1000,
-                           obj.in.set=FALSE){
+                           obj.in.set=FALSE, merge.similar.sets){
   
   # Read in information on gene sets
   set.info<-read.table(file=file.path(in.path,set.info.file),
@@ -97,7 +97,31 @@ ReadSetObjTables<-function(in.path, set.info.file, set.obj.file,
     obj.info<-obj.info[ix,]
   }
   
-  return(list(set.info=set.info,set.obj=set.obj,obj.info=obj.info))
+  if (merge.similar.sets){
+    r<-MergeSimilarSets(set.info, set.obj)
+    set.info<-r$set.info
+    set.obj<-r$set.obj
+    set.info.lnk<-r$set.info.lnk
+    cat("Merged ", r$aff.sets, " sets into ", r$nr.clusters , 
+        " unions of similar gene sets\n", sep="")
+  } else {
+    set.info.lnk<-set.info
+    set.info.lnk$setID.new<-set.info.lnk$setID
+  }
+  
+  # Create new field with setName and setSource
+  # to tell apart sets with the same name (coming from different sources)
+  if ("setSource" %in% colnames(set.info)){
+    t<-table(tolower(set.info$setName))
+    double.names<-names(t[t>1])
+    set.info$setNameSource<-set.info$setName
+    ix<-which(tolower(set.info$setName) %in% double.names)
+    set.info$setNameSource[ix]<-
+      paste(set.info$setName[ix]," (", set.info$setSource[ix], ")",sep="")
+  }
+  
+  return(list(set.info=set.info,set.obj=set.obj,obj.info=obj.info,
+              set.info.lnk=set.info.lnk))
 }
 
 
@@ -493,12 +517,16 @@ PruneSets<-function(set.info, set.obj, obj.stat, set.scores,
                     nrand=10000, minsetsize=10,
                     approx.null=FALSE, seq.rnd.sampling=TRUE,
                     use.bins=FALSE, test="higher.tail",
-                    keep.obj.stat=FALSE) {  
+                    keep.obj.stat=FALSE, rnd.stop=0) {  
 
   # start with new dataframe
   set.scores.nw<-data.frame()
+  
+  rndcnt<-0
 
-  while (nrow(set.scores)>1 & nrow(set.obj)>0) {
+  while (nrow(set.scores)>1 & nrow(set.obj)>0 & 
+         (rnd.stop==0 | rndcnt<rnd.stop)) {
+    rndcnt<-rndcnt+1
     # add first row of set.scores to new set.scores
     # and remove it from old set.scores
     set.scores.nw<-rbind(set.scores.nw,set.scores[1,]) 
@@ -722,7 +750,7 @@ CreateNullDist_Binned<-function(stats, bin.ix, maxbin, bindistmtx,
                                 scores, nrand, test="highertail"){
   
   # if no binning create null distribution differently
-  if (length(bin.ix)==2 & length(dim(bin.dist.mtx))<2){
+  if (length(bin.ix)==2){
     nms<-names(bindistmtx)
     dim(bindistmtx)<-c(length(scores),1)
     dimnames(bindistmtx)<-list(nms,"1")      
@@ -801,6 +829,123 @@ CreateNullDist_Binned<-function(stats, bin.ix, maxbin, bindistmtx,
 # HELPER FUNCTIONS
 #===========================================================================
 
+#=======================================================================
+# Function: CreateSimilarityMtx(set.obj, objIDs, setIDs)
+# Create similarity matrix
+# Each element i,j is the proportion of genes in set i
+# that is also part of set j
+# -set.obj: dataframe with fields setID, objID
+# -setIDs   : (optional) vector with setIDs
+# -objIDs   : (optional) vector with objIDs
+#=======================================================================
+
+CreateSimilarityMtx<-function(set.obj,objIDs,setIDs){  
+  
+  if (missing(objIDs)) objIDs<-unique(set.obj$objID)
+  k<-length(objIDs)  
+  if (missing(setIDs)) setIDs<-unique(set.obj$setID)
+  l <- length(setIDs)
+  
+  # step 1
+  # create matrix setobjmat    
+  # nrows = # sets, ncols = # objs
+  # each row is logical vector indicating which obj is in set    
+  setobjmat<-matrix(nrow=l,ncol=k,dimnames=list(setIDs,objIDs))
+  for (i in 1:l) {
+    obj_i <- set.obj$objID[set.obj$setID==setIDs[i]]
+    setobjmat[i,]<-objIDs %in% obj_i      
+  }
+  
+  # step 2
+  # do matrix multiplication setobjmat x T(setobjmat)
+  # resulting in a similarity matrix
+  # each element (i,j) gives the number of objects
+  # that set i and j have in common          
+  sim.mtx<-setobjmat %*% t(setobjmat)
+  
+  # step 3
+  # divide matrix elements by setsize to get 
+  # proportion of elements in common with other set
+  setsizes<-rowSums(setobjmat)
+  sim.mtx<-apply(sim.mtx,2,x<-function(x) return(x/setsizes))
+  
+  return(sim.mtx)
+}
+
+#===========================================================================
+# Function: MergeSimilarSets(set.info, set.obj)
+# Merge gene sets that have more than 95% similarity
+#
+# -set.info : dataframe with fields setID, setName, ...
+# -set.obj  : dataframe with fields setID, objID
+# 
+#===========================================================================
+
+MergeSimilarSets<-function(set.info, set.obj, min.sim=0.95){
+  require(igraph)
+  
+  # Get similarity matrix
+  # Which sets are 95% similar (two way)
+  # Choose the one with largest original set to keep
+  # Remove rest, but keep link in set.info.old
+  
+  # get the (original) set sizes
+  t<-table(set.obj$setID)
+  m<-match(set.info$setID,names(t))
+  set.info$setSizeOrg<-as.vector(t[m])
+  
+  # Create similarity matrix
+  sim.mtx<-CreateSimilarityMtx(set.obj)
+  sim.mtx.t<-t(sim.mtx)
+  adj.mtx <-(sim.mtx>=min.sim)*(sim.mtx.t>=min.sim)
+  g<-graph.adjacency(adj.mtx, diag=F)
+  
+  set.info.nw<-set.info
+  set.info.lnk<-set.info
+  set.info.lnk$setID.new<-set.info.lnk$setID
+  set.obj.lnk<-set.obj
+  
+  # find clusters 
+  cl<-clusters(g)
+  cl.names<-which(cl$csize>1)
+  for (c in cl.names) {
+    # get sets in cluster
+    ix<-which(cl$membership %in% c)
+    subg<-induced.subgraph(g,ix)
+    setIDs<-V(subg)$name
+    m<-match(setIDs,set.info.nw$setID)
+    # get set with highest number of genes in original set
+    ix.max<-which.max(set.info.nw$setSizeOrg[m])
+    setID.max<-set.info.nw$setID[m[ix.max]]
+    set.info.nw$setName[m[ix.max]]<-
+      paste(set.info.nw$setName[m[ix.max]],"*",sep="")
+    # get all objects in union of cluster
+    objs.all<-unique(set.obj$objID[set.obj$setID %in% setIDs])
+    objs.max<-set.obj$objID[set.obj$setID == setID.max]
+    objs.diff<-setdiff(objs.all,objs.max)
+    # add missing ones to setID.max
+    if (length(objs.diff)>0){
+      df.diff<-data.frame(setID=rep(setID.max,length(objs.diff)),objID=objs.diff)
+      set.obj<-rbind(set.obj,df.diff)
+    }
+    set.info.lnk$setID.new[set.info.lnk$setID %in% setIDs]<-setID.max
+    # remove all others
+    ix.remove <- m[-ix.max]
+    set.info.nw<-set.info.nw[-ix.remove,]
+  }
+  set.info<-set.info.nw
+  
+  # exclude sets in set.obj not in set.info
+  set.obj<-set.obj[set.obj$setID %in% set.info$setID,]
+  
+  # number of affected sets
+  nr.clusters<-length(cl.names)
+  aff.sets<-nr.clusters+sum(set.info.lnk$setID.new !=set.info.lnk$setID)
+  
+  return(list(set.obj=set.obj, set.info=set.info, set.info.lnk=set.info.lnk,
+              nr.clusters=nr.clusters,aff.sets=aff.sets))
+}
+
 
 #===========================================================================
 # Function: CreateSetObjMtx(set.obj, objIDs, setIDs)
@@ -809,8 +954,8 @@ CreateNullDist_Binned<-function(stats, bin.ix, maxbin, bindistmtx,
 # each row is logical vector indicating which obj is in set
 #
 # -set.obj  : dataframe with fields setID, objID
-# -setIDs   : (optional) dataframe with fields setID, ...
-# -objIDs   : (optional) dataframe with fields objID, ...
+# -setIDs   : (optional) vector with setIDs
+# -objIDs   : (optional) vector with objIDs
 #===========================================================================
 
 CreateSetObjMtx<-function(set.obj, setIDs, objIDs){

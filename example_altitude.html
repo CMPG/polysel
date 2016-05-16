@@ -177,9 +177,10 @@ Daub, J.T. et al. (2013). <strong>Evidence for Polygenic Adaptation to Pathogens
 </div>
 <div id="data-preparation-and-inspection" class="section level3">
 <h3>Data preparation and inspection</h3>
-<p>In order to run the functions of the pipeline, make sure that the packages <code>qvalue</code> and <code>Matrix</code> are installed. You can install them with:</p>
+<p>In order to run the functions of the pipeline, make sure that the packages <code>qvalue</code>, <code>Matrix</code>, <code>igraph</code> are installed. You can install them with:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="st">&quot;qvalue&quot;</span>)
-<span class="kw">install.packages</span>(<span class="st">&quot;Matrix&quot;</span>)</code></pre></div>
+<span class="kw">install.packages</span>(<span class="st">&quot;Matrix&quot;</span>)
+<span class="kw">install.packages</span>(<span class="st">&quot;igraph&quot;</span>)</code></pre></div>
 <p>Next, define the project name and set the path to input and output files:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># set project variables</span>
 project.name&lt;-<span class="st">&quot;altitude&quot;</span>
@@ -197,47 +198,50 @@ results.path&lt;-<span class="st">&quot;./results&quot;</span></code></pre></div
 <li>A file <strong>linking gene sets with genes</strong> (here ‘SetObj.txt’) that contains at least the fields ‘setID’ and ‘objID’.</li>
 </ol>
 <p>Make sure that all these fields have a header, and that they are tab separated.</p>
-<p>We set a minimum set size to exclude too small pathways for which we usually don’t have enough power to detect signals of selection.</p>
+<p>We set a minimum set size to exclude too small pathways for which we usually don’t have enough power to detect signals of selection. We choose to merge similar sets (sharing more than 95% of their genes) into one ‘union set’.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">minsetsize&lt;-<span class="dv">10</span>
 result&lt;-<span class="kw">ReadSetObjTables</span>(<span class="dt">in.path=</span>data.path,
                          <span class="dt">set.info.file=</span><span class="st">&quot;SetInfo.txt&quot;</span>,
                          <span class="dt">set.obj.file=</span><span class="st">&quot;SetObj.txt&quot;</span>,
                          <span class="dt">obj.info.file=</span><span class="st">&quot;ObjInfo.txt&quot;</span>,
                          <span class="dt">minsetsize=</span>minsetsize,
-                         <span class="dt">obj.in.set=</span>F)</code></pre></div>
+                         <span class="dt">obj.in.set=</span>F,
+                         <span class="dt">merge.similar.sets=</span>T)</code></pre></div>
 <pre><code>&gt; Found and removed 0 gene sets in set.obj which where not in set.info
-&gt; Found and removed 0 objects in set.obj which where not in obj.info
-&gt; Found and removed 0 gene sets in set.obj with size outside [10, 1000]</code></pre>
+&gt; Found and removed 9277 objects in set.obj which where not in obj.info
+&gt; Found and removed 863 gene sets in set.obj with size outside [10, 1000]
+&gt; Merged 238 sets into 93 unions of similar gene sets</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">set.info&lt;-result$set.info
 obj.info&lt;-result$obj.info
 set.obj&lt;-result$set.obj
+set.info.lnk&lt;-result$set.info.lnk
 
 <span class="kw">cat</span>(<span class="st">&quot;Number of sets: &quot;</span>, <span class="kw">nrow</span>(set.info), <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="dt">sep=</span><span class="st">&quot;&quot;</span>)</code></pre></div>
 <pre><code>&gt; Number of sets: 1339</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">cat</span>(<span class="st">&quot;Number of genes: &quot;</span>, <span class="kw">nrow</span>(obj.info), <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="dt">sep=</span><span class="st">&quot;&quot;</span>)</code></pre></div>
 <pre><code>&gt; Number of genes: 17272</code></pre>
-<p>The dataframes <code>set.info</code>, <code>set.obj</code> and <code>obj.info</code> are created. They have a new internal numeric ID, their old ID is stored in <code>setID.orig</code> and <code>objID.orig</code>. The field <code>bin</code> is added to <code>obj.info</code> if it was not already there. See below for its use.</p>
+<p>The dataframes <code>set.info</code>, <code>set.obj</code> and <code>obj.info</code> are created. They have a new internal numeric ID, their old ID is stored in <code>setID.orig</code> and <code>objID.orig</code>. The field <code>bin</code> is added to <code>obj.info</code> if it was not already there. See below for its use. The field <code>setNameSource</code> is added to <code>set.info</code>, to tell apart gene sets that have the same name. In such cases <code>setNameSource</code> will consist of <code>setName</code> and <code>setSource</code> (if this field is present). The dataframe <code>set.info.lnk</code> is similar to <code>set.info</code>, but it contains alle gene sets before merging similar sets. It contains the field <code>setID.new</code>, if this is different from <code>setID</code>, then the corresponding set has merged into the set <code>setID.new</code>.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">print</span>(set.info[<span class="dv">1</span>:<span class="dv">5</span>,],<span class="dt">row.names=</span>F, <span class="dt">right=</span>F)</code></pre></div>
-<pre><code> setID setName                                source   setsize.org setID.orig
- 1     G0 and Early G1                        REACTOME  25         477139    
- 2     BMAL1:CLOCK/NPAS2 Activates Circadi... REACTOME  38         477138    
- 3     The citric acid (TCA) cycle and res... REACTOME 118         477137    
- 4     Tetrahydrobiopterin (BH4) synthesis... REACTOME  12         477136    
- 5     Meiotic Synapsis                       REACTOME  75         477134    </code></pre>
+<pre><code> setID setName                                setSource setID.orig setSizeOrg setNameSource                         
+ 1     G0 and Early G1                        REACTOME  477139     22         G0 and Early G1                       
+ 2     BMAL1:CLOCK/NPAS2 Activates Circadi... REACTOME  477138     35         BMAL1:CLOCK/NPAS2 Activates Circadi...
+ 3     The citric acid (TCA) cycle and res... REACTOME  477137     99         The citric acid (TCA) cycle and res...
+ 4     Tetrahydrobiopterin (BH4) synthesis... REACTOME  477136     11         Tetrahydrobiopterin (BH4) synthesis...
+ 6     Meiotic Synapsis                       REACTOME  477134     49         Meiotic Synapsis                      </code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">print</span>(obj.info[<span class="dv">1</span>:<span class="dv">5</span>,],<span class="dt">row.names=</span>F, <span class="dt">right=</span>F)</code></pre></div>
-<pre><code> objID objStat objName SNPcount chr startpos  endpos    length strand dbsnp      objID.orig objBin
- 1     0.099   A1BG     1       19   58858172  58864865   6694 -1     rs893181   1          1     
- 2     0.101   NAT2    50       8    18248755  18258723   9969  1     rs10088180 10         1     
- 3     0.175   ADA     16       20   43248163  43280376  32214 -1     rs244078   100        1     
- 4     0.196   CDH2    69       18   25530930  25757445 226516 -1     rs11564289 1000       1     
- 5     0.127   AKT3    47       1   243651535 244006886 355352 -1     rs2125230  10000      1     </code></pre>
+<pre><code> objID objStat objName SNPcount chr startpos  endpos    strand objID.orig objBin
+ 1     0.099   A1BG     1       19   58858172  58864865 -1     1          1     
+ 2     0.101   NAT2    50       8    18248755  18258723  1     10         1     
+ 3     0.175   ADA     16       20   43248163  43280376 -1     100        1     
+ 4     0.196   CDH2    69       18   25530930  25757445 -1     1000       1     
+ 5     0.127   AKT3    47       1   243651535 244006886 -1     10000      1     </code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">print</span>(set.obj[<span class="dv">1</span>:<span class="dv">5</span>,],<span class="dt">row.names=</span>F, <span class="dt">right=</span>F)</code></pre></div>
 <pre><code> setID objID
- 1164  1985 
- 1164  2034 
- 1164  2056 
- 1164  2118 
- 1164  2166 </code></pre>
+ 2024  1985 
+ 2024  2034 
+ 2024  2056 
+ 2024  2118 
+ 2024  2166 </code></pre>
 <p>With the SUMSTAT pathway enrichment test, we test if pathways (gene sets) show a shift in the distribution of their gene scores. Then the SUMSTAT score (the sum of the gene scores) is compared with a null distribution of SUMSTAT scores. The creation of such null distribution depends on several factors, they will be explained in the next paragraphs.</p>
 <div id="check-for-bias" class="section level4">
 <h4>Check for bias</h4>
@@ -272,7 +276,7 @@ for (fld in flds){
 <p>If you do not use bins and if sum(objStat) approximates a normal distribution, there is no need to create a null distribution. We can then use properties of all genes (namely the mean and variance of their scores), to infer the null distribution, which is much faster than creating one. In our case we are using bins so we cannot use this procedure. See the <em>human populations</em> project how you can use a normal distribution as null distribution.</p>
 <p>After checking for biases and checking whether the null distribution is gaussian, and -if needed- correcting <code>objStat</code> for these biases, we create the data frame <code>obj.stat</code> which is derived from <code>obj.info</code> and consists of its fields <code>objID</code>, <code>objStat</code> and <code>objBin</code>. We save all the data objects so we can use them later on for testing.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">obj.stat&lt;-obj.info[,<span class="kw">c</span>(<span class="st">&quot;objID&quot;</span>, <span class="st">&quot;objStat&quot;</span>, <span class="st">&quot;objBin&quot;</span>)]
-<span class="kw">save</span>(set.info, obj.info, obj.stat, set.obj, 
+<span class="kw">save</span>(set.info, obj.info, obj.stat, set.obj, set.info.lnk,
      <span class="dt">file=</span><span class="kw">file.path</span>(data.path, <span class="st">&quot;polysel_objects.RData&quot;</span>))</code></pre></div>
 </div>
 <div id="set-parameters" class="section level4">
@@ -290,8 +294,8 @@ for (fld in flds){
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">test &lt;-<span class="st"> &quot;highertail&quot;</span></code></pre></div>
 <p>Use <em>lowertail</em> or <em>twosided</em> if you are searching for low SUMSTAT scores or extreme scores respectively.</p>
 <p>We use the function <code>qvalue</code> from the R package <em>qvalue</em> to calculate the q-value with the p-values of the tests.</p>
-<p>We set here the parameter <code>pi0.method</code> of this package to its default value. See <code>?qvalue</code> for more information about this function.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">qvalue.method=<span class="st">&quot;smoother&quot;</span></code></pre></div>
+<p>We set here the parameter <code>pi0.method</code> of this function to its default value. See <code>?qvalue</code> for more information about this function.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">qvalue.method &lt;-<span class="st"> &quot;smoother&quot;</span></code></pre></div>
 </div>
 </div>
 <div id="running-gene-set-test-without-pruning" class="section level3">
@@ -311,16 +315,16 @@ set.scores.prepruning &lt;-<span class="st"> </span>result$set.scores.prepruning
 <p>The ten highest scoring sets are (taking <code>nrand = 1000</code>):</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">print</span>(set.scores.prepruning[<span class="dv">1</span>:<span class="dv">10</span>,],<span class="dt">row.names=</span>F, <span class="dt">right=</span>F)</code></pre></div>
 <pre><code> setID setSize setScore setP  setQ  setName                                                         setID.orig
-  64   165      34.2    0.001 0.055 Herpes simplex infection                                        377873    
-  82    23       6.7    0.001 0.055 Antigen Presentation: Folding, assembly and peptide loading ... 366163    
- 107    15       5.7    0.001 0.055 Fatty Acid Omega Oxidation                                      198915    
- 199    42      11.0    0.001 0.055 Heart Development                                               198802    
- 286    62      16.3    0.001 0.055 Interferon gamma signaling                                      187106    
- 288    58      13.9    0.001 0.055 Interferon alpha/beta signaling                                 187104    
- 289   153      32.1    0.001 0.055 Interferon Signaling                                            187103    
- 588    43      11.2    0.001 0.055 Intestinal immune network for IgA production                    128760    
- 731   945     179.9    0.001 0.055 Immune System                                                   106386    
- 980    10       4.9    0.001 0.055 Ethanol oxidation                                               105715    </code></pre>
+  179  165      34.2    0.001 0.055 Herpes simplex infection                                        377873    
+  216   23       6.7    0.001 0.055 Antigen Presentation: Folding, assembly and peptide loading ... 366163    
+  244   15       5.7    0.001 0.055 Fatty Acid Omega Oxidation                                      198915    
+  356   42      11.0    0.001 0.055 Heart Development                                               198802    
+  469   62      16.3    0.001 0.055 Interferon gamma signaling                                      187106    
+  471   58      13.9    0.001 0.055 Interferon alpha/beta signaling                                 187104    
+  472  153      32.1    0.001 0.055 Interferon Signaling                                            187103    
+ 1008   43      11.2    0.001 0.055 Intestinal immune network for IgA production                    128760    
+ 1257  945     179.9    0.001 0.055 Immune System                                                   106386    
+ 1777   10       4.9    0.001 0.055 Ethanol oxidation                                               105715    </code></pre>
 <p>Ultimately, when setting <code>nrand = 500000</code>, the top scoring sets will be:</p>
 <pre><code>&gt;  setID setSize setScore setP    setQ   setName                                                         setID.orig
 &gt;   107   15      5.7     2.0e-06 0.0011 Fatty Acid Omega Oxidation                                      198915    
@@ -362,16 +366,16 @@ set.scores.postpruning &lt;-<span class="st"> </span>result$set.scores.postpruni
 <p>After pruning, the ten highest scoring sets are now (taking <code>nrand = 1000</code>):</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">print</span>(set.scores.postpruning[<span class="dv">1</span>:<span class="dv">10</span>,],<span class="dt">row.names=</span>F, <span class="dt">right=</span>F)</code></pre></div>
 <pre><code> setID setSize setScore setP  setQ setName                                  setID.orig
-   64  165     34.2     0.001 -1   Herpes simplex infection                 377873    
-  107   15      5.7     0.001 -1   Fatty Acid Omega Oxidation               198915    
-  120   14      4.1     0.002 -1   Estrogen metabolism                      198898    
- 1076  117     24.2     0.003 -1   Ubiquitin mediated proteolysis           83056     
-  199   41     10.2     0.003 -1   Heart Development                        198802    
-  164   82     18.7     0.004 -1   Wnt Signaling Pathway and Pluripotency   198847    
-  579   40      9.3     0.006 -1   Regulation of retinoblastoma protein     137916    
- 1007   27      6.0     0.008 -1   Primary immunodeficiency                 83125     
-  902   39      8.1     0.011 -1   Activation of Chaperones by IRE1alpha*   105906    
-  470   56     12.5     0.012 -1   HIF-1-alpha transcription factor network 138045    </code></pre>
+  179  165     34.2     0.001 -1   Herpes simplex infection                 377873    
+  244   15      5.7     0.001 -1   Fatty Acid Omega Oxidation               198915    
+  261   14      4.1     0.002 -1   Estrogen metabolism                      198898    
+ 1922  117     24.2     0.003 -1   Ubiquitin mediated proteolysis           83056     
+  356   41     10.2     0.003 -1   Heart Development                        198802    
+  312   82     18.7     0.004 -1   Wnt Signaling Pathway and Pluripotency   198847    
+  998   40      9.3     0.006 -1   Regulation of retinoblastoma protein     137916    
+ 1853   27      6.0     0.008 -1   Primary immunodeficiency                 83125     
+ 1608   39      8.1     0.011 -1   Activation of Chaperones by IRE1alpha*   105906    
+  870   56     12.5     0.012 -1   HIF-1-alpha transcription factor network 138045    </code></pre>
 <p>Ultimately, when setting <code>nrand = 500000</code>, the top scoring sets after pruning will be:</p>
 <pre><code>&gt;  setID setSize setScore setP    setQ setName                                          setID.orig
 &gt;   107   15      5.7     2.0e-06 -1   Fatty Acid Omega Oxidation                       198915    
@@ -434,16 +438,16 @@ emp.fdr.est.m0&lt;-<span class="ot">TRUE</span></code></pre></div>
 <p>Now each gene set remaining after pruning has an empirical q-value (taking <code>nrand = 1000</code>, and <code>emp.fdr.nruns = 3</code>):</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">print</span>(set.scores.postpruning[<span class="dv">1</span>:<span class="dv">10</span>,],<span class="dt">row.names=</span>F, <span class="dt">right=</span>F)</code></pre></div>
 <pre><code> setID setSize setScore setP  setQ setName                                  setID.orig
-   64  165     34.2     0.001 0.52 Herpes simplex infection                 377873    
-  107   15      5.7     0.001 0.52 Fatty Acid Omega Oxidation               198915    
-  120   14      4.1     0.002 0.52 Estrogen metabolism                      198898    
- 1076  117     24.2     0.003 0.52 Ubiquitin mediated proteolysis           83056     
-  199   41     10.2     0.003 0.52 Heart Development                        198802    
-  164   82     18.7     0.004 0.52 Wnt Signaling Pathway and Pluripotency   198847    
-  579   40      9.3     0.006 0.55 Regulation of retinoblastoma protein     137916    
- 1007   27      6.0     0.008 0.70 Primary immunodeficiency                 83125     
-  902   39      8.1     0.011 0.70 Activation of Chaperones by IRE1alpha*   105906    
-  470   56     12.5     0.012 0.70 HIF-1-alpha transcription factor network 138045    </code></pre>
+  179  165     34.2     0.001 0.52 Herpes simplex infection                 377873    
+  244   15      5.7     0.001 0.52 Fatty Acid Omega Oxidation               198915    
+  261   14      4.1     0.002 0.52 Estrogen metabolism                      198898    
+ 1922  117     24.2     0.003 0.52 Ubiquitin mediated proteolysis           83056     
+  356   41     10.2     0.003 0.52 Heart Development                        198802    
+  312   82     18.7     0.004 0.52 Wnt Signaling Pathway and Pluripotency   198847    
+  998   40      9.3     0.006 0.55 Regulation of retinoblastoma protein     137916    
+ 1853   27      6.0     0.008 0.70 Primary immunodeficiency                 83125     
+ 1608   39      8.1     0.011 0.70 Activation of Chaperones by IRE1alpha*   105906    
+  870   56     12.5     0.012 0.70 HIF-1-alpha transcription factor network 138045    </code></pre>
 <p>Ultimately, when setting <code>nrand = 500000</code>, and <code>emp.fdr.nruns = 200</code> the empirical q-values of the top scoring sets after pruning will be:</p>
 <pre><code>&gt;  setID setSize setScore setP    setQ  setName                                          setID.orig
 &gt;   107   15      5.7     2.0e-06 0.000 Fatty Acid Omega Oxidation                       198915    
