@@ -339,6 +339,8 @@ TestGeneSets<-function(set.info, set.obj, obj.stat,
   set.stats <- as.vector(set.obj.mtx %*% obj.stat$objStat)  
     
   if (approx.null==FALSE) { 
+    if (nrand < 2)
+      stop("nrand should be larger than one")
     
     if (use.bins | seq.rnd.sampling) {      
             
@@ -795,7 +797,7 @@ CreateNullDist_Binned<-function(stats, bin.ix, maxbin, bindistmtx,
       max.ngenes<-bindist[1]
       bindist_tmp<-bindist[1:(bdl-1)]
       if (bdl>2){    
-        nullmtx[1:(bdl-2),]<-replicate(nrand,
+        nullmtx[1:(bdl-2), ]<-replicate(nrand,
                               cumsum(stats[sample(cnt,max.ngenes)])[bindist_tmp])
       }        
       binlist[[i]]<-nullmtx       
@@ -810,8 +812,8 @@ CreateNullDist_Binned<-function(stats, bin.ix, maxbin, bindistmtx,
     
     testnull<-t(sapply(1:N, function(j){
       bindist.set<-bindistmtx_ix[j,]
-      testnullmtx<-sapply(1:maxbin,                          
-                          function(b){binlist[[b]][bindist.set[b],]})
+      testnullmtx<-as.matrix(sapply(1:maxbin,                          
+                          function(b){binlist[[b]][bindist.set[b], ]}))
       return(rowSums(testnullmtx))
     }))
     
