@@ -1,8 +1,18 @@
 #!/bin/bash
 
 #-------------------------------------------------------------------------------------------
+# polysel_shufflesets_cluster_scratch.sh
+# script to create p-value null distribution by shuffling gene scores and retesting sets
+#-------------------------------------------------------------------------------------------
+
+main_script="polysel_shufflesets_cluster.R"
+runnr=$1
+
+#-------------------------------------------------------------------------------------------
 # project specific parameters
 #-------------------------------------------------------------------------------------------
+
+projectname=$2
 
 # POSITIVE SELECTION IN PRIMATES PROJECT
 # Daub et al. (in preparation)
@@ -101,5 +111,5 @@ cd $directory
 # Copy Results to Master
 #-------------------------------------------------------------------------------------------
 
-cp $scratchFolder/${projectname}_shuf*_${nrand}.RData $resultspath
+cp $scratchFolder/${projectname}_shuf*_${nrand}.RData $empfdrpath
 

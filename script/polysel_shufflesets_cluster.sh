@@ -1,17 +1,18 @@
 #!/bin/bash
 
 #-------------------------------------------------------------------------------------------
-# polysel_shufflesets_cluster.R
+# polysel_shufflesets_cluster.sh
 # script to create p-value null distribution by shuffling gene scores and retesting sets
 #-------------------------------------------------------------------------------------------
 
 main_script="polysel_shufflesets_cluster.R"
 runnr=$1
-projectname=$2
 
 #-------------------------------------------------------------------------------------------
 # project specific parameters
 #-------------------------------------------------------------------------------------------
+
+projectname=$2
 
 # POSITIVE SELECTION IN PRIMATES PROJECT
 # Daub et al. (in preparation)

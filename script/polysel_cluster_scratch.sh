@@ -123,5 +123,5 @@ cd $directory
 # Copy Results to Master
 #-------------------------------------------------------------------------------------------
 
-cp $scratchFolder/${projectname}_setscores.RData $resultspath
+cp $scratchFolder/${projectname}_setscores*.* $resultspath
 

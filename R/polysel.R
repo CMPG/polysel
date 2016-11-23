@@ -702,7 +702,7 @@ GetEmpericalFDR<-function(set.scores, in.path, nruns=3, est.m0=T,
     # calculate running mean of N0
     n <- 0
     mean.N0 <- 0
-    for (run in 1:nruns){
+    for (run in seq(nruns)){
       nsh<-length(p.shuffle.postpruning.ls[[run]])
       N0<-sum(p.shuffle.postpruning.ls[[run]]<=p.lim[p])/nsh
       n <- n + 1
