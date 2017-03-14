@@ -12,7 +12,11 @@ Set `projectname` according to one of the examples (*primates_homininae*, *human
 Change to `for i in {1..3}` if you just want to try out if everything is working correctly.  
 Change to `for i in {1..200}` to reproduce the *humanpops* and *altitude* results
 
+      # make script executable (only need to run once)
+	  chmod +x ./script/polysel_shufflesets_cluster.sh
+
 	  projectname="primates_homininae"
+
 	  for i in {1..300}
 	  do
 	  qsub -l h_cpu=10:00:00 -l h_vmem=4G -o ./log/shuffle${i}_${projectname}.out \
@@ -23,7 +27,11 @@ Change to `for i in {1..200}` to reproduce the *humanpops* and *altitude* result
 
 **or (USING SCRATCH): run polysel_shufflesets_cluster_scratch.sh script with:**
 
+      # make script executable (only need to run once)
+	  chmod +x ./script/polysel_shufflesets_cluster_scratch.sh
+
 	  projectname="primates_homininae"
+
 	  for i in {1..300}
 	  do
 	  qsub -l h_cpu=10:00:00 -l h_vmem=4G -o ./log/shuffle${i}_${projectname}.out \
@@ -34,14 +42,22 @@ Change to `for i in {1..200}` to reproduce the *humanpops* and *altitude* result
 
 **STEP 2: run polysel_cluster.sh script with:**
 
+      # make script executable (only need to run once)
+	  chmod +x ./script/polysel_cluster.sh
+
 	  projectname="primates_homininae"
+	  
 	  qsub -l h_cpu=10:00:00 -l h_vmem=4G -o ./log/${projectname}.out \
 	  -e ./log/${projectname}.err -cwd -N ${projectname} \
 	  ./script/polysel_cluster.sh $projectname
 
 **or: (USING SCRATCH): run polysel_cluster_scratch script with:**
 
+      # make script executable (only need to run once)
+	  chmod +x ./script/polysel_cluster_scratch.sh
+
 	  projectname="primates_homininae"
+
 	  qsub -l h_cpu=10:00:00 -l h_vmem=4G -o ./log/${projectname}.out \
 	  -e ./log/${projectname}.err -cwd -N ${projectname} \
 	  ./script/polysel_cluster_scratch.sh $projectname
