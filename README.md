@@ -16,7 +16,7 @@ When you are running the pipeline with your own data sets or one of the example 
 
 In the root folder of this project, you will find examples explaining step by step how to run the enrichment pipeline. We strongly encourage you to try one or more of them before running the pipeline with your own data.
 
-###Examples###
+### Examples
 
 **Primates project**: *Detection of pathways affected by positive selection in primate lineages ancestral to humans*
 
@@ -33,7 +33,7 @@ In the root folder of this project, you will find examples explaining step by st
 *	[example_altitude.html](https://github.com/CMPG/polysel/blob/master/example_altitude.html "example_altitude.html"); click [here](http://htmlpreview.github.com/?https://github.com/CMPG/polysel/blob/master/example_altitude.html "example_altitude") for a html preview
 
 
-###References###
+### References
 
 Daub, J.T. et al. (2016). **Detection of pathways affected by positive selection in primate lineages ancestral to humans** bioRxiv doi: http://dx.doi.org/10.1101/044941 
 
