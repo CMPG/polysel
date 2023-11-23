@@ -20,17 +20,17 @@ In the root folder of this project, you will find examples explaining step by st
 
 **Primates project**: *Detection of pathways affected by positive selection in primate lineages ancestral to humans*
 
-*	[example_primates_homininae.html](https://github.com/CMPG/polysel/blob/master/example_primates_homininae.html "example_primates_homininae.html"); click [here](http://htmlpreview.github.com/?https://github.com/CMPG/polysel/blob/master/example_primates_homininae.html "example_primates_homininae") for a html preview
+*	[example_primates_homininae.html](https://github.com/CMPG/polysel/blob/master/example_primates_homininae.html "example_primates_homininae.html"); click [here](https://htmlpreview.github.io/?https://github.com/CMPG/polysel/blob/master/example_primates_homininae.html "example_primates_homininae") for a html preview
 
-*	[example_primates_hominidae.html](https://github.com/CMPG/polysel/blob/master/example_primates_hominidae.html "example_primates_hominidae.html"); click [here](http://htmlpreview.github.com/?https://github.com/CMPG/polysel/blob/master/example_primates_hominidae.html "example_primates_hominidae") for a html preview
+*	[example_primates_hominidae.html](https://github.com/CMPG/polysel/blob/master/example_primates_hominidae.html "example_primates_hominidae.html"); click [here](https://htmlpreview.github.io/?https://github.com/CMPG/polysel/blob/master/example_primates_hominidae.html "example_primates_hominidae") for a html preview
 
 **Human populations project**: *Evidence for Polygenic Adaptation to Pathogens in the Human Genome*
 
-*	[example_humanpops.html](https://github.com/CMPG/polysel/blob/master/example_humanpops.html "example_humanpops.html"); click [here](http://htmlpreview.github.com/?https://github.com/CMPG/polysel/blob/master/example_humanpops.html "example_humanpops") for a html preview
+*	[example_humanpops.html](https://github.com/CMPG/polysel/blob/master/example_humanpops.html "example_humanpops.html"); click [here](https://htmlpreview.github.io/?https://github.com/CMPG/polysel/blob/master/example_humanpops.html "example_humanpops") for a html preview
 
 **Altitude project**: *Widespread Signals of Convergent Adaptation to High Altitude in Asia and America*
 
-*	[example_altitude.html](https://github.com/CMPG/polysel/blob/master/example_altitude.html "example_altitude.html"); click [here](http://htmlpreview.github.com/?https://github.com/CMPG/polysel/blob/master/example_altitude.html "example_altitude") for a html preview
+*	[example_altitude.html](https://github.com/CMPG/polysel/blob/master/example_altitude.html "example_altitude.html"); click [here](https://htmlpreview.github.io/?https://github.com/CMPG/polysel/blob/master/example_altitude.html "example_altitude") for a html preview
 
 
 ### References
